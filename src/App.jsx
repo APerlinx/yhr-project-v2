@@ -1,6 +1,5 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
-import Home from './ui/Home';
 import Error from './ui/Error';
 
 import AppLayout from './ui/AppLayout';
@@ -21,7 +20,9 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home />,
+        element: <ProjectsPage />,
+        loader: projectLoader,
+        errorElement: <Error />,
       },
       {
         path: '/about',
@@ -31,12 +32,7 @@ const router = createBrowserRouter([
         path: '/contact',
         element: <ContactPage />,
       },
-      {
-        path: '/projects',
-        element: <ProjectsPage />,
-        loader: projectLoader,
-        errorElement: <Error />,
-      },
+
       {
         path: '/projects/:projectName',
         element: <ProjectDetails />,
