@@ -15,7 +15,7 @@ const FacebookLink = ({ className, type }) => {
           height="24px"
           viewBox="0 0 24 24"
           width="24px"
-          className="fill-black text-blue-500 transition-colors duration-200 hover:fill-current"
+          className="fill-white text-blue-500 transition-colors duration-200 hover:fill-current"
         >
           <path d="M22.675 0h-21.35C.6 0 0 .6 0 1.35v21.3C0 23.4.6 24 1.325 24h11.495V14.7H9.69v-3.6h3.13V8.41c0-3.1 1.891-4.79 4.647-4.79 1.321 0 2.459.1 2.789.14v3.24h-1.913c-1.5 0-1.79.71-1.79 1.756V11.1h3.581l-.467 3.6h-3.114V24h6.078C23.4 24 24 23.4 24 22.675v-21.3C24 .6 23.4 0 22.675 0z" />
         </svg>

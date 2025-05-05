@@ -20,26 +20,9 @@ function AboutPage() {
   ];
 
   return (
-    <div className="relative mt-32 grid min-h-screen w-screen grid-cols-1 gap-8 border-b-2 border-stone-300 px-8 pb-12 sm:mt-48 sm:px-32 custom-sm:grid-cols-2">
-      {/* Image Section */}
-      <div className="hidden min-w-[530px] items-center justify-center gap-4 border-b border-stone-300 custom-sm:flex">
-        <div className="relative">
-          {/* Gradient Overlay */}
-          <div
-            className="absolute inset-0 bg-gradient-to-r from-transparent via-stone-200/50 to-stone-200"
-            aria-hidden="true"
-          ></div>
-          <img
-            src="https://res.cloudinary.com/dayojijed/image/upload/v1733499316/house-about_cbph0p.jpg"
-            alt="פנים בית פרטי"
-            className="h-full w-full object-cover"
-            loading="lazy"
-          />
-        </div>
-      </div>
-
+    <div className="relative mt-32 grid min-h-screen w-screen grid-cols-1 gap-8 border-stone-300 px-8 pb-12 sm:mt-48 sm:px-32 ">
       {/* About Section */}
-      <div className="relative justify-items-end border-b border-stone-300 pb-8">
+      <div className="relative justify-items-end border-stone-300 pb-8">
         <h2 className="pb-5 text-4xl font-bold">אודות</h2>
         <div>
           <p className="text-right text-lg leading-relaxed">

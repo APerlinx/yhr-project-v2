@@ -31,6 +31,7 @@ export async function fetchPreviewProjects() {
         location: resource.context?.custom?.location || '',
         isLast: resource.context?.custom?.last === 'true',
         projectType: resource.context?.custom?.project_type || 'general',
+        col: resource.context?.custom?.col || '',
       }))
       .sort((a, b) => {
         if (a.isLast && !b.isLast) return 1;

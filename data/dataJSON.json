@@ -135,6 +135,7 @@
           "project_name": "Project - Solo",
           "last": "true",
           "caption": "בניין מגורים",
+          "col": "2",
           "project_type": "residential-building"
         }
       },
@@ -365,7 +366,35 @@
           "project_name": "project3-hotel",
           "year": "2015",
           "location": "Kinneret",
+          "col": "2",
           "project_type": "hotel"
+        }
+      },
+      "asset_folder": "ProjectsPage/project3"
+    },
+    {
+      "public_id": "project3-hotel-image16_i5g4nc",
+      "version": 1733341147,
+      "format": "jpg",
+      "width": 1920,
+      "height": 690,
+      "type": "upload",
+      "created_at": "2024-12-04T19:39:07Z",
+      "context": {
+        "custom": {
+          "project_name": "project3-hotel",
+          "alt": "על שפת הכנרת הכחולה בחלקה הצפון המערבי שוכן המלון, נבנה ב-2015 ומאז עבר דרך ארוכה שכלל רכישה שלו על ידי ישרוטל",
+          "caption": "מלון גומא, ישרוטל",
+          "description": "Hotel on the kinneret",
+          "featured": "true",
+          "image_type": "Preview",
+          "location": "Kinneret",
+          "year": "2015",
+          "project_type": "hotel",
+          "locationHEB": "כנרת",
+          "project_typeHEB": "מלון",
+          "next_project": "project4-private-home",
+          "prev_project": "project2-commercial"
         }
       },
       "asset_folder": "ProjectsPage/project3"

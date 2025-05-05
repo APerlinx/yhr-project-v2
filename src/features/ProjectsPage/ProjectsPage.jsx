@@ -19,7 +19,7 @@ function ProjectsPage() {
 
   return (
     <div
-      className="relative mt-32 min-h-screen w-screen gap-8 border-b-2 border-stone-300 px-8 pb-12 sm:mt-48 sm:px-32"
+      className="relative mt-24 min-h-screen w-screen gap-8 border-b-2 border-stone-800 px-8 pb-12 sm:mt-32 sm:px-32"
       dir="rtl"
     >
       <div className="mb-8 flex items-center justify-between gap-8">

@@ -6,7 +6,7 @@ function Footer() {
     <div className="mt-2 flex items-center justify-between p-10 py-6  ">
       <div className="cursor-default">
         <h1 className="text-xl">Herman Architects Ltd.</h1>
-        <p className="w-56 text-xs text-stone-400">
+        <p className="w-56 text-xs ">
           Copyright 2024. All rights reserved.
           <br /> Site by Alon Perlin.
         </p>
