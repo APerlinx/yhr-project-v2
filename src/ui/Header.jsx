@@ -44,15 +44,9 @@ function Header() {
         </Link>
       </div>
 
-      {/* Desktop Navigation Links */}
-      <div className=" hidden items-center  sm:flex sm:gap-8 md:text-lg">
-        <LinkButton to="/about">אודות</LinkButton>
-        <LinkButton to="/contact">צור-קשר</LinkButton>
-      </div>
-
       {/* Mobile Burger Menu */}
       <button
-        className="z-50 flex flex-col items-center justify-center p-2 focus:outline-none sm:hidden"
+        className="z-50 flex flex-col items-center justify-center p-2 focus:outline-none"
         onClick={toggleMenu}
       >
         {/* Two Lines or X */}
@@ -70,14 +64,11 @@ function Header() {
 
       {/* Mobile Dropdown Menu */}
       <div
-        className={`absolute left-0 top-0 h-screen w-full bg-stone-300 opacity-[0.8] shadow-md transition-all duration-300 sm:hidden ${
+        className={`absolute left-0 top-0 h-screen w-full bg-stone-300 opacity-[0.8] shadow-md transition-all duration-300 ${
           isMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
         } overflow-hidden`}
       >
         <nav className="mt-64 flex flex-col items-center gap-4 space-y-8 py-4 text-2xl font-bold">
-          <LinkButton to="/projects" onClick={toggleMenu}>
-            פרוייקטים
-          </LinkButton>
           <LinkButton to="/about" onClick={toggleMenu}>
             אודות
           </LinkButton>
