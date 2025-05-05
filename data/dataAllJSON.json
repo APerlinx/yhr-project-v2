@@ -1,0 +1,1145 @@
+{
+  "resources": [
+    {
+      "public_id": "project3-hotel-image16_i5g4nc",
+      "version": 1733341147,
+      "format": "jpg",
+      "width": 1920,
+      "height": 690,
+      "type": "upload",
+      "created_at": "2024-12-04T19:39:07Z",
+      "context": {
+        "custom": {
+          "project_name": "project3-hotel",
+          "alt": "על שפת הכנרת הכחולה בחלקה הצפון המערבי שוכן המלון, נבנה ב-2015 ומאז עבר דרך ארוכה שכלל רכישה שלו על ידי ישרוטל",
+          "caption": "מלון גומא, ישרוטל",
+          "description": "Hotel on the kinneret",
+          "featured": "true",
+          "location": "Kinneret",
+          "year": "2015",
+          "project_type": "hotel",
+          "locationHEB": "כנרת",
+          "project_typeHEB": "מלון",
+          "next_project": "project4-private-home",
+          "prev_project": "project2-commercial"
+        }
+      },
+      "asset_folder": "ProjectsPage/project3"
+    },
+    {
+      "public_id": "randome-image15_ckk8uc",
+      "version": 1733262258,
+      "format": "jpg",
+      "width": 922,
+      "height": 691,
+      "type": "upload",
+      "created_at": "2024-12-03T21:44:18Z",
+      "context": {
+        "custom": {
+          "featured": "true",
+          "image_type": "Preview",
+          "project_name": "Project - Solo",
+          "last": "true",
+          "caption": "בית פרטי",
+          "project_type": "private-home"
+        }
+      },
+      "asset_folder": "ProjectsPage/project-random"
+    },
+    {
+      "public_id": "randome-image14_lmslqw",
+      "version": 1733262257,
+      "format": "jpg",
+      "width": 800,
+      "height": 480,
+      "type": "upload",
+      "created_at": "2024-12-03T21:44:17Z",
+      "context": {
+        "custom": {
+          "featured": "true",
+          "image_type": "Preview",
+          "project_name": "Project - Solo",
+          "last": "true",
+          "caption": "בית פרטי",
+          "project_type": "private-home"
+        }
+      },
+      "asset_folder": "ProjectsPage/project-random"
+    },
+    {
+      "public_id": "randome-image11_xmdx5b",
+      "version": 1733262254,
+      "format": "jpg",
+      "width": 414,
+      "height": 414,
+      "type": "upload",
+      "created_at": "2024-12-03T21:44:14Z",
+      "context": {
+        "custom": {
+          "featured": "true",
+          "image_type": "Preview",
+          "project_name": "Project - Solo",
+          "last": "true",
+          "caption": "בית פרטי",
+          "project_type": "private-home"
+        }
+      },
+      "asset_folder": "ProjectsPage/project-random"
+    },
+    {
+      "public_id": "randome-image10_alqk1e",
+      "version": 1733262253,
+      "format": "jpg",
+      "width": 2048,
+      "height": 1536,
+      "type": "upload",
+      "created_at": "2024-12-03T21:44:13Z",
+      "context": {
+        "custom": {
+          "featured": "true",
+          "image_type": "Preview",
+          "project_name": "Project - Solo",
+          "last": "true",
+          "caption": "בית פרטי",
+          "project_type": "private-home"
+        }
+      },
+      "asset_folder": "ProjectsPage/project-random"
+    },
+    {
+      "public_id": "randome-image9_lqbklr",
+      "version": 1733262251,
+      "format": "jpg",
+      "width": 2048,
+      "height": 1620,
+      "type": "upload",
+      "created_at": "2024-12-03T21:44:11Z",
+      "context": {
+        "custom": {
+          "featured": "true",
+          "image_type": "Preview",
+          "project_name": "Project - Solo",
+          "last": "true",
+          "caption": "וילה פרטית",
+          "project_type": "private-home"
+        }
+      },
+      "asset_folder": "ProjectsPage/project-random"
+    },
+    {
+      "public_id": "randome-image6_in4cv2",
+      "version": 1733262248,
+      "format": "jpg",
+      "width": 960,
+      "height": 801,
+      "type": "upload",
+      "created_at": "2024-12-03T21:44:08Z",
+      "context": {
+        "custom": {
+          "featured": "true",
+          "image_type": "Preview",
+          "project_name": "Project - Solo",
+          "last": "true",
+          "caption": "בניין מגורים",
+          "project_type": "residential-building"
+        }
+      },
+      "asset_folder": "ProjectsPage/project-random"
+    },
+    {
+      "public_id": "randome-image5_x2mhdw",
+      "version": 1733262246,
+      "format": "jpg",
+      "width": 960,
+      "height": 960,
+      "type": "upload",
+      "created_at": "2024-12-03T21:44:06Z",
+      "context": {
+        "custom": {
+          "featured": "true",
+          "image_type": "Preview",
+          "project_name": "Project - Solo",
+          "last": "true",
+          "caption": "בניין מגורים",
+          "project_type": "residential-building"
+        }
+      },
+      "asset_folder": "ProjectsPage/project-random"
+    },
+    {
+      "public_id": "randome-image4_rj2vjo",
+      "version": 1733262245,
+      "format": "jpg",
+      "width": 960,
+      "height": 720,
+      "type": "upload",
+      "created_at": "2024-12-03T21:44:05Z",
+      "context": {
+        "custom": {
+          "featured": "true",
+          "image_type": "Preview",
+          "project_name": "Project - Solo",
+          "last": "true",
+          "caption": "בניין מגורים",
+          "project_type": "residential-building"
+        }
+      },
+      "asset_folder": "ProjectsPage/project-random"
+    },
+    {
+      "public_id": "randome-image2_o7mvdm",
+      "version": 1733262244,
+      "format": "jpg",
+      "width": 960,
+      "height": 960,
+      "type": "upload",
+      "created_at": "2024-12-03T21:44:04Z",
+      "context": {
+        "custom": {
+          "featured": "true",
+          "image_type": "Preview",
+          "project_name": "Project - Solo",
+          "last": "true",
+          "caption": "בניין מגורים",
+          "project_type": "residential-building"
+        }
+      },
+      "asset_folder": "ProjectsPage/project-random"
+    },
+    {
+      "public_id": "randome-image3_vvbo9f",
+      "version": 1733262242,
+      "format": "jpg",
+      "width": 960,
+      "height": 720,
+      "type": "upload",
+      "created_at": "2024-12-03T21:44:02Z",
+      "context": {
+        "custom": {
+          "featured": "true",
+          "image_type": "Preview",
+          "project_name": "Project - Solo",
+          "last": "true",
+          "caption": "בניין מגורים",
+          "project_type": "residential-building"
+        }
+      },
+      "asset_folder": "ProjectsPage/project-random"
+    },
+    {
+      "public_id": "randome-image1_qtnpmz",
+      "version": 1733262241,
+      "format": "jpg",
+      "width": 960,
+      "height": 960,
+      "type": "upload",
+      "created_at": "2024-12-03T21:44:01Z",
+      "context": {
+        "custom": {
+          "featured": "true",
+          "image_type": "Preview",
+          "project_name": "Project - Solo",
+          "last": "true",
+          "caption": "בניין מגורים",
+          "project_type": "residential-building"
+        }
+      },
+      "asset_folder": "ProjectsPage/project-random"
+    },
+    {
+      "public_id": "project9-house-image4_qlld0r",
+      "version": 1733262154,
+      "format": "png",
+      "width": 3000,
+      "height": 1500,
+      "type": "upload",
+      "created_at": "2024-12-03T21:42:34Z",
+      "context": {
+        "custom": {
+          "caption": "פאר שבטבע",
+          "description": "Private home",
+          "featured": "true",
+          "project_name": "project9-private-home",
+          "image_type": "Preview",
+          "alt": "בית פרטי בצפון עם שילוב של קווים מודרנים ואבני בזלת המקומיים",
+          "project_type": "private-home",
+          "locationHEB": "-",
+          "project_typeHEB": "בית פרטי",
+          "next_project": "none",
+          "prev_project": "project8-residential-building"
+        }
+      },
+      "asset_folder": "ProjectsPage/project9"
+    },
+    {
+      "public_id": "project9-house-image3_pi4wo8",
+      "version": 1733262150,
+      "format": "png",
+      "width": 3000,
+      "height": 1500,
+      "type": "upload",
+      "created_at": "2024-12-03T21:42:30Z",
+      "context": {
+        "custom": {
+          "caption": "פאר שבטבע",
+          "description": "Private home",
+          "featured": "true",
+          "project_name": "project9-private-home",
+          "project_type": "private-home",
+          "locationHEB": "-",
+          "project_typeHEB": "בית פרטי"
+        }
+      },
+      "asset_folder": "ProjectsPage/project9"
+    },
+    {
+      "public_id": "project9-house-image5_mz8lo3",
+      "version": 1733262141,
+      "format": "png",
+      "width": 3000,
+      "height": 1500,
+      "type": "upload",
+      "created_at": "2024-12-03T21:42:21Z",
+      "context": {
+        "custom": {
+          "caption": "פאר שבטבע",
+          "description": "Private home",
+          "featured": "true",
+          "project_name": "project9-private-home",
+          "project_type": "private-home",
+          "locationHEB": "-",
+          "project_typeHEB": "בית פרטי"
+        }
+      },
+      "asset_folder": "ProjectsPage/project9"
+    },
+    {
+      "public_id": "project9-house-image2_bkrfot",
+      "version": 1733262131,
+      "format": "jpg",
+      "width": 3000,
+      "height": 1800,
+      "type": "upload",
+      "created_at": "2024-12-03T21:42:11Z",
+      "context": {
+        "custom": {
+          "caption": "פאר שבטבע",
+          "description": "Private home",
+          "featured": "true",
+          "project_name": "project9-private-home",
+          "project_type": "private-home",
+          "locationHEB": "-",
+          "project_typeHEB": "בית פרטי"
+        }
+      },
+      "asset_folder": "ProjectsPage/project9"
+    },
+    {
+      "public_id": "project9-house-image_dze45v",
+      "version": 1733262130,
+      "format": "jpg",
+      "width": 3000,
+      "height": 1800,
+      "type": "upload",
+      "created_at": "2024-12-03T21:42:10Z",
+      "context": {
+        "custom": {
+          "caption": "פאר שבטבע",
+          "description": "Private home",
+          "featured": "true",
+          "project_name": "project9-private-home",
+          "project_type": "private-home",
+          "locationHEB": "-",
+          "project_typeHEB": "בית פרטי"
+        }
+      },
+      "asset_folder": "ProjectsPage/project9"
+    },
+    {
+      "public_id": "project8-house-image3_h132et",
+      "version": 1733262038,
+      "format": "jpg",
+      "width": 3000,
+      "height": 1875,
+      "type": "upload",
+      "created_at": "2024-12-03T21:40:38Z",
+      "context": {
+        "custom": {
+          "caption": "בזלת",
+          "description": "Luxury residential building",
+          "featured": "true",
+          "project_name": "project8-residential-building",
+          "image_type": "Preview",
+          "alt": "בניין ממוגרים במושב ליד הכנרת, נבנה בהשראת הנוף שנושק לבניין מכול כיוון",
+          "project_type": "residential-building",
+          "locationHEB": "-",
+          "project_typeHEB": "בניין מגורים",
+          "next_project": "project9-private-home",
+          "prev_project": "project7-private-home"
+        }
+      },
+      "asset_folder": "ProjectsPage/project8"
+    },
+    {
+      "public_id": "project8-house-image2_ybqzad",
+      "version": 1733262037,
+      "format": "jpg",
+      "width": 3000,
+      "height": 1875,
+      "type": "upload",
+      "created_at": "2024-12-03T21:40:37Z",
+      "context": {
+        "custom": {
+          "caption": "בזלת",
+          "description": "Luxury residential building",
+          "featured": "true",
+          "project_name": "project8-residential-building",
+          "project_type": "residential-building",
+          "locationHEB": "-",
+          "project_typeHEB": "בניין מגורים"
+        }
+      },
+      "asset_folder": "ProjectsPage/project8"
+    },
+    {
+      "public_id": "project8-house-image_r8n7qi",
+      "version": 1733262036,
+      "format": "jpg",
+      "width": 3000,
+      "height": 1875,
+      "type": "upload",
+      "created_at": "2024-12-03T21:40:36Z",
+      "context": {
+        "custom": {
+          "caption": "בזלת",
+          "description": "Luxury residential building",
+          "featured": "true",
+          "project_name": "project8-residential-building",
+          "project_type": "residential-building",
+          "locationHEB": "-",
+          "project_typeHEB": "בניין מגורים"
+        }
+      },
+      "asset_folder": "ProjectsPage/project8"
+    },
+    {
+      "public_id": "project7-house-image_s2nbl2",
+      "version": 1733261984,
+      "format": "jpg",
+      "width": 1629,
+      "height": 900,
+      "type": "upload",
+      "created_at": "2024-12-03T21:39:44Z",
+      "context": {
+        "custom": {
+          "description": "Private home for 2 families",
+          "project_name": "project7-private-home",
+          "featured": "true",
+          "image_type": "Preview",
+          "caption": "דו משפחתי בכפר",
+          "alt": "שני בתים עבור שתי משפחות שרוצות לחלוק מעבר לעיצוב המודרני",
+          "project_type": "private-home",
+          "project_typeHEB": "דו משפחתי",
+          "locationHEB": "-",
+          "next_project": "project8-residential-building",
+          "prev_project": "project6-private-home"
+        }
+      },
+      "asset_folder": "ProjectsPage/project7"
+    },
+    {
+      "public_id": "project7-house-image2_hng6in",
+      "version": 1733261983,
+      "format": "jpg",
+      "width": 1629,
+      "height": 596,
+      "type": "upload",
+      "created_at": "2024-12-03T21:39:43Z",
+      "context": {
+        "custom": {
+          "description": "Private home for 2 families",
+          "project_name": "project7-private-home",
+          "featured": "true",
+          "project_type": "private-home",
+          "project_typeHEB": "דו משפחתי",
+          "locationHEB": "-"
+        }
+      },
+      "asset_folder": "ProjectsPage/project7"
+    },
+    {
+      "public_id": "project6-house-image3_g1aghm",
+      "version": 1733261952,
+      "format": "jpg",
+      "width": 2048,
+      "height": 1366,
+      "type": "upload",
+      "created_at": "2024-12-03T21:39:12Z",
+      "context": {
+        "custom": {
+          "caption": "פנינת המושב",
+          "featured": "true",
+          "project_name": "project6-private-home",
+          "description": "Private home in the village",
+          "image_type": "Preview",
+          "alt": "בית פרטי ששוכן במושב ארבל שבצפון",
+          "project_type": "private-home",
+          "project_typeHEB": "בית פרטי",
+          "locationHEB": "-",
+          "next_project": "project7-private-home",
+          "prev_project": "project5-residential-building"
+        }
+      },
+      "asset_folder": "ProjectsPage/project6"
+    },
+    {
+      "public_id": "project6-house-image2_ee2nb5",
+      "version": 1733261951,
+      "format": "jpg",
+      "width": 2048,
+      "height": 1366,
+      "type": "upload",
+      "created_at": "2024-12-03T21:39:11Z",
+      "context": {
+        "custom": {
+          "caption": "בית פרטי במושב",
+          "featured": "true",
+          "project_name": "project6-private-home",
+          "description": "Private home in the village",
+          "project_type": "private-home",
+          "project_typeHEB": "בית פרטי",
+          "locationHEB": "-"
+        }
+      },
+      "asset_folder": "ProjectsPage/project6"
+    },
+    {
+      "public_id": "project6-house-image_ibedad",
+      "version": 1733261951,
+      "format": "jpg",
+      "width": 2048,
+      "height": 1360,
+      "type": "upload",
+      "created_at": "2024-12-03T21:39:11Z",
+      "context": {
+        "custom": {
+          "caption": "בית פרטי במושב",
+          "featured": "true",
+          "project_name": "project6-private-home",
+          "description": "Private home in the village",
+          "project_type": "private-home",
+          "project_typeHEB": "בית פרטי",
+          "locationHEB": "-"
+        }
+      },
+      "asset_folder": "ProjectsPage/project6"
+    },
+    {
+      "public_id": "project5-building-image2_y2bk3l",
+      "version": 1733261909,
+      "format": "jpg",
+      "width": 720,
+      "height": 960,
+      "type": "upload",
+      "created_at": "2024-12-03T21:38:29Z",
+      "context": {
+        "custom": {
+          "featured": "true",
+          "description": "Residential building",
+          "location": "Tiberius",
+          "project_name": "project5-residential-building",
+          "caption": "בניין דירות עם נוף לכנרת",
+          "project_type": "residential-building",
+          "locationHEB": "טבריה",
+          "next_project": "project6-private-home",
+          "prev_project": "project4-private-home",
+          "project_typeHEB": "בניין מגורים"
+        }
+      },
+      "asset_folder": "ProjectsPage/project5"
+    },
+    {
+      "public_id": "project5-building-image_w5kk0x",
+      "version": 1733261909,
+      "format": "jpg",
+      "width": 960,
+      "height": 720,
+      "type": "upload",
+      "created_at": "2024-12-03T21:38:29Z",
+      "context": {
+        "custom": {
+          "featured": "true",
+          "description": "Residential building",
+          "location": "Tiberius",
+          "project_name": "project5-residential-building",
+          "image_type": "Preview",
+          "alt": "בניין דירות בכניסה לטבריה, מתעטף במראה אותנטי לסביבה ובונוס של נוף משגע לכנרת",
+          "caption": "דירה עם נוף לאגם",
+          "project_type": "residential-building",
+          "project_typeHEB": "בניין מגורים",
+          "locationHEB": "טבריה"
+        }
+      },
+      "asset_folder": "ProjectsPage/project5"
+    },
+    {
+      "public_id": "project4-house-image4_luaxa5",
+      "version": 1733261843,
+      "format": "jpg",
+      "width": 2917,
+      "height": 1437,
+      "type": "upload",
+      "created_at": "2024-12-03T21:37:23Z",
+      "context": {
+        "custom": {
+          "caption": "בית פרטי",
+          "description": "Private home",
+          "featured": "true",
+          "project_name": "project4-private-home",
+          "project_type": "private-home",
+          "project_typeHEB": "בית פרטי",
+          "locationHEB": "-",
+          "next_project": "project5-residential-building",
+          "prev_project": "project4-private-home"
+        }
+      },
+      "asset_folder": "ProjectsPage/project4"
+    },
+    {
+      "public_id": "project4-house-image5_ybdssj",
+      "version": 1733261842,
+      "format": "jpg",
+      "width": 2917,
+      "height": 1437,
+      "type": "upload",
+      "created_at": "2024-12-03T21:37:22Z",
+      "context": {
+        "custom": {
+          "caption": "בית פרטי",
+          "description": "Private home",
+          "featured": "true",
+          "project_name": "project4-private-home",
+          "project_type": "private-home",
+          "project_typeHEB": "בית פרטי",
+          "locationHEB": "-"
+        }
+      },
+      "asset_folder": "ProjectsPage/project4"
+    },
+    {
+      "public_id": "project4-house-image3_fhmtxb",
+      "version": 1733261841,
+      "format": "jpg",
+      "width": 2030,
+      "height": 916,
+      "type": "upload",
+      "created_at": "2024-12-03T21:37:21Z",
+      "context": {
+        "custom": {
+          "caption": "בית פרטי",
+          "description": "Private home",
+          "featured": "true",
+          "project_name": "project4-private-home",
+          "project_type": "private-home",
+          "project_typeHEB": "בית פרטי",
+          "locationHEB": "-"
+        }
+      },
+      "asset_folder": "ProjectsPage/project4"
+    },
+    {
+      "public_id": "project4-house-image2_yey2ig",
+      "version": 1733261840,
+      "format": "jpg",
+      "width": 1953,
+      "height": 1000,
+      "type": "upload",
+      "created_at": "2024-12-03T21:37:20Z",
+      "context": {
+        "custom": {
+          "caption": "בית פרטי",
+          "description": "Private home",
+          "featured": "true",
+          "project_name": "project4-private-home",
+          "project_type": "private-home",
+          "project_typeHEB": "בית פרטי",
+          "locationHEB": "-"
+        }
+      },
+      "asset_folder": "ProjectsPage/project4"
+    },
+    {
+      "public_id": "project4-house-image_coo2o7",
+      "version": 1733261840,
+      "format": "jpg",
+      "width": 2030,
+      "height": 1000,
+      "type": "upload",
+      "created_at": "2024-12-03T21:37:20Z",
+      "context": {
+        "custom": {
+          "caption": "בית פרטי בתשוקה מודרנית",
+          "description": "Private home",
+          "featured": "true",
+          "project_name": "project4-private-home",
+          "image_type": "Preview",
+          "alt": "בית במושבה שמתפאר וומתהדר בקמורם מרשימים מבפנים ומבחוץ",
+          "project_type": "private-home",
+          "project_typeHEB": "בית פרטי",
+          "locationHEB": "-"
+        }
+      },
+      "asset_folder": "ProjectsPage/project4"
+    },
+    {
+      "public_id": "project4-house-image8_efkytv",
+      "version": 1733261839,
+      "format": "jpg",
+      "width": 1810,
+      "height": 1000,
+      "type": "upload",
+      "created_at": "2024-12-03T21:37:19Z",
+      "context": {
+        "custom": {
+          "caption": "בית פרטי",
+          "description": "Private home",
+          "featured": "true",
+          "project_name": "project4-private-home",
+          "project_type": "private-home",
+          "project_typeHEB": "בית פרטי",
+          "locationHEB": "-"
+        }
+      },
+      "asset_folder": "ProjectsPage/project4"
+    },
+    {
+      "public_id": "project4-house-image7_jnh9jb",
+      "version": 1733261838,
+      "format": "jpg",
+      "width": 2030,
+      "height": 1000,
+      "type": "upload",
+      "created_at": "2024-12-03T21:37:18Z",
+      "context": {
+        "custom": {
+          "caption": "בית פרטי",
+          "description": "Private home",
+          "featured": "true",
+          "project_name": "project4-private-home",
+          "project_type": "private-home",
+          "project_typeHEB": "בית פרטי",
+          "locationHEB": "-"
+        }
+      },
+      "asset_folder": "ProjectsPage/project4"
+    },
+    {
+      "public_id": "project4-house-image6_kqtdtv",
+      "version": 1733261838,
+      "format": "jpg",
+      "width": 2030,
+      "height": 908,
+      "type": "upload",
+      "created_at": "2024-12-03T21:37:18Z",
+      "context": {
+        "custom": {
+          "caption": "בית פרטי",
+          "description": "Private home",
+          "featured": "true",
+          "project_name": "project4-private-home",
+          "project_type": "private-home",
+          "project_typeHEB": "בית פרטי",
+          "locationHEB": "-"
+        }
+      },
+      "asset_folder": "ProjectsPage/project4"
+    },
+    {
+      "public_id": "project4-house-image9_c4g6cq",
+      "version": 1733261837,
+      "format": "jpg",
+      "width": 2048,
+      "height": 1132,
+      "type": "upload",
+      "created_at": "2024-12-03T21:37:17Z",
+      "context": {
+        "custom": {
+          "caption": "בית פרטי",
+          "description": "Private home",
+          "featured": "true",
+          "project_name": "project4-private-home",
+          "project_type": "private-home",
+          "project_typeHEB": "בית פרטי",
+          "locationHEB": "-"
+        }
+      },
+      "asset_folder": "ProjectsPage/project4"
+    },
+    {
+      "public_id": "project3-hotel-image14_hp6iwc",
+      "version": 1733261789,
+      "format": "webp",
+      "width": 1000,
+      "height": 667,
+      "type": "upload",
+      "created_at": "2024-12-03T21:36:29Z",
+      "context": {
+        "custom": {
+          "featured": "true",
+          "location": "Kinneret",
+          "project_name": "project3-hotel",
+          "year": "2015",
+          "caption": "מלון גומא, ישרוטל",
+          "description": "Hotel on the kinneret",
+          "project_type": "hotel",
+          "locationHEB": "כנרת",
+          "project_typeHEB": "מלון"
+        }
+      },
+      "asset_folder": "ProjectsPage/project3"
+    },
+    {
+      "public_id": "project3-hotel-image13_uwdzph",
+      "version": 1733261787,
+      "format": "jpg",
+      "width": 1280,
+      "height": 853,
+      "type": "upload",
+      "created_at": "2024-12-03T21:36:27Z",
+      "context": {
+        "custom": {
+          "featured": "true",
+          "location": "Kinneret",
+          "project_name": "project3-hotel",
+          "year": "2015",
+          "caption": "מלון גומא, ישרוטל",
+          "description": "Hotel on the kinneret",
+          "project_type": "hotel",
+          "locationHEB": "כנרת",
+          "project_typeHEB": "מלון"
+        }
+      },
+      "asset_folder": "ProjectsPage/project3"
+    },
+    {
+      "public_id": "project3-hotel-image11_z1yvbm",
+      "version": 1733261786,
+      "format": "jpg",
+      "width": 1280,
+      "height": 853,
+      "type": "upload",
+      "created_at": "2024-12-03T21:36:26Z",
+      "context": {
+        "custom": {
+          "alt": "מלון גומא, ישרוטל",
+          "featured": "true",
+          "location": "Kinneret",
+          "project_name": "project3-hotel",
+          "year": "2015",
+          "caption": "מלון גומא, ישרוטל",
+          "description": "Hotel on the kinneret",
+          "project_type": "hotel",
+          "locationHEB": "כנרת",
+          "project_typeHEB": "מלון"
+        }
+      },
+      "asset_folder": "ProjectsPage/project3"
+    },
+    {
+      "public_id": "project3-hotel-image9_sjw8ni",
+      "version": 1733261785,
+      "format": "webp",
+      "width": 1000,
+      "height": 667,
+      "type": "upload",
+      "created_at": "2024-12-03T21:36:25Z",
+      "context": {
+        "custom": {
+          "alt": "מלון גומא, ישרוטל",
+          "featured": "false",
+          "location": "Kinneret",
+          "project_name": "project3-hotel",
+          "year": "2015",
+          "caption": "מלון גומא, ישרוטל",
+          "description": "Hotel on the kinneret",
+          "project_type": "hotel",
+          "locationHEB": "כנרת",
+          "project_typeHEB": "מלון"
+        }
+      },
+      "asset_folder": "ProjectsPage/project3"
+    },
+    {
+      "public_id": "project3-hotel-image8_x5iwcp",
+      "version": 1733261784,
+      "format": "webp",
+      "width": 1000,
+      "height": 660,
+      "type": "upload",
+      "created_at": "2024-12-03T21:36:24Z",
+      "context": {
+        "custom": {
+          "alt": "מלון גומא, ישרוטל",
+          "featured": "false",
+          "location": "Kinneret",
+          "project_name": "project3-hotel",
+          "year": "2015",
+          "caption": "מלון גומא, ישרוטל",
+          "description": "Hotel on the kinneret",
+          "project_type": "hotel",
+          "locationHEB": "כנרת",
+          "project_typeHEB": "מלון"
+        }
+      },
+      "asset_folder": "ProjectsPage/project3"
+    },
+    {
+      "public_id": "project3-hotel-image7_eds4zk",
+      "version": 1733261784,
+      "format": "jpg",
+      "width": 800,
+      "height": 534,
+      "type": "upload",
+      "created_at": "2024-12-03T21:36:24Z",
+      "context": {
+        "custom": {
+          "alt": "מלון גומא, ישרוטל",
+          "featured": "false",
+          "location": "Kinneret",
+          "project_name": "project3-hotel",
+          "year": "2015",
+          "caption": "מלון גומא, ישרוטל",
+          "description": "Hotel on the kinneret",
+          "project_type": "hotel",
+          "locationHEB": "כנרת",
+          "project_typeHEB": "מלון"
+        }
+      },
+      "asset_folder": "ProjectsPage/project3"
+    },
+    {
+      "public_id": "project3-hotel-image5_g0jcfn",
+      "version": 1733261783,
+      "format": "jpg",
+      "width": 1024,
+      "height": 683,
+      "type": "upload",
+      "created_at": "2024-12-03T21:36:23Z",
+      "context": {
+        "custom": {
+          "alt": "מלון גומא, ישרוטל",
+          "featured": "true",
+          "location": "Kinneret",
+          "project_name": "project3-hotel",
+          "year": "2015",
+          "caption": "מלון גומא, ישרוטל",
+          "description": "Hotel on the kinneret",
+          "project_type": "hotel",
+          "locationHEB": "כנרת",
+          "project_typeHEB": "מלון"
+        }
+      },
+      "asset_folder": "ProjectsPage/project3"
+    },
+    {
+      "public_id": "project3-hotel-image6_jwo7uf",
+      "version": 1733261783,
+      "format": "webp",
+      "width": 1000,
+      "height": 666,
+      "type": "upload",
+      "created_at": "2024-12-03T21:36:23Z",
+      "context": {
+        "custom": {
+          "alt": "מלון גומא, ישרוטל",
+          "featured": "true",
+          "location": "Kinneret",
+          "project_name": "project3-hotel",
+          "year": "2015",
+          "caption": "מלון גומא, ישרוטל",
+          "description": "Hotel on the kinneret",
+          "project_type": "hotel",
+          "locationHEB": "כנרת",
+          "project_typeHEB": "מלון"
+        }
+      },
+      "asset_folder": "ProjectsPage/project3"
+    },
+    {
+      "public_id": "project3-hotel-image4_bcqon3",
+      "version": 1733261782,
+      "format": "jpg",
+      "width": 1024,
+      "height": 768,
+      "type": "upload",
+      "created_at": "2024-12-03T21:36:22Z",
+      "context": {
+        "custom": {
+          "alt": "מלון על שפת הכנרת",
+          "caption": "מלון גומא, ישרוטל",
+          "description": "Hotel on the kinneret",
+          "featured": "true",
+          "image_type": "Preview",
+          "project_name": "project3-hotel",
+          "year": "2015",
+          "location": "Kinneret",
+          "project_type": "hotel",
+          "locationHEB": "כנרת",
+          "project_typeHEB": "מלון"
+        }
+      },
+      "asset_folder": "ProjectsPage/project3"
+    },
+    {
+      "public_id": "project3-hotel-image3_tmkcr0",
+      "version": 1733261782,
+      "format": "jpg",
+      "width": 960,
+      "height": 576,
+      "type": "upload",
+      "created_at": "2024-12-03T21:36:22Z",
+      "context": {
+        "custom": {
+          "alt": "מלון גומא, ישרוטל",
+          "featured": "false",
+          "location": "Kinneret",
+          "project_name": "project3-hotel",
+          "year": "2015",
+          "caption": "מלון גומא, ישרוטל",
+          "description": "Hotel on the kinneret",
+          "project_type": "hotel",
+          "locationHEB": "כנרת",
+          "project_typeHEB": "מלון"
+        }
+      },
+      "asset_folder": "ProjectsPage/project3"
+    },
+    {
+      "public_id": "project3-hotel-image2_kjflmn",
+      "version": 1733261781,
+      "format": "jpg",
+      "width": 960,
+      "height": 576,
+      "type": "upload",
+      "created_at": "2024-12-03T21:36:21Z",
+      "context": {
+        "custom": {
+          "alt": "מלון גומא, ישרוטל",
+          "featured": "false",
+          "location": "Kinneret",
+          "project_name": "project3-hotel",
+          "year": "2015",
+          "caption": "מלון גומא, ישרוטל",
+          "description": "Hotel on the kinneret",
+          "project_type": "hotel",
+          "locationHEB": "כנרת",
+          "project_typeHEB": "מלון"
+        }
+      },
+      "asset_folder": "ProjectsPage/project3"
+    },
+    {
+      "public_id": "project3-hotel-image_myhwis",
+      "version": 1733261781,
+      "format": "jpg",
+      "width": 960,
+      "height": 576,
+      "type": "upload",
+      "created_at": "2024-12-03T21:36:21Z",
+      "context": {
+        "custom": {
+          "alt": "מלון גומא, ישרוטל",
+          "featured": "true",
+          "location": "Kinneret",
+          "project_name": "project3-hotel",
+          "year": "2015",
+          "caption": "מלון גומא, ישרוטל",
+          "description": "Hotel on the kinneret",
+          "project_type": "hotel",
+          "locationHEB": "כנרת",
+          "project_typeHEB": "מלון"
+        }
+      },
+      "asset_folder": "ProjectsPage/project3"
+    },
+    {
+      "public_id": "project2-mall-image_q7cnpk",
+      "version": 1733261749,
+      "format": "jpg",
+      "width": 960,
+      "height": 540,
+      "type": "upload",
+      "created_at": "2024-12-03T21:35:49Z",
+      "context": {
+        "custom": {
+          "alt": "שערי המושבה, נמצא בדיוק על התחנה המרכזית הוא חלק בלתי נפרד מנוף העיר הקטנה שבצפון שנקראת ראש פינה",
+          "caption": "שערי המושבה",
+          "description": "Commercial mall in rosh pina",
+          "featured": "true",
+          "project_name": "project2-commercial",
+          "location": "rosh-pina",
+          "year": "2018",
+          "image_type": "Preview",
+          "project_type": "commercial",
+          "project_typeHEB": "מרכז מסחרי",
+          "locationHEB": "ראש פינה",
+          "next_project": "project3-hotel",
+          "prev_project": "project1-hotel"
+        }
+      },
+      "asset_folder": "ProjectsPage/project2"
+    },
+    {
+      "public_id": "project1-hotel-image_zuoiee",
+      "version": 1733261682,
+      "format": "jpg",
+      "width": 2048,
+      "height": 1543,
+      "type": "upload",
+      "created_at": "2024-12-03T21:34:42Z",
+      "context": {
+        "custom": {
+          "alt": "גליליי ששוכן בחלקה הצפוני של צפת אל מול העיר העתיקה",
+          "caption": "מלון גליליי",
+          "project_name": "project1-hotel",
+          "location": "Seffad",
+          "year": "2002",
+          "image_type": "Preview",
+          "description": "Hotel in seffad",
+          "featured": "true",
+          "project_type": "hotel",
+          "project_typeHEB": "מלון בוטיק",
+          "locationHEB": "צפת",
+          "next_project": "project2-commercial",
+          "prev_project": "none"
+        }
+      },
+      "asset_folder": "ProjectsPage/project1"
+    },
+    {
+      "public_id": "project1-hotel-image2_rgktmr",
+      "version": 1733261682,
+      "format": "jpg",
+      "width": 2048,
+      "height": 1543,
+      "type": "upload",
+      "created_at": "2024-12-03T21:34:42Z",
+      "context": {
+        "custom": {
+          "alt": "גליליי ששוכן בחלקה הצפוני של צפת אל מול העיר העתיקה",
+          "caption": "מלון גליליי",
+          "project_name": "project1-hotel",
+          "location": "Seffad",
+          "description": "Hotel in seffad",
+          "featured": "true",
+          "year": "2002",
+          "project_type": "hotel",
+          "project_typeHEB": "מלון בוטיק",
+          "locationHEB": "צפת"
+        }
+      },
+      "asset_folder": "ProjectsPage/project1"
+    }
+  ],
+  "updated_at": "2024-12-05T23:55:15Z"
+}
