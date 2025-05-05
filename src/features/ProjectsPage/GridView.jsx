@@ -4,7 +4,7 @@ function GridView({ projects }) {
   const navigate = useNavigate();
 
   return (
-    <div className="grid grid-cols-2 gap-2 md:grid-cols-3 lg:grid-cols-4">
+    <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4">
       {projects.map((project) => {
         return (
           <div
