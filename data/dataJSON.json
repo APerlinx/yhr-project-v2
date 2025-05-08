@@ -1,450 +1,533 @@
 {
   "resources": [
     {
-      "public_id": "randome-image15_ckk8uc",
-      "version": 1733262258,
+      "asset_id": "3b770c26eb112700c42a40fb56be5c1f",
+      "public_id": "Projects-photos/fkttc45ulhwd2tjmotzk",
+      "version": 1746526217,
       "format": "jpg",
-      "width": 922,
-      "height": 691,
+      "width": 2560,
+      "height": 1920,
       "type": "upload",
-      "created_at": "2024-12-03T21:44:18Z",
-      "context": {
-        "custom": {
-          "featured": "true",
-          "image_type": "Preview",
-          "project_name": "Project - Solo",
-          "last": "true",
-          "caption": "בית פרטי",
-          "project_type": "private-home"
-        }
-      },
-      "asset_folder": "ProjectsPage/project-random"
+      "created_at": "2025-05-06T10:10:17Z",
+      "asset_folder": "Project-photos"
     },
     {
-      "public_id": "randome-image14_lmslqw",
-      "version": 1733262257,
+      "asset_id": "d147a69410d9ffab869555ac095ec40c",
+      "public_id": "Projects-photos/fykdgzptprk2xycawcow",
+      "version": 1746526216,
       "format": "jpg",
-      "width": 800,
-      "height": 480,
+      "width": 2560,
+      "height": 1920,
       "type": "upload",
-      "created_at": "2024-12-03T21:44:17Z",
-      "context": {
-        "custom": {
-          "featured": "true",
-          "image_type": "Preview",
-          "project_name": "Project - Solo",
-          "last": "true",
-          "caption": "בית פרטי",
-          "project_type": "private-home"
-        }
-      },
-      "asset_folder": "ProjectsPage/project-random"
+      "created_at": "2025-05-06T10:10:16Z",
+      "asset_folder": "Project-photos"
     },
     {
-      "public_id": "randome-image11_xmdx5b",
-      "version": 1733262254,
+      "asset_id": "120bb1f11f88135d69d85afbe9190f57",
+      "public_id": "Projects-photos/g7yal8bhzsmfw2vh7ghc",
+      "version": 1746526195,
       "format": "jpg",
-      "width": 414,
-      "height": 414,
+      "width": 1024,
+      "height": 683,
       "type": "upload",
-      "created_at": "2024-12-03T21:44:14Z",
-      "context": {
-        "custom": {
-          "featured": "true",
-          "image_type": "Preview",
-          "project_name": "Project - Solo",
-          "last": "true",
-          "caption": "בית פרטי",
-          "project_type": "private-home"
-        }
-      },
-      "asset_folder": "ProjectsPage/project-random"
+      "created_at": "2025-05-06T10:09:55Z",
+      "asset_folder": "Project-photos"
     },
     {
-      "public_id": "randome-image10_alqk1e",
-      "version": 1733262253,
-      "format": "jpg",
-      "width": 2048,
-      "height": 1536,
+      "asset_id": "cc57219141a743110f3a8c02de36d16f",
+      "public_id": "Projects-photos/mzsiwoptq1isxaqmtmfm",
+      "version": 1746526195,
+      "format": "webp",
+      "width": 1000,
+      "height": 666,
       "type": "upload",
-      "created_at": "2024-12-03T21:44:13Z",
-      "context": {
-        "custom": {
-          "featured": "true",
-          "image_type": "Preview",
-          "project_name": "Project - Solo",
-          "last": "true",
-          "caption": "בית פרטי",
-          "project_type": "private-home"
-        }
-      },
-      "asset_folder": "ProjectsPage/project-random"
+      "created_at": "2025-05-06T10:09:55Z",
+      "asset_folder": "Project-photos"
     },
     {
-      "public_id": "randome-image9_lqbklr",
-      "version": 1733262251,
-      "format": "jpg",
-      "width": 2048,
-      "height": 1620,
+      "asset_id": "5ce306e103baae398cd87d2e36ff25ce",
+      "public_id": "Projects-photos/v7ikq7wjocjogqyie3uo",
+      "version": 1746526195,
+      "format": "webp",
+      "width": 1000,
+      "height": 667,
       "type": "upload",
-      "created_at": "2024-12-03T21:44:11Z",
-      "context": {
-        "custom": {
-          "featured": "true",
-          "image_type": "Preview",
-          "project_name": "Project - Solo",
-          "last": "true",
-          "caption": "וילה פרטית",
-          "project_type": "private-home"
-        }
-      },
-      "asset_folder": "ProjectsPage/project-random"
+      "created_at": "2025-05-06T10:09:55Z",
+      "asset_folder": "Project-photos"
     },
     {
-      "public_id": "randome-image6_in4cv2",
-      "version": 1733262248,
-      "format": "jpg",
-      "width": 960,
-      "height": 801,
-      "type": "upload",
-      "created_at": "2024-12-03T21:44:08Z",
-      "context": {
-        "custom": {
-          "featured": "true",
-          "image_type": "Preview",
-          "project_name": "Project - Solo",
-          "last": "true",
-          "caption": "בניין מגורים",
-          "project_type": "residential-building"
-        }
-      },
-      "asset_folder": "ProjectsPage/project-random"
-    },
-    {
-      "public_id": "randome-image5_x2mhdw",
-      "version": 1733262246,
-      "format": "jpg",
-      "width": 960,
-      "height": 960,
-      "type": "upload",
-      "created_at": "2024-12-03T21:44:06Z",
-      "context": {
-        "custom": {
-          "featured": "true",
-          "image_type": "Preview",
-          "project_name": "Project - Solo",
-          "last": "true",
-          "caption": "בניין מגורים",
-          "col": "2",
-          "project_type": "residential-building"
-        }
-      },
-      "asset_folder": "ProjectsPage/project-random"
-    },
-    {
-      "public_id": "randome-image4_rj2vjo",
-      "version": 1733262245,
-      "format": "jpg",
-      "width": 960,
-      "height": 720,
-      "type": "upload",
-      "created_at": "2024-12-03T21:44:05Z",
-      "context": {
-        "custom": {
-          "featured": "true",
-          "image_type": "Preview",
-          "project_name": "Project - Solo",
-          "last": "true",
-          "caption": "בניין מגורים",
-          "project_type": "residential-building"
-        }
-      },
-      "asset_folder": "ProjectsPage/project-random"
-    },
-    {
-      "public_id": "randome-image2_o7mvdm",
-      "version": 1733262244,
-      "format": "jpg",
-      "width": 960,
-      "height": 960,
-      "type": "upload",
-      "created_at": "2024-12-03T21:44:04Z",
-      "context": {
-        "custom": {
-          "featured": "true",
-          "image_type": "Preview",
-          "project_name": "Project - Solo",
-          "last": "true",
-          "caption": "בניין מגורים",
-          "project_type": "residential-building"
-        }
-      },
-      "asset_folder": "ProjectsPage/project-random"
-    },
-    {
-      "public_id": "randome-image3_vvbo9f",
-      "version": 1733262242,
-      "format": "jpg",
-      "width": 960,
-      "height": 720,
-      "type": "upload",
-      "created_at": "2024-12-03T21:44:02Z",
-      "context": {
-        "custom": {
-          "featured": "true",
-          "image_type": "Preview",
-          "project_name": "Project - Solo",
-          "last": "true",
-          "caption": "בניין מגורים",
-          "project_type": "residential-building"
-        }
-      },
-      "asset_folder": "ProjectsPage/project-random"
-    },
-    {
-      "public_id": "randome-image1_qtnpmz",
-      "version": 1733262241,
-      "format": "jpg",
-      "width": 960,
-      "height": 960,
-      "type": "upload",
-      "created_at": "2024-12-03T21:44:01Z",
-      "context": {
-        "custom": {
-          "featured": "true",
-          "image_type": "Preview",
-          "project_name": "Project - Solo",
-          "last": "true",
-          "caption": "בניין מגורים",
-          "project_type": "residential-building"
-        }
-      },
-      "asset_folder": "ProjectsPage/project-random"
-    },
-    {
-      "public_id": "project9-house-image4_qlld0r",
-      "version": 1733262154,
-      "format": "png",
-      "width": 3000,
-      "height": 1500,
-      "type": "upload",
-      "created_at": "2024-12-03T21:42:34Z",
-      "context": {
-        "custom": {
-          "caption": "פאר שבטבע",
-          "description": "Private home",
-          "featured": "true",
-          "project_name": "project9-private-home",
-          "image_type": "Preview",
-          "alt": "בית פרטי בצפון עם שילוב של קווים מודרנים ואבני בזלת המקומיים",
-          "project_type": "private-home"
-        }
-      },
-      "asset_folder": "ProjectsPage/project9"
-    },
-    {
-      "public_id": "project8-house-image3_h132et",
-      "version": 1733262038,
-      "format": "jpg",
-      "width": 3000,
-      "height": 1875,
-      "type": "upload",
-      "created_at": "2024-12-03T21:40:38Z",
-      "context": {
-        "custom": {
-          "caption": "בזלת",
-          "description": "Luxury residential building",
-          "featured": "true",
-          "project_name": "project8-residential-building",
-          "image_type": "Preview",
-          "alt": "בניין ממוגרים במושב ליד הכנרת, נבנה בהשראת הנוף שנושק לבניין מכול כיוון",
-          "project_type": "residential-building"
-        }
-      },
-      "asset_folder": "ProjectsPage/project8"
-    },
-    {
-      "public_id": "project7-house-image_s2nbl2",
-      "version": 1733261984,
-      "format": "jpg",
-      "width": 1629,
-      "height": 900,
-      "type": "upload",
-      "created_at": "2024-12-03T21:39:44Z",
-      "context": {
-        "custom": {
-          "description": "Private home for 2 families",
-          "project_name": "project7-private-home",
-          "featured": "true",
-          "image_type": "Preview",
-          "caption": "דו משפחתי בכפר",
-          "alt": "שני בתים עבור שתי משפחות שרוצות לחלוק מעבר לעיצוב המודרני",
-          "project_type": "private-home"
-        }
-      },
-      "asset_folder": "ProjectsPage/project7"
-    },
-    {
-      "public_id": "project6-house-image3_g1aghm",
-      "version": 1733261952,
-      "format": "jpg",
-      "width": 2048,
-      "height": 1366,
-      "type": "upload",
-      "created_at": "2024-12-03T21:39:12Z",
-      "context": {
-        "custom": {
-          "caption": "פנינת המושב",
-          "featured": "true",
-          "project_name": "project6-private-home",
-          "description": "Private home in the village",
-          "image_type": "Preview",
-          "alt": "בית פרטי ששוכן במושב ארבל שבצפון",
-          "project_type": "private-home"
-        }
-      },
-      "asset_folder": "ProjectsPage/project6"
-    },
-    {
-      "public_id": "project5-building-image_w5kk0x",
-      "version": 1733261909,
-      "format": "jpg",
-      "width": 960,
-      "height": 720,
-      "type": "upload",
-      "created_at": "2024-12-03T21:38:29Z",
-      "context": {
-        "custom": {
-          "featured": "true",
-          "description": "Residential building",
-          "location": "Tiberius",
-          "project_name": "project5-residential-building",
-          "image_type": "Preview",
-          "alt": "בניין דירות בכניסה לטבריה, מתעטף במראה אותנטי לסביבה ובונוס של נוף משגע לכנרת",
-          "caption": "דירה עם נוף לאגם",
-          "project_type": "residential-building"
-        }
-      },
-      "asset_folder": "ProjectsPage/project5"
-    },
-    {
-      "public_id": "project4-house-image_coo2o7",
-      "version": 1733261840,
-      "format": "jpg",
-      "width": 2030,
-      "height": 1000,
-      "type": "upload",
-      "created_at": "2024-12-03T21:37:20Z",
-      "context": {
-        "custom": {
-          "caption": "בית פרטי בתשוקה מודרנית",
-          "description": "Private home",
-          "featured": "true",
-          "project_name": "project4-private-home",
-          "image_type": "Preview",
-          "alt": "בית במושבה שמתפאר וומתהדר בקמורם מרשימים מבפנים ומבחוץ",
-          "project_type": "private-home"
-        }
-      },
-      "asset_folder": "ProjectsPage/project4"
-    },
-    {
-      "public_id": "project3-hotel-image4_bcqon3",
-      "version": 1733261782,
+      "asset_id": "c005a26f92d290d7480cbf9ef6a508e0",
+      "public_id": "Projects-photos/m2txbj4icnkddfgma3p9",
+      "version": 1746526195,
       "format": "jpg",
       "width": 1024,
       "height": 768,
       "type": "upload",
-      "created_at": "2024-12-03T21:36:22Z",
-      "context": {
-        "custom": {
-          "alt": "מלון על שפת הכנרת",
-          "caption": "מלון גומא, ישרוטל",
-          "description": "Hotel on the kinneret",
-          "featured": "true",
-          "image_type": "Preview",
-          "project_name": "project3-hotel",
-          "year": "2015",
-          "location": "Kinneret",
-          "col": "2",
-          "project_type": "hotel"
-        }
-      },
-      "asset_folder": "ProjectsPage/project3"
+      "created_at": "2025-05-06T10:09:55Z",
+      "asset_folder": "Project-photos"
     },
     {
-      "public_id": "project3-hotel-image16_i5g4nc",
-      "version": 1733341147,
+      "asset_id": "307c50d9e8db5b2ab28f5185e0db190a",
+      "public_id": "Projects-photos/fpf0ll3xbc7qwhfwwq7c",
+      "version": 1746526195,
+      "format": "webp",
+      "width": 1000,
+      "height": 660,
+      "type": "upload",
+      "created_at": "2025-05-06T10:09:55Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "5f6cb4c5bb99472fa7f3e171da7f869e",
+      "public_id": "Projects-photos/oexmqsszxsb4wod6bqbt",
+      "version": 1746526195,
+      "format": "jpg",
+      "width": 800,
+      "height": 534,
+      "type": "upload",
+      "created_at": "2025-05-06T10:09:55Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "41493aeec5d2502c75d64c458a39ba4f",
+      "public_id": "Projects-photos/fpahalhmm3e4yytewpze",
+      "version": 1746526193,
       "format": "jpg",
       "width": 1920,
       "height": 690,
       "type": "upload",
-      "created_at": "2024-12-04T19:39:07Z",
-      "context": {
-        "custom": {
-          "project_name": "project3-hotel",
-          "alt": "על שפת הכנרת הכחולה בחלקה הצפון המערבי שוכן המלון, נבנה ב-2015 ומאז עבר דרך ארוכה שכלל רכישה שלו על ידי ישרוטל",
-          "caption": "מלון גומא, ישרוטל",
-          "description": "Hotel on the kinneret",
-          "featured": "true",
-          "image_type": "Preview",
-          "location": "Kinneret",
-          "year": "2015",
-          "project_type": "hotel",
-          "locationHEB": "כנרת",
-          "project_typeHEB": "מלון",
-          "next_project": "project4-private-home",
-          "prev_project": "project2-commercial"
-        }
-      },
-      "asset_folder": "ProjectsPage/project3"
+      "created_at": "2025-05-06T10:09:53Z",
+      "asset_folder": "Project-photos"
     },
     {
-      "public_id": "project2-mall-image_q7cnpk",
-      "version": 1733261749,
+      "asset_id": "7dedf03f8bc40b8f683a416c1525f418",
+      "public_id": "Projects-photos/bdhotc1se5wrqolhfx9o",
+      "version": 1746526193,
       "format": "jpg",
       "width": 960,
-      "height": 540,
+      "height": 576,
       "type": "upload",
-      "created_at": "2024-12-03T21:35:49Z",
-      "context": {
-        "custom": {
-          "alt": "שערי המושבה, נמצא בדיוק על התחנה המרכזית הוא חלק בלתי נפרד מנוף העיר הקטנה שבצפון שנקראת ראש פינה",
-          "caption": "שערי המושבה",
-          "description": "Commercial mall in rosh pina",
-          "featured": "true",
-          "project_name": "project2-commercial",
-          "location": "rosh-pina",
-          "year": "2018",
-          "image_type": "Preview",
-          "project_type": "commercial"
-        }
-      },
-      "asset_folder": "ProjectsPage/project2"
+      "created_at": "2025-05-06T10:09:53Z",
+      "asset_folder": "Project-photos"
     },
     {
-      "public_id": "project1-hotel-image_zuoiee",
-      "version": 1733261682,
+      "asset_id": "4014ad94472b3d2eaa7a8592164a5676",
+      "public_id": "Projects-photos/hilzxt3tkogkbamujxfk",
+      "version": 1746526193,
+      "format": "jpg",
+      "width": 948,
+      "height": 535,
+      "type": "upload",
+      "created_at": "2025-05-06T10:09:53Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "e4d4c871e4e79bc1229451cb50621eee",
+      "public_id": "Projects-photos/xcymokcnrv4rxwnf9vfp",
+      "version": 1746526193,
+      "format": "webp",
+      "width": 1000,
+      "height": 667,
+      "type": "upload",
+      "created_at": "2025-05-06T10:09:53Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "02808c16e444c018a466f7167f8d3ae3",
+      "public_id": "Projects-photos/nd3qmskkk9zlwqbttlfo",
+      "version": 1746526193,
+      "format": "jpg",
+      "width": 1280,
+      "height": 854,
+      "type": "upload",
+      "created_at": "2025-05-06T10:09:53Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "90bb0de2220cfb43ed4cdbd601ba0625",
+      "public_id": "Projects-photos/tk98ry2gva8aoly4o6r6",
+      "version": 1746526192,
+      "format": "jpg",
+      "width": 1271,
+      "height": 900,
+      "type": "upload",
+      "created_at": "2025-05-06T10:09:52Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "554c175d00e30d695313ffc38b4412a3",
+      "public_id": "Projects-photos/j3mgtgurujyyylprlegi",
+      "version": 1746526191,
+      "format": "jpg",
+      "width": 1280,
+      "height": 853,
+      "type": "upload",
+      "created_at": "2025-05-06T10:09:51Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "d44fcc5c937322bab13df48bde929227",
+      "public_id": "Projects-photos/qlvasmgzlouormixciax",
+      "version": 1746526191,
+      "format": "jpg",
+      "width": 1280,
+      "height": 853,
+      "type": "upload",
+      "created_at": "2025-05-06T10:09:51Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "58e9bbf4f559e07de7ceea43cfd78d96",
+      "public_id": "Projects-photos/gvuyveva5l2mac5765wo",
+      "version": 1746526191,
+      "format": "webp",
+      "width": 1000,
+      "height": 666,
+      "type": "upload",
+      "created_at": "2025-05-06T10:09:51Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "a062e4ced86c469c12bb7f1c6b4a0783",
+      "public_id": "Projects-photos/z7hnact6z6gcrpiwjnkt",
+      "version": 1746526154,
       "format": "jpg",
       "width": 2048,
-      "height": 1543,
+      "height": 1132,
       "type": "upload",
-      "created_at": "2024-12-03T21:34:42Z",
-      "context": {
-        "custom": {
-          "alt": "גליליי ששוכן בחלקה הצפוני של צפת אל מול העיר העתיקה",
-          "caption": "מלון גליליי",
-          "project_name": "project1-hotel",
-          "location": "Seffad",
-          "year": "2002",
-          "image_type": "Preview",
-          "description": "Hotel in seffad",
-          "featured": "true",
-          "project_type": "hotel"
-        }
-      },
-      "asset_folder": "ProjectsPage/project1"
+      "created_at": "2025-05-06T10:09:14Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "fb29e83d178182f5ecd2f0096847e1dc",
+      "public_id": "Projects-photos/e47f9kehakdp5ykttp2w",
+      "version": 1746526153,
+      "format": "jpg",
+      "width": 1810,
+      "height": 1000,
+      "type": "upload",
+      "created_at": "2025-05-06T10:09:13Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "74e0a3e40de8c15b2b9175300f11678b",
+      "public_id": "Projects-photos/cuytnk10qcdbtgqrx8tm",
+      "version": 1746526153,
+      "format": "jpg",
+      "width": 2030,
+      "height": 908,
+      "type": "upload",
+      "created_at": "2025-05-06T10:09:13Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "56e6f70ceff557c350e4150ebd3ee77a",
+      "public_id": "Projects-photos/mkj6tliwquuumdnrlu9p",
+      "version": 1746526153,
+      "format": "jpg",
+      "width": 2030,
+      "height": 1000,
+      "type": "upload",
+      "created_at": "2025-05-06T10:09:13Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "b7bd5c2394855163efbde1c2c9d94363",
+      "public_id": "Projects-photos/pha625cxzspvpp7hdtsj",
+      "version": 1746526153,
+      "format": "jpg",
+      "width": 2917,
+      "height": 1437,
+      "type": "upload",
+      "created_at": "2025-05-06T10:09:13Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "3e05b5b0efa02926638b26e6fe9b76e5",
+      "public_id": "Projects-photos/vu7sucz2icm5itnaddfp",
+      "version": 1746526152,
+      "format": "jpg",
+      "width": 2030,
+      "height": 916,
+      "type": "upload",
+      "created_at": "2025-05-06T10:09:12Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "a8230f1fa74511aa319447b12f8379a5",
+      "public_id": "Projects-photos/z4wqbqjofxe5qtghzmcc",
+      "version": 1746526152,
+      "format": "jpg",
+      "width": 2917,
+      "height": 1437,
+      "type": "upload",
+      "created_at": "2025-05-06T10:09:12Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "978fd97442e1df0de42051b1a4a10543",
+      "public_id": "Projects-photos/xcfcm4yy7mkf9sl3oyvo",
+      "version": 1746526152,
+      "format": "jpg",
+      "width": 1953,
+      "height": 1000,
+      "type": "upload",
+      "created_at": "2025-05-06T10:09:12Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "e501927ff3edc2f08f38c303c919e49e",
+      "public_id": "Projects-photos/sdn47dv7ua5colzyw0yy",
+      "version": 1746526152,
+      "format": "jpg",
+      "width": 2030,
+      "height": 1000,
+      "type": "upload",
+      "created_at": "2025-05-06T10:09:12Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "bf34bdf6795d77bd515a64a39116dda1",
+      "public_id": "Projects-photos/qc1hcs0ngpnivdqmhbwb",
+      "version": 1746526145,
+      "format": "jpg",
+      "width": 960,
+      "height": 720,
+      "type": "upload",
+      "created_at": "2025-05-06T10:09:05Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "7991999261baf4f03560264838bf3f6b",
+      "public_id": "Projects-photos/ndxuhl4hkqycsubkfi5u",
+      "version": 1746526144,
+      "format": "jpg",
+      "width": 720,
+      "height": 960,
+      "type": "upload",
+      "created_at": "2025-05-06T10:09:04Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "231026437f0ef97267e9190dc4da099e",
+      "public_id": "Projects-photos/qilz0cpzr5syxsdsfuwd",
+      "version": 1746526139,
+      "format": "jpg",
+      "width": 2048,
+      "height": 1366,
+      "type": "upload",
+      "created_at": "2025-05-06T10:08:59Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "9231d1cb9f12ebd4046b5080b2b13989",
+      "public_id": "Projects-photos/ox7dtfn3myubamjt3maj",
+      "version": 1746526139,
+      "format": "jpg",
+      "width": 2048,
+      "height": 1366,
+      "type": "upload",
+      "created_at": "2025-05-06T10:08:59Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "fb2fc972e5399a19ffe333856219574b",
+      "public_id": "Projects-photos/aikhvzmpjf0vxuwemsd7",
+      "version": 1746526139,
+      "format": "jpg",
+      "width": 2048,
+      "height": 1360,
+      "type": "upload",
+      "created_at": "2025-05-06T10:08:59Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "0f2f0c5c16acb0333ae594a97f6317f9",
+      "public_id": "Projects-photos/ybuen4uqb71x4l2x6qsl",
+      "version": 1746526132,
+      "format": "jpg",
+      "width": 1629,
+      "height": 596,
+      "type": "upload",
+      "created_at": "2025-05-06T10:08:52Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "a1bbe25e9e775ba6d5cfb7b8c836b8e8",
+      "public_id": "Projects-photos/ma6xsz2hxm0yvegi1inz",
+      "version": 1746526132,
+      "format": "jpg",
+      "width": 1629,
+      "height": 900,
+      "type": "upload",
+      "created_at": "2025-05-06T10:08:52Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "b0448f33d35a22afffb442de2fe89f5b",
+      "public_id": "Projects-photos/wezkwrbtwgl8am2st4hp",
+      "version": 1746526124,
+      "format": "jpg",
+      "width": 3000,
+      "height": 1875,
+      "type": "upload",
+      "created_at": "2025-05-06T10:08:44Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "bd50398b166d3a47aa843c3768c05458",
+      "public_id": "Projects-photos/z7a9xhowjsotwmactxf5",
+      "version": 1746526123,
+      "format": "jpg",
+      "width": 3000,
+      "height": 1875,
+      "type": "upload",
+      "created_at": "2025-05-06T10:08:43Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "6511869882e00b7a013e078e665fc55b",
+      "public_id": "Projects-photos/urbjgmde0bn11nt4vsvs",
+      "version": 1746526122,
+      "format": "jpg",
+      "width": 3000,
+      "height": 1875,
+      "type": "upload",
+      "created_at": "2025-05-06T10:08:42Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "32c3ce17f27e5083da2093c5b20dab95",
+      "public_id": "Projects-photos/aragv4dhjgaxvyjmlplc",
+      "version": 1746526115,
+      "format": "png",
+      "width": 3000,
+      "height": 1500,
+      "type": "upload",
+      "created_at": "2025-05-06T10:08:35Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "110dd6fd4c074e058357f8278276245e",
+      "public_id": "Projects-photos/bjib3eqnzqh3uth94bjh",
+      "version": 1746526107,
+      "format": "png",
+      "width": 3000,
+      "height": 1500,
+      "type": "upload",
+      "created_at": "2025-05-06T10:08:27Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "08f554145a59b4037df8c237f493907d",
+      "public_id": "Projects-photos/trixnzv1gpkj1rj6ibcc",
+      "version": 1746526106,
+      "format": "png",
+      "width": 3000,
+      "height": 1500,
+      "type": "upload",
+      "created_at": "2025-05-06T10:08:26Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "bfbf97e9b1ee1adf9e71bb7838c7416b",
+      "public_id": "Projects-photos/acrcsy1zyganzf7e9bex",
+      "version": 1746526092,
+      "format": "jpg",
+      "width": 3000,
+      "height": 1800,
+      "type": "upload",
+      "created_at": "2025-05-06T10:08:12Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "7a294333a16a01c10a4c21e9b31dc327",
+      "public_id": "Projects-photos/tvi09v4csdyquuilquqs",
+      "version": 1746526092,
+      "format": "jpg",
+      "width": 3000,
+      "height": 1800,
+      "type": "upload",
+      "created_at": "2025-05-06T10:08:12Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "4660357c9ed23717364a8b7aa89ee4fc",
+      "public_id": "Projects-photos/r7ul81fju0kixqjpuqeg",
+      "version": 1746526074,
+      "format": "jpg",
+      "width": 960,
+      "height": 720,
+      "type": "upload",
+      "created_at": "2025-05-06T10:07:54Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "ad9cd8222d85c7feb7c54348b244a9e5",
+      "public_id": "Projects-photos/qy0ko0oxwgbkfzppd2ek",
+      "version": 1746526073,
+      "format": "jpg",
+      "width": 960,
+      "height": 960,
+      "type": "upload",
+      "created_at": "2025-05-06T10:07:53Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "b4ea5bfa44abd1d29606a13b66cbaa10",
+      "public_id": "Projects-photos/sbvx1lnujq0jfcpdjxvl",
+      "version": 1746526073,
+      "format": "jpg",
+      "width": 922,
+      "height": 691,
+      "type": "upload",
+      "created_at": "2025-05-06T10:07:53Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "0a96610d670260800f6ef824f7fea201",
+      "public_id": "Projects-photos/l6t53dkhg5trg9ovzwjj",
+      "version": 1746526073,
+      "format": "jpg",
+      "width": 960,
+      "height": 720,
+      "type": "upload",
+      "created_at": "2025-05-06T10:07:53Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "9240f63fb7288f6531e3bac4608352c3",
+      "public_id": "Projects-photos/mkdvodlaqyth8fonavxb",
+      "version": 1746526073,
+      "format": "jpg",
+      "width": 800,
+      "height": 480,
+      "type": "upload",
+      "created_at": "2025-05-06T10:07:53Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "da0857ac7948198bafee7be8b9d21fcd",
+      "public_id": "Projects-photos/yvz3pfogwhbbnu1k2zfy",
+      "version": 1746526073,
+      "format": "jpg",
+      "width": 1360,
+      "height": 2048,
+      "type": "upload",
+      "created_at": "2025-05-06T10:07:53Z",
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "3038f4a605d458cb223787806422593a",
+      "public_id": "Projects-photos/xkaosnixpub7us4lhvsg",
+      "version": 1746526073,
+      "format": "jpg",
+      "width": 960,
+      "height": 960,
+      "type": "upload",
+      "created_at": "2025-05-06T10:07:53Z",
+      "asset_folder": "Project-photos"
     }
   ],
-  "updated_at": "2024-12-05T20:55:38Z"
+  "updated_at": "2025-05-06T10:33:23Z"
 }

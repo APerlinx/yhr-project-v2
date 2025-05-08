@@ -7,23 +7,41 @@ function AboutPage() {
       image:
         'https://res.cloudinary.com/dayojijed/image/upload/v1733482274/AboutPage-image/nvse61npnkwg4yqdc0l7.jpg',
       name: 'יאיר הרמן',
-      description:
-        ' מייסד הרמן אדריכלים, מנהל מקצועי ואדריכל ראשי בהרמן אדריכלים. בוגר תואר B.Arc  בטכניון משנת 1987',
+      description: 'מייסד ובעלים, אדריכל',
     },
     {
       image:
         'https://res.cloudinary.com/dayojijed/image/upload/v1733482274/AboutPage-image/bqjeigaae8r2kndstd6p.jpg',
       name: 'אורה הרמן',
-      description:
-        'מנהלת המשרד בוגרת תואר B.S.c  בהנדסה באוניברסיטת ריגה, ליטא. עובדת במשרד משנת 1994',
+      description: 'מנהלת המשרד',
     },
   ];
 
   return (
-    <div className="relative mt-32 grid min-h-screen w-screen grid-cols-1 gap-8 border-stone-300 px-8 pb-12 sm:mt-48 sm:px-32 ">
+    <div
+      className="mt-32 grid w-screen auto-rows-auto grid-cols-1 gap-10 border-b-2 border-stone-800 px-8 pb-12 sm:mt-36 sm:grid-flow-col sm:px-32"
+      dir="rtl"
+    >
       {/* About Section */}
-      <div className="relative justify-items-end border-stone-300 pb-8">
-        <h2 className="pb-5 text-4xl font-bold">אודות</h2>
+      <div className="relative row-span-2 justify-items-end">
+        <svg
+          viewBox="0 0 500 150"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="#f3f3f3"
+          className="h-auto w-full"
+        >
+          <text
+            x="50%"
+            y="50%"
+            dominantBaseline="middle"
+            textAnchor="middle"
+            fontSize="48"
+            fontFamily="'Georgia', serif"
+          >
+            About us
+          </text>
+        </svg>
+
         <div>
           <p className="text-right text-lg leading-relaxed">
             <span dir="rtl">
@@ -32,7 +50,7 @@ function AboutPage() {
               פרטית, בנייה רוויה, רבי קומות, שכונות מגורים, מרכזי מסחר ומלונאות.
             </span>
           </p>
-          <p className="mt-4 text-right text-lg leading-relaxed">
+          <p className="mt-6 text-right text-lg leading-relaxed">
             <span dir="rtl">
               עם גישה חדשנית ויצירתית, הרמן אדריכלים מציבים דגש על התאמה אישית
               לצורכי הלקוח ושמירה על סטנדרטים גבוהים של איכות ועיצוב. אנו גאים
@@ -40,7 +58,7 @@ function AboutPage() {
               ביצוע.
             </span>
           </p>
-          <p className="mt-4 text-right text-lg leading-relaxed">
+          <p className="mt-6 text-right text-lg leading-relaxed">
             <span dir="rtl">
               למשרדנו ניסיון עשיר בבנייה בת קיימא ושימוש בטכנולוגיות מתקדמות,
               במטרה ליצור מבנים חדשניים, אסתטיים וידידותיים לסביבה.
@@ -50,14 +68,16 @@ function AboutPage() {
       </div>
 
       {/* Team Members */}
-      {teamMembers.map((member, index) => (
-        <TeamMember
-          key={index}
-          image={member.image}
-          name={member.name}
-          description={member.description}
-        />
-      ))}
+      <div className="flex flex-col justify-end gap-8 pt-10">
+        {teamMembers.map((member, index) => (
+          <TeamMember
+            key={index}
+            image={member.image}
+            name={member.name}
+            description={member.description}
+          />
+        ))}
+      </div>
     </div>
   );
 }

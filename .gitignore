@@ -1,6 +1,17 @@
 node_modules
 dist
+.env*
 # data
 # git add .
 # git commit -m "Add new feature X"
 # git push
+
+# להוסיף תמונה בדף הראשי ש הרמן אדירכים מתי נוסד
+# לשפצר את הדף אודות ואיש קשר שהיה מדהים מקצועי וקומפקטי
+# לסיים את הדך קונטקט חיבור למייל + בטיחות
+# // Add English option
+# // הצהרת נגישות וכולי
+# // Check if all works good in any res and any way and add last touches
+# // build backend ? (edit,add and delete photos + drag and drop and real Auth)
+# // Deploy and check
+

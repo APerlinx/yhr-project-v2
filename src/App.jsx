@@ -8,6 +8,7 @@ import ContactPage from './features/ContactPage/ContactPage';
 import ProjectsPage, {
   loader as projectLoader,
 } from './features/ProjectsPage/ProjectsPage';
+import AdminPage from './features/AdminPage/AdminPage';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <ContactPage />,
+      },
+      {
+        path: '/admin',
+        element: <AdminPage />,
       },
     ],
   },

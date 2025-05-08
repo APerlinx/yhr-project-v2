@@ -1,16 +1,15 @@
 import React, { useState } from 'react';
 import GridView from './GridView';
-import ListView from './ListView';
-import FilterSection from './FilterSection';
+// import FilterSection from './FilterSection';
 import { fetchPreviewProjects } from '../../services/apiCloudinary';
 import { useLoaderData } from 'react-router-dom';
+import ScrollToTopButton from '../../utils/ScrollToTopButton';
 
 function ProjectsPage() {
   const projects = useLoaderData();
 
-  const [view, setView] = useState('grid');
   const [filter, setFilter] = useState('all');
-  const [showFilters, setShowFilters] = useState(false);
+  // const [showFilters, setShowFilters] = useState(false);
 
   const filteredProjects =
     filter === 'all'
@@ -19,79 +18,21 @@ function ProjectsPage() {
 
   return (
     <div
-      className="relative mt-24 min-h-screen w-screen gap-8 border-b-2 border-stone-800 px-8 pb-12 sm:mt-32 sm:px-32"
+      className="relative mt-32 min-h-screen w-screen gap-8 border-b-2 border-stone-800 px-8 pb-12 sm:mt-36 sm:px-32"
       dir="rtl"
     >
-      <div className="mb-8 flex items-center justify-between gap-8">
-        {/* Filter Toggle */}
-        {/* <button
-          onClick={() => setShowFilters(!showFilters)}
-          className="group flex items-center font-bold text-stone-800  hover:text-yellow-500"
-        >
-          סוג פרוייקט
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="40px"
-            viewBox="0 -960 960 960"
-            width="40px"
-            fill="#000000"
-            className="group-hover:fill-yellow-500"
-          >
-            <path d="M480-360 280-559.33h400L480-360Z" />
-          </svg>
-        </button> */}
-
-        {/* View Toggle */}
-        {/* <div className="flex items-center">
-          <button
-            onClick={() => setView('grid')}
-            className={`p-2 transition ${
-              view === 'grid' ? 'text-yellow-500' : 'text-gray-500'
-            }`}
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              width="24"
-              height="24"
-              fill="currentColor"
-            >
-              <path d="M3 3h8v8H3zM13 3h8v8h-8zM3 13h8v8H3zM13 13h8v8H3z" />
-            </svg>
-          </button>
-
-          <button
-            onClick={() => setView('list')}
-            className={`p-2 transition ${
-              view === 'list' ? 'text-yellow-500' : 'text-gray-500'
-            }`}
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              width="24"
-              height="24"
-              fill="currentColor"
-            >
-              <path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z" />
-            </svg>
-          </button>
-        </div> */}
-      </div>
-
       {/* Filter Section */}
-      <FilterSection
+      {/* <FilterSection
         showFilters={showFilters}
         filter={filter}
         setFilter={setFilter}
-      />
+      /> */}
 
       {/* Project Display */}
-      {view === 'grid' ? (
-        <GridView projects={filteredProjects} />
-      ) : (
-        <ListView projects={filteredProjects} />
-      )}
+      <GridView projects={filteredProjects} />
+      <div>
+        <ScrollToTopButton />
+      </div>
     </div>
   );
 }
