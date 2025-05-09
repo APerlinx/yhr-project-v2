@@ -26,14 +26,14 @@ function Header() {
 
   return (
     <header
-      className={`fixed top-0 z-50 flex h-32 w-full items-center justify-between px-4 py-3 uppercase transition-all duration-300 sm:px-28 ${
+      className={`fixed top-0 z-50 flex h-40 w-full items-center justify-between px-4 uppercase  sm:px-28 ${
         isScrolled
           ? 'bg-[#171717] bg-opacity-10 shadow-md backdrop-blur-md'
           : 'bg-transparent'
       }`}
     >
       {/* Logo */}
-      <div className="z-50 mr-8">
+      <div className="z-50">
         <Link to="/">
           {}
           <img
@@ -42,8 +42,10 @@ function Header() {
                 ? 'https://res.cloudinary.com/dayojijed/image/upload/v1746444960/logo_kmyo1d.svg'
                 : 'https://res.cloudinary.com/dayojijed/image/upload/v1746444960/logo_kmyo1d_white_lka5tp.svg'
             }
-            alt="Website logo link to home page"
-            className="h-auto w-28 md:w-40 lg:w-44"
+            alt="Website logo, link to home page."
+            className={`transition-transform duration-300 ease-linear ${
+              isScrolled ? 'scale-100' : 'scale-125'
+            } h-auto w-full`}
             style={{ maxWidth: '180px' }}
           />
         </Link>
@@ -51,7 +53,7 @@ function Header() {
 
       {/* Mobile Burger Menu */}
       <button
-        className="z-50 flex flex-col items-center justify-center p-2 focus:outline-none"
+        className="z-50 flex flex-col items-center justify-center pb-2 pr-4 pt-2 focus:outline-none sm:pr-0"
         onClick={toggleMenu}
       >
         {/* Two Lines or X */}

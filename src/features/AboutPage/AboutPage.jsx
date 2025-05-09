@@ -19,11 +19,11 @@ function AboutPage() {
 
   return (
     <div
-      className="mt-32 grid w-screen auto-rows-auto grid-cols-1 gap-10 border-b-2 border-stone-800 px-8 pb-12 sm:mt-36 sm:grid-flow-col sm:px-32"
+      className="mt-36 grid w-screen grid-cols-1  border-b-2 border-stone-800 px-8 pb-12 sm:mt-40 sm:grid-cols-2 sm:px-32"
       dir="rtl"
     >
       {/* About Section */}
-      <div className="relative row-span-2 justify-items-end">
+      <div className="relative row-span-2 w-full max-w-md justify-items-end sm:max-w-lg md:max-w-xl lg:max-w-4xl">
         <svg
           viewBox="0 0 500 150"
           xmlns="http://www.w3.org/2000/svg"

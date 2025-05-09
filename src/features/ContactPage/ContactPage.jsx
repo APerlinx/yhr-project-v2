@@ -4,10 +4,10 @@ import ContactForm from './ContactForm';
 function ContactPage() {
   return (
     <div
-      className="mt-32 grid w-screen grid-cols-1 gap-10 border-b-2 border-stone-800 px-8 pb-12 sm:mt-36 sm:grid-cols-2 sm:px-32"
+      className="mt-36 grid w-screen grid-cols-1 border-b-2 border-stone-800 px-8 pb-12 sm:mt-40 sm:grid-cols-2 sm:px-32 lg:pb-28 "
       dir="rtl"
     >
-      <div className="flex h-full flex-col justify-between">
+      <div className="flex h-full flex-col justify-between space-x-6 sm:max-w-lg md:max-w-xl lg:max-w-4xl ">
         <svg
           viewBox="0 0 500 150"
           xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +29,7 @@ function ContactPage() {
       </div>
 
       <div className="flex h-full flex-col justify-between">
-        <div className="space-y-3 pb-4 text-center sm:pb-0 sm:pt-24">
+        <div className="space-y-3 pb-4 pt-4 text-center sm:pb-0 sm:pt-24">
           <div>
             <p className="text-sm font-bold md:text-2xl ">כתובת</p>
             <p className="text-sm md:text-xl">מגדל השעון, כפר תבור</p>
