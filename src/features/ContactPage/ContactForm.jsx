@@ -1,29 +1,40 @@
 import { useState } from 'react';
+import translations from '../../translations/translations';
+import { EnvelopeIcon, LoaderIcon, CheckIcon } from '../../ui/FormIcons';
 
-export default function ContactForm() {
+export default function ContactForm({ lang }) {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     message: '',
   });
+  const [status, setStatus] = useState('idle');
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
+    // setStatus('idle');
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle sending logic here (API, email, etc.)
-    console.log('Form submitted:', formData);
-    alert('Thank you for your message!');
+    setStatus('loading');
+
+    setTimeout(() => {
+      setStatus('success');
+      setFormData({ name: '', email: '', message: '' });
+
+      setTimeout(() => setStatus('idle'), 3000);
+    }, 1500);
   };
 
   return (
     <div className="min-w-[200px]">
       <form onSubmit={handleSubmit} className="space-y-6">
         <div>
-          <label className="block text-[#f3f3f3]">שם</label>
+          <label className="block text-[#f3f3f3]">
+            {translations.formLabels.name[lang]}
+          </label>
           <input
             name="name"
             type="text"
@@ -34,7 +45,9 @@ export default function ContactForm() {
           />
         </div>
         <div>
-          <label className="block text-[#f3f3f3]">אימייל</label>
+          <label className="block text-[#f3f3f3]">
+            {translations.formLabels.email[lang]}
+          </label>
           <input
             name="email"
             type="email"
@@ -45,7 +58,9 @@ export default function ContactForm() {
           />
         </div>
         <div>
-          <label className="block text-[#f3f3f3]">הודעה</label>
+          <label className="block text-[#f3f3f3]">
+            {translations.formLabels.message[lang]}
+          </label>
           <textarea
             name="message"
             rows="3"
@@ -57,16 +72,12 @@ export default function ContactForm() {
         </div>
         <button
           type="submit"
-          className="w-full justify-items-center bg-[#f3f3f3] px-6 py-2 font-semibold text-black transition hover:bg-white"
+          className="flex w-full items-center justify-center gap-2 bg-[#f3f3f3] px-6 py-2 font-semibold text-black transition hover:bg-white"
+          disabled={status === 'loading'}
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-            className="h-6 w-6 text-[#171717]"
-          >
-            <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 2v.01L12 13 4 6.01V6h16zM4 18V8.99l8 6 8-6V18H4z" />
-          </svg>
+          {status === 'loading' && <LoaderIcon />}
+          {status === 'success' && <CheckIcon />}
+          {status === 'idle' && <EnvelopeIcon />}
         </button>
       </form>
     </div>

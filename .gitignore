@@ -6,8 +6,7 @@ dist
 # git commit -m "Add new feature X"
 # git push
 
-# לסיים את הדך קונטקט חיבור למייל + בטיחות
-# // Add English option
+# לסיים את הדך קונטקט חיבור למייל + בטיחות - משימת המשך להחליט אם יהיה בקאנד או לא קודם
 # // הצהרת נגישות וכולי
 # // Check if all works good in any res and any way and add last touches
 # // build backend ? (edit,add and delete photos + drag and drop and real Auth)

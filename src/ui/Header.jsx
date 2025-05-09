@@ -2,8 +2,11 @@ import { Link } from 'react-router-dom';
 import LinkButton from './LinkButton';
 import FacebookLink from './FacebookLink';
 import { useState, useEffect } from 'react';
+import { useLanguage } from '../context/LanguageContext';
+import translations from '../translations/translations';
 
 function Header() {
+  const { lang, toggleLanguage } = useLanguage();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -79,14 +82,19 @@ function Header() {
       >
         <nav className="mt-64 flex flex-col items-center gap-4 space-y-8 py-4 text-2xl font-bold text-[#171717]">
           <LinkButton to="/about" onClick={toggleMenu}>
-            אודות
+            {translations.about[lang]}
           </LinkButton>
           <LinkButton to="/contact" onClick={toggleMenu}>
-            צור-קשר
+            {translations.contact[lang]}
           </LinkButton>
-          <LinkButton to="/contact" onClick={toggleMenu}>
-            english
-          </LinkButton>
+          <button
+            onClick={() => {
+              toggleLanguage();
+              setIsMenuOpen(false);
+            }}
+          >
+            {translations.languageToggle[lang]}
+          </button>
           <FacebookLink />
         </nav>
       </div>

@@ -1,26 +1,17 @@
 import React from 'react';
 import TeamMember from './TeamMember';
+import { useLanguage } from '../../context/LanguageContext';
+import translations from '../../translations/translations';
 
 function AboutPage() {
-  const teamMembers = [
-    {
-      image:
-        'https://res.cloudinary.com/dayojijed/image/upload/v1733482274/AboutPage-image/nvse61npnkwg4yqdc0l7.jpg',
-      name: 'יאיר הרמן',
-      description: 'מייסד ובעלים, אדריכל',
-    },
-    {
-      image:
-        'https://res.cloudinary.com/dayojijed/image/upload/v1733482274/AboutPage-image/bqjeigaae8r2kndstd6p.jpg',
-      name: 'אורה הרמן',
-      description: 'מנהלת המשרד',
-    },
-  ];
+  const { lang } = useLanguage();
+  const paragraphs = translations.aboutParagraphs[lang];
+  const teamMembers = translations.teamMembers;
 
   return (
     <div
       className="mt-36 grid w-screen grid-cols-1  border-b-2 border-stone-800 px-8 pb-12 sm:mt-40 sm:grid-cols-2 sm:px-32"
-      dir="rtl"
+      dir={lang === 'he' ? 'rtl' : 'ltr'}
     >
       {/* About Section */}
       <div className="relative row-span-2 w-full max-w-md justify-items-end sm:max-w-lg md:max-w-xl lg:max-w-4xl">
@@ -43,27 +34,16 @@ function AboutPage() {
         </svg>
 
         <div>
-          <p className="text-right text-lg leading-relaxed">
-            <span dir="rtl">
-              הרמן אדריכלים נוסד בשנת 1991 על ידי יאיר הרמן, ומאז הפך לאחד
-              ממשרדי האדריכלות המובילים בישראל. המשרד מתמחה בתכנון ועיצוב בנייה
-              פרטית, בנייה רוויה, רבי קומות, שכונות מגורים, מרכזי מסחר ומלונאות.
-            </span>
-          </p>
-          <p className="mt-6 text-right text-lg leading-relaxed">
-            <span dir="rtl">
-              עם גישה חדשנית ויצירתית, הרמן אדריכלים מציבים דגש על התאמה אישית
-              לצורכי הלקוח ושמירה על סטנדרטים גבוהים של איכות ועיצוב. אנו גאים
-              בליווי לקוחותינו לאורך כל שלבי הפרויקט – מתכנון ראשוני ועד גמר
-              ביצוע.
-            </span>
-          </p>
-          <p className="mt-6 text-right text-lg leading-relaxed">
-            <span dir="rtl">
-              למשרדנו ניסיון עשיר בבנייה בת קיימא ושימוש בטכנולוגיות מתקדמות,
-              במטרה ליצור מבנים חדשניים, אסתטיים וידידותיים לסביבה.
-            </span>
-          </p>
+          {paragraphs.map((text, index) => (
+            <p
+              key={index}
+              className={`${
+                lang === 'he' ? 'text-right' : 'text-left'
+              } mt-6 text-lg leading-relaxed`}
+            >
+              {text}
+            </p>
+          ))}
         </div>
       </div>
 
@@ -72,9 +52,13 @@ function AboutPage() {
         {teamMembers.map((member, index) => (
           <TeamMember
             key={index}
-            image={member.image}
-            name={member.name}
-            description={member.description}
+            image={
+              index === 0
+                ? 'https://res.cloudinary.com/dayojijed/image/upload/v1733482274/AboutPage-image/nvse61npnkwg4yqdc0l7.jpg'
+                : 'https://res.cloudinary.com/dayojijed/image/upload/v1733482274/AboutPage-image/bqjeigaae8r2kndstd6p.jpg'
+            }
+            name={member.name[lang]}
+            description={member.description[lang]}
           />
         ))}
       </div>

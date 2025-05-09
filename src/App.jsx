@@ -9,6 +9,7 @@ import ProjectsPage, {
   loader as projectLoader,
 } from './features/ProjectsPage/ProjectsPage';
 import AdminPage from './features/AdminPage/AdminPage';
+import AccessibilityPage from './features/AccessibilityPage/AccessibilityPage';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: '/admin',
         element: <AdminPage />,
+      },
+      {
+        path: '/accessibility',
+        element: <AccessibilityPage />,
       },
     ],
   },
