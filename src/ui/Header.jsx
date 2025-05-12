@@ -36,6 +36,7 @@ function Header() {
       }`}
     >
       {/* Logo */}
+
       <div className="z-50">
         <Link to="/">
           {}
@@ -46,9 +47,7 @@ function Header() {
                 : 'https://res.cloudinary.com/dayojijed/image/upload/v1746444960/logo_kmyo1d_white_lka5tp.svg'
             }
             alt="Website logo, link to home page."
-            className={`transition-transform duration-300 ease-linear ${
-              isScrolled ? 'scale-100' : 'scale-125'
-            } h-auto w-full`}
+            className="h-auto w-full"
             style={{ maxWidth: '180px' }}
           />
         </Link>
@@ -83,6 +82,12 @@ function Header() {
         <nav className="mt-64 flex flex-col items-center gap-4 space-y-8 py-4 text-2xl font-bold text-[#171717]">
           <LinkButton to="/about" onClick={toggleMenu}>
             {translations.about[lang]}
+          </LinkButton>
+          <LinkButton to="/projects" onClick={toggleMenu}>
+            פרוייקטים
+          </LinkButton>
+          <LinkButton to="/projects" onClick={toggleMenu}>
+            מגורים
           </LinkButton>
           <LinkButton to="/contact" onClick={toggleMenu}>
             {translations.contact[lang]}

@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 function LinkButton({ children, to, onClick }) {
   const navigate = useNavigate();
   const className =
-    ' hover:text-yellow-500 cursor-pointer transition-all duration-200 ';
+    ' hover:text-[#DFD0B8] cursor-pointer transition-all duration-200 ';
 
   if (to === '-1')
     return (

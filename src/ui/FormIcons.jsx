@@ -3,7 +3,7 @@ export const EnvelopeIcon = () => (
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"
     fill="currentColor"
-    className="h-6 w-6 text-[#171717]"
+    className="h-8 w-8 text-[#f3f3f3]"
   >
     <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 2v.01L12 13 4 6.01V6h16zM4 18V8.99l8 6 8-6V18H4z" />
   </svg>
@@ -11,7 +11,7 @@ export const EnvelopeIcon = () => (
 
 export const LoaderIcon = () => (
   <svg
-    className="h-6 w-6 animate-spin text-[#171717]"
+    className="h-6 w-6 animate-spin text-[#f3f3f3]"
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
@@ -35,7 +35,7 @@ export const LoaderIcon = () => (
 export const CheckIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="h-6 w-6 text-green-500"
+    className="h-8 w-8 text-green-500"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"

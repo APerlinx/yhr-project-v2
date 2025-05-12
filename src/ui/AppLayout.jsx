@@ -15,7 +15,6 @@ function AppLayout() {
       <ScrollToTop />
       <div className="grid min-h-screen grid-rows-[auto_1fr_auto]">
         {isLoading && <Loader />}
-
         <Header />
 
         <div className="overflow-x-hidden">

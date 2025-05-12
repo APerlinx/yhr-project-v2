@@ -72,7 +72,7 @@ export default function ContactForm({ lang }) {
         </div>
         <button
           type="submit"
-          className="flex w-full items-center justify-center gap-2 bg-[#f3f3f3] px-6 py-2 font-semibold text-black transition hover:bg-white"
+          className="flex w-full items-center justify-center gap-2 px-6 py-2 font-semibold transition hover:scale-125"
           disabled={status === 'loading'}
         >
           {status === 'loading' && <LoaderIcon />}

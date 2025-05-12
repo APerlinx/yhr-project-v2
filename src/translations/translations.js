@@ -34,16 +34,16 @@ const translations = {
         en: 'Founder & Principal Architect',
       },
     },
-    {
-      name: {
-        he: 'אורה הרמן',
-        en: 'Orah Herman',
-      },
-      description: {
-        he: 'מנהלת המשרד',
-        en: 'Office Manager',
-      },
-    },
+    // {
+    //   name: {
+    //     he: 'אורה הרמן',
+    //     en: 'Orah Herman',
+    //   },
+    //   description: {
+    //     he: 'מנהלת המשרד',
+    //     en: 'Office Manager',
+    //   },
+    // },
   ],
   contactAddress: {
     he: 'כתובת',

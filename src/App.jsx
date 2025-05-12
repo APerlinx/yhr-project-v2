@@ -10,6 +10,7 @@ import ProjectsPage, {
 } from './features/ProjectsPage/ProjectsPage';
 import AdminPage from './features/AdminPage/AdminPage';
 import AccessibilityPage from './features/AccessibilityPage/AccessibilityPage';
+import HomePage from './features/HomePage/HomePage';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
+        element: <HomePage />,
+      },
+      {
+        path: '/projects',
         element: <ProjectsPage />,
         loader: projectLoader,
         errorElement: <Error />,

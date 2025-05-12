@@ -1,21 +1,21 @@
 import React from 'react';
 
-const FacebookLink = ({ className, type }) => {
+const FacebookLink = ({ className, type, color = '#f3f3f3', size = 24 }) => {
   return (
     <a
       href="https://www.facebook.com/p/%D7%94%D7%A8%D7%9E%D7%9F-%D7%90%D7%93%D7%A8%D7%99%D7%9B%D7%9C%D7%99%D7%9D-%D7%91%D7%A2%D7%9E-100068924686040/"
       target="_blank"
       rel="noopener noreferrer"
-      className={`flex items-center gap-2 text-blue-500 hover:underline ${className}`}
+      className={`flex items-center gap-2 ${className}`}
     >
       {/* Facebook Icon */}
       {type === 'primary' ? (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          height="24px"
           viewBox="0 0 24 24"
-          width="24px"
-          className="fill-white text-blue-500 transition-colors duration-200 hover:fill-current"
+          height={`${size}px`}
+          width={`${size}px`}
+          fill={color}
         >
           <path d="M22.675 0h-21.35C.6 0 0 .6 0 1.35v21.3C0 23.4.6 24 1.325 24h11.495V14.7H9.69v-3.6h3.13V8.41c0-3.1 1.891-4.79 4.647-4.79 1.321 0 2.459.1 2.789.14v3.24h-1.913c-1.5 0-1.79.71-1.79 1.756V11.1h3.581l-.467 3.6h-3.114V24h6.078C23.4 24 24 23.4 24 22.675v-21.3C24 .6 23.4 0 22.675 0z" />
         </svg>

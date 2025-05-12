@@ -10,7 +10,7 @@ function AboutPage() {
 
   return (
     <div
-      className="mt-36 grid w-screen grid-cols-1  border-b-2 border-stone-800 px-8 pb-12 sm:mt-40 sm:grid-cols-2 sm:px-32"
+      className="mt-36 grid w-screen grid-cols-1  border-b-2 border-[#948979]  px-8 pb-12 sm:mt-40 sm:grid-cols-2 sm:px-32"
       dir={lang === 'he' ? 'rtl' : 'ltr'}
     >
       {/* About Section */}
@@ -48,13 +48,13 @@ function AboutPage() {
       </div>
 
       {/* Team Members */}
-      <div className="flex flex-col justify-end gap-8 pt-10">
+      <div className="row-span-2 flex flex-col justify-end gap-8 pt-10 ">
         {teamMembers.map((member, index) => (
           <TeamMember
             key={index}
             image={
               index === 0
-                ? 'https://res.cloudinary.com/dayojijed/image/upload/v1733482274/AboutPage-image/nvse61npnkwg4yqdc0l7.jpg'
+                ? 'https://res.cloudinary.com/dayojijed/image/upload/v1746951103/Screenshot_2025-05-11_111041_ojqysr.png'
                 : 'https://res.cloudinary.com/dayojijed/image/upload/v1733482274/AboutPage-image/bqjeigaae8r2kndstd6p.jpg'
             }
             name={member.name[lang]}

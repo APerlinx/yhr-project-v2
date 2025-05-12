@@ -11,10 +11,10 @@ function Footer() {
       <div className="cursor-default self-center">
         <h1 className="text-xl">Herman Architects Ltd.</h1>
         <p className="text-xs">
-          Copyright 2024. All rights reserved. Site by Alon Perlin.
+          Copyright 2025. All rights reserved.<br></br> Website & Design by Alon
+          Perlin.
         </p>
       </div>
-
       <div className="hidden flex-col flex-wrap items-center justify-center gap-1 sm:flex sm:flex-row sm:items-center sm:gap-10">
         <FacebookLink type="primary" />
         <LinkButton to="/contact">{translations.contact[lang]}</LinkButton>
