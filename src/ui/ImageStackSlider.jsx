@@ -1,4 +1,8 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, EffectFade } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/effect-fade';
 
 const images = [
   'https://res.cloudinary.com/dayojijed/image/upload/v1733482274/Projects-photos/qilz0cpzr5syxsdsfuwd.jpg',
@@ -14,28 +18,49 @@ const desc = [
 
 function ImageStackSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const swiperRef = useRef(null);
 
-  const goToNext = () => {
-    setCurrentIndex((prev) => (prev + 1) % images.length);
-  };
+  useEffect(() => {
+    const isMobile = window.innerWidth < 640;
+    if (isMobile && swiperRef.current?.autoplay) {
+      swiperRef.current.autoplay.start();
+    }
+  }, []);
 
-  const goToPrev = () => {
-    setCurrentIndex((prev) => (prev - 1 + images.length) % images.length);
-  };
+  const goToPrev = () => swiperRef.current?.slidePrev();
+  const goToNext = () => swiperRef.current?.slideNext();
 
   return (
-    <div className=" w-full self-center" dir="rtl">
-      <img
-        key={currentIndex}
-        src={images[currentIndex]}
-        alt={`Slide ${currentIndex}`}
-        className={`animate-fadeIn z-10 h-[541px] w-full justify-items-center object-cover shadow-lg shadow-black 2xl:h-[667px]`}
-      />
+    <div className="w-full self-center" dir="rtl">
+      <Swiper
+        modules={[Autoplay, EffectFade]}
+        effect="fade"
+        fadeEffect={{ crossFade: true }}
+        speed={1200} // ✅ fade transition speed
+        slidesPerView={1}
+        loop={true}
+        autoplay={false} // Start manually if mobile
+        onSwiper={(swiper) => (swiperRef.current = swiper)}
+        onSlideChange={(swiper) => setCurrentIndex(swiper.realIndex)}
+        className="w-full"
+      >
+        {images.map((src, index) => (
+          <SwiperSlide key={index}>
+            <img
+              src={src}
+              alt={`Slide ${index}`}
+              className="z-10 h-[541px] w-full object-cover shadow-lg shadow-black 2xl:h-[667px]"
+            />
+          </SwiperSlide>
+        ))}
+      </Swiper>
 
-      <div className="grid grid-cols-3 pt-4">
-        <div className="text-right font-bold">{desc[currentIndex]}</div>
+      <div className="grid grid-cols-1 gap-4 pt-4 sm:grid-cols-3">
+        <div className="text-center font-bold sm:text-right">
+          {desc[currentIndex]}
+        </div>
 
-        <div className="flex justify-center gap-2">
+        <div className="hidden justify-center gap-2 sm:flex">
           <button onClick={goToPrev}>
             <svg
               width="24"
@@ -43,10 +68,9 @@ function ImageStackSlider() {
               viewBox="0 0 24 24"
               fill="none"
               stroke="#393E46"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              xmlns="http://www.w3.org/2000/svg"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className="rotate-[270deg]"
             >
               <polyline points="6 9 12 15 18 9" />
@@ -59,20 +83,20 @@ function ImageStackSlider() {
               viewBox="0 0 24 24"
               fill="none"
               stroke="#393E46"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              xmlns="http://www.w3.org/2000/svg"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className="rotate-90"
             >
               <polyline points="6 9 12 15 18 9" />
             </svg>
           </button>
         </div>
-        <div className="flex justify-end text-left">
-          {Array.from({ length: 3 }).map((_, index) => {
-            return currentIndex === index ? (
-              <span key={index}>
+
+        <div className="flex justify-center sm:justify-end sm:text-left">
+          {images.map((_, index) => (
+            <span key={index}>
+              {index === currentIndex ? (
                 <svg
                   width="18"
                   height="18"
@@ -82,9 +106,7 @@ function ImageStackSlider() {
                 >
                   <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
                 </svg>
-              </span>
-            ) : (
-              <span key={index}>
+              ) : (
                 <svg
                   width="16"
                   height="16"
@@ -96,9 +118,9 @@ function ImageStackSlider() {
                 >
                   <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
                 </svg>
-              </span>
-            );
-          })}
+              )}
+            </span>
+          ))}
         </div>
       </div>
     </div>
