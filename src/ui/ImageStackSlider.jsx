@@ -5,20 +5,32 @@ import 'swiper/css';
 import 'swiper/css/effect-fade';
 
 const images = [
-  'https://res.cloudinary.com/dayojijed/image/upload/v1733482274/Projects-photos/qilz0cpzr5syxsdsfuwd.jpg',
-  'https://res.cloudinary.com/dayojijed/image/upload/v1733482274/Projects-photos/fpahalhmm3e4yytewpze.jpg',
-  'https://res.cloudinary.com/dayojijed/image/upload/v1733482274/Projects-photos/z4wqbqjofxe5qtghzmcc.jpg',
-];
-
-const desc = [
-  'וילה פרטית, כפר תבור',
-  'מלון גומא, כנרת',
-  'בית מגורים פרטי, ארבל',
+  {
+    url: 'https://res.cloudinary.com/dayojijed/image/upload/v1733482274/Projects-photos/qilz0cpzr5syxsdsfuwd.jpg',
+    desc: 'וילה פרטית, כפר תבור',
+    position: 'image1',
+  },
+  {
+    url: 'https://res.cloudinary.com/dayojijed/image/upload/v1733482274/Projects-photos/fpahalhmm3e4yytewpze.jpg',
+    desc: 'מלון גומא, כנרת',
+    position: 'image2',
+  },
+  {
+    url: 'https://res.cloudinary.com/dayojijed/image/upload/v1733482274/Projects-photos/z4wqbqjofxe5qtghzmcc.jpg',
+    desc: 'בית מגורים פרטי, ארבל',
+    position: 'image3',
+  },
 ];
 
 function ImageStackSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const swiperRef = useRef(null);
+
+  const objectPositionClass = {
+    image1: 'object-[60%_center]',
+    image2: 'object-[30%_center]',
+    image3: 'object-[76%_center]',
+  };
 
   useEffect(() => {
     const isMobile = window.innerWidth < 640;
@@ -36,20 +48,22 @@ function ImageStackSlider() {
         modules={[Autoplay, EffectFade]}
         effect="fade"
         fadeEffect={{ crossFade: true }}
-        speed={1200} // ✅ fade transition speed
+        speed={1200}
         slidesPerView={1}
         loop={true}
-        autoplay={false} // Start manually if mobile
+        autoplay={false}
         onSwiper={(swiper) => (swiperRef.current = swiper)}
         onSlideChange={(swiper) => setCurrentIndex(swiper.realIndex)}
         className="w-full"
       >
-        {images.map((src, index) => (
+        {images.map((image, index) => (
           <SwiperSlide key={index}>
             <img
-              src={src}
+              src={image.url}
               alt={`Slide ${index}`}
-              className="z-10 h-[541px] w-full object-cover shadow-lg shadow-black 2xl:h-[667px]"
+              className={`z-10 h-[541px] w-full object-cover shadow-lg shadow-black sm:object-center 2xl:h-[667px] ${
+                objectPositionClass[image.position]
+              }`}
             />
           </SwiperSlide>
         ))}
@@ -57,7 +71,7 @@ function ImageStackSlider() {
 
       <div className="grid grid-cols-1 gap-4 pt-4 sm:grid-cols-3">
         <div className="text-center font-bold sm:text-right">
-          {desc[currentIndex]}
+          {images[currentIndex].desc}
         </div>
 
         <div className="hidden justify-center gap-2 sm:flex">

@@ -8,7 +8,6 @@ import ContactPage from './features/ContactPage/ContactPage';
 import ProjectsPage, {
   loader as projectLoader,
 } from './features/ProjectsPage/ProjectsPage';
-import AdminPage from './features/AdminPage/AdminPage';
 import AccessibilityPage from './features/AccessibilityPage/AccessibilityPage';
 import HomePage from './features/HomePage/HomePage';
 
@@ -36,10 +35,7 @@ const router = createBrowserRouter([
         path: '/contact',
         element: <ContactPage />,
       },
-      {
-        path: '/admin',
-        element: <AdminPage />,
-      },
+
       {
         path: '/accessibility',
         element: <AccessibilityPage />,

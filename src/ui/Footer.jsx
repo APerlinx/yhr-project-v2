@@ -7,13 +7,19 @@ function Footer() {
   const { lang } = useLanguage();
 
   return (
-    <div className="mt-2 flex justify-between p-10 py-6">
-      <div className="cursor-default self-center">
-        <h1 className="text-lg">Herman Architects Ltd.</h1>
-        <p className="text-xs">
-          &copy;{new Date().getFullYear()}, All rights reserved.<br></br>
-          Website & Design by Alon Perlin.
-        </p>
+    <div className="flex items-center justify-between p-5">
+      <div className="cursor-default">
+        <h1 className="text-lg leading-tight">
+          Herman Architects Ltd
+          <p className="text-xs">
+            &copy;{new Date().getFullYear()}, All rights reserved.
+          </p>
+        </h1>
+
+        <span className="text-xs">
+          Website & Design by{' '}
+          <a href="https://github.com/APerlinx">Alon Perlin</a>
+        </span>
       </div>
       <div className="flex flex-col flex-wrap items-center justify-center gap-1 text-xs sm:flex-row sm:items-center sm:gap-10 sm:text-base">
         <div className="block sm:hidden">
