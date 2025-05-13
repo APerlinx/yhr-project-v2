@@ -26,7 +26,7 @@ function ContactPage() {
             fontSize="42"
             fontFamily="'Georgia', serif"
           >
-            Contact
+            Contact Us
           </text>
         </svg>
       </div>

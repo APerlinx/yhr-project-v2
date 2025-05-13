@@ -10,43 +10,44 @@ function AboutPage() {
 
   return (
     <div
-      className="mt-36 grid w-screen grid-cols-1  border-b-2 border-[#948979]  px-8 pb-12 sm:mt-40 sm:grid-cols-2 sm:px-32"
+      className="mt-40 grid w-screen grid-cols-1 justify-items-center border-b-2 border-[#948979] px-8 pb-12 sm:mt-52 sm:px-32"
       dir={lang === 'he' ? 'rtl' : 'ltr'}
     >
       {/* About Section */}
       <div className="relative row-span-2 w-full max-w-md justify-items-end sm:max-w-lg md:max-w-xl lg:max-w-4xl">
-        <svg
-          viewBox="0 0 500 150"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="#f3f3f3"
-          className="h-auto w-full"
-        >
-          <text
-            x="50%"
-            y="50%"
-            dominantBaseline="middle"
-            textAnchor="middle"
-            fontSize="48"
-            fontFamily="'Georgia', serif"
-          >
-            About us
-          </text>
-        </svg>
+        <div className="text-center">
+          <span className="text-xl font-bold sm:text-2xl md:text-3xl lg:text-4xl">
+            {translations.companyName[lang]}
+          </span>
 
-        <div>
           {paragraphs.map((text, index) => (
             <p
               key={index}
-              className={`${
+              className={`mt-6 text-lg leading-relaxed ${
                 lang === 'he' ? 'text-right' : 'text-left'
-              } mt-6 text-lg leading-relaxed`}
+              }`}
             >
               {text}
             </p>
           ))}
         </div>
       </div>
-
+      <div className="flex flex-col gap-4 pt-4 text-center ">
+        <a
+          href="https://www.ynetnews.com/articles/0,7340,L-4702484,00.html#:~:text=Architect%20Yair%20Herman"
+          className="underline hover:text-blue-600"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Press coverage – our Mount Tabor house
+        </a>
+        <a href="www.google.com" className="underline hover:text-blue-600">
+          Yair's work mention number 2
+        </a>
+        <a href="www.google.com" className="underline hover:text-blue-600">
+          Yair's work mention number 3
+        </a>
+      </div>
       {/* Team Members */}
       <div className="row-span-2 flex flex-col justify-end gap-8 pt-10 ">
         {teamMembers.map((member, index) => (

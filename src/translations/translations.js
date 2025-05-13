@@ -11,16 +11,20 @@ const translations = {
     he: 'English',
     en: 'עברית',
   },
+  companyName: {
+    he: 'הרמן אדריכלים',
+    en: 'Herman Architects',
+  },
   aboutParagraphs: {
     he: [
-      'הרמן אדריכלים נוסד בשנת 1991 על ידי יאיר הרמן, ומאז הפך לאחד ממשרדי האדריכלות המובילים בישראל. המשרד מתמחה בתכנון ועיצוב בנייה פרטית, בנייה רוויה, רבי קומות, שכונות מגורים, מרכזי מסחר ומלונאות.',
-      'עם גישה חדשנית ויצירתית, הרמן אדריכלים מציבים דגש על התאמה אישית לצורכי הלקוח ושמירה על סטנדרטים גבוהים של איכות ועיצוב. אנו גאים בליווי לקוחותינו לאורך כל שלבי הפרויקט – מתכנון ראשוני ועד גמר ביצוע.',
-      'למשרדנו ניסיון עשיר בבנייה בת קיימא ושימוש בטכנולוגיות מתקדמות, במטרה ליצור מבנים חדשניים, אסתטיים וידידותיים לסביבה.',
+      'נוסד בשנת 1991 על-ידי האדריכל יאיר הרמן, בוגר הפקולטה לארכיטקטורה ובינוי ערים בטכניון. עיקר פעילות המשרד הוא תכנון בתים פרטיים – וילות ובתי משפחה – המתמזגים עם נופי הגליל והעמקים ומדגישים שילוב מאוזן של מודרניות, אור, אוויר, חומר ונוף.',
+      'לצד הבנייה הפרטית, תכנן המשרד גם מספר פרויקטים ציבוריים ממוקדים: בית-מלון, שכונות מגורים קהילתיות ומתחמי מסחר. הניסיון הרב-תחומי הזה מעשיר את החשיבה האדריכלית ומאפשר פתרונות מותאמים לאתגרי קנה-מידה שונים.',
+      'הסטודיו פועל בגישה יצירתית הנשענת על התאמה מהודקת לאורח החיים של הלקוח ועל שימוש בשיטות תכנון ובנייה בנות-קיימא. כך מתהווים מבנים השומרים על חוויית מגורים נעימה ויעילה אנרגטית, מבלי לוותר על קווים נקיים ועל חיבור טבעי לסביבה.',
     ],
     en: [
-      'Herman Architects was founded in 1991 by Yair Herman and has since become one of Israel’s leading architectural firms. The office specializes in private housing, residential complexes, high-rise buildings, neighborhoods, commercial centers, and hospitality projects.',
-      'With an innovative and creative approach, Herman Architects emphasizes personalized solutions tailored to clients’ needs and maintains high standards of quality and design. We accompany our clients through every stage — from initial concept to final execution.',
-      'We have extensive experience in sustainable design and advanced technologies aimed at creating innovative, aesthetic, and environmentally friendly buildings.',
+      'Founded in 1991 by architect Yair Herman, a graduate of the Faculty of Architecture and Town Planning at the Technion, the studio focuses primarily on private homes—villas and family residences that merge with the landscapes of the Galilee and surrounding valleys. Each project balances modern design, light, airflow, materiality, and the natural panorama.',
+      'Alongside its residential work, the office has completed several select public projects, including a hotel, community-scale housing developments, and commercial complexes. This multidisciplinary experience enriches the studio’s architectural thinking and yields solutions tailored to a range of scales and challenges.',
+      'Herman Architects adopts a creative, client-centred approach, combining careful lifestyle-driven planning with sustainable design and construction methods. The result is architecture that offers comfortable, energy-efficient living while maintaining clean lines and a seamless connection to its environment.',
     ],
   },
   teamMembers: [
@@ -30,8 +34,8 @@ const translations = {
         en: 'Yair Herman',
       },
       description: {
-        he: 'מייסד ובעלים, אדריכל',
-        en: 'Founder & Principal Architect',
+        he: 'מייסד בעלים, אדריכל, בוגר הטכניון (1987)',
+        en: 'Founder & Principal Architect, a graduate of the Technion',
       },
     },
     // {
