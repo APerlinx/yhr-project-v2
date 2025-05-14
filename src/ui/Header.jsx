@@ -83,11 +83,19 @@ function Header() {
           <LinkButton to="/about" onClick={toggleMenu}>
             {translations.about[lang]}
           </LinkButton>
-          <LinkButton to="/projects" onClick={toggleMenu}>
-            פרוייקטים
+          <LinkButton
+            to="/projects"
+            onClick={toggleMenu}
+            state={{ filter: false }}
+          >
+            {translations.projects[lang]}
           </LinkButton>
-          <LinkButton to="/projects" onClick={toggleMenu}>
-            מגורים
+          <LinkButton
+            to="/projects"
+            onClick={toggleMenu}
+            state={{ filter: true }}
+          >
+            {translations.residential[lang]}
           </LinkButton>
           <LinkButton to="/contact" onClick={toggleMenu}>
             {translations.contact[lang]}

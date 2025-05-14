@@ -3,6 +3,14 @@ const translations = {
     he: 'אודות',
     en: 'About',
   },
+  projects: {
+    he: 'פרוייקטים',
+    en: 'Projects',
+  },
+  residential: {
+    he: 'מגורים',
+    en: 'Residential',
+  },
   contact: {
     he: 'צור קשר',
     en: 'Contact',
@@ -83,9 +91,45 @@ const translations = {
       en: 'Thank you for your message!',
     },
   },
+  building: {
+    he: 'בניין מגורים',
+    en: 'Residential Building',
+  },
+  privateHouse: {
+    he: 'בית פרטי',
+    en: 'Private House',
+  },
+  semiDetached: {
+    he: 'בית דו משפחתי',
+    en: 'Semi-Detached House',
+  },
+  privateEinDor: {
+    he: 'בית פרטי, עין דור',
+    en: 'Private House, Ein Dor',
+  },
+  privateTiberias: {
+    he: 'בית פרטי, טבריה',
+    en: 'Private House, Tiberias',
+  },
+  buildingTiberias: {
+    he: 'בניין מגורים, טבריה',
+    en: 'Residential Building, Tiberias',
+  },
+  privateMigdal: {
+    he: 'בית פרטי, מגדל',
+    en: 'Private House, Migdal',
+  },
+  hotelGoma: {
+    he: 'מלון גומא, כנרת',
+    en: 'Goma hotel, Kinneret',
+  },
   accessibility: {
     he: 'הצהרת נגישות',
     en: 'Accessibility',
+  },
+  AllProjects: {
+    he: 'כול הפרוייקטים',
+    en: 'All Projects',
   },
 };
 

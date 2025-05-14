@@ -1,17 +1,6 @@
 {
   "resources": [
     {
-      "asset_id": "3b770c26eb112700c42a40fb56be5c1f",
-      "public_id": "Projects-photos/fkttc45ulhwd2tjmotzk",
-      "version": 1746526217,
-      "format": "jpg",
-      "width": 2560,
-      "height": 1920,
-      "type": "upload",
-      "created_at": "2025-05-06T10:10:17Z",
-      "asset_folder": "Project-photos"
-    },
-    {
       "asset_id": "d147a69410d9ffab869555ac095ec40c",
       "public_id": "Projects-photos/fykdgzptprk2xycawcow",
       "version": 1746526216,
@@ -20,6 +9,12 @@
       "height": 1920,
       "type": "upload",
       "created_at": "2025-05-06T10:10:16Z",
+      "context": {
+        "custom": {
+          "residential": "true",
+          "desc": "building"
+        }
+      },
       "asset_folder": "Project-photos"
     },
     {
@@ -31,83 +26,11 @@
       "height": 683,
       "type": "upload",
       "created_at": "2025-05-06T10:09:55Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "cc57219141a743110f3a8c02de36d16f",
-      "public_id": "Projects-photos/mzsiwoptq1isxaqmtmfm",
-      "version": 1746526195,
-      "format": "webp",
-      "width": 1000,
-      "height": 666,
-      "type": "upload",
-      "created_at": "2025-05-06T10:09:55Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "5ce306e103baae398cd87d2e36ff25ce",
-      "public_id": "Projects-photos/v7ikq7wjocjogqyie3uo",
-      "version": 1746526195,
-      "format": "webp",
-      "width": 1000,
-      "height": 667,
-      "type": "upload",
-      "created_at": "2025-05-06T10:09:55Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "c005a26f92d290d7480cbf9ef6a508e0",
-      "public_id": "Projects-photos/m2txbj4icnkddfgma3p9",
-      "version": 1746526195,
-      "format": "jpg",
-      "width": 1024,
-      "height": 768,
-      "type": "upload",
-      "created_at": "2025-05-06T10:09:55Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "307c50d9e8db5b2ab28f5185e0db190a",
-      "public_id": "Projects-photos/fpf0ll3xbc7qwhfwwq7c",
-      "version": 1746526195,
-      "format": "webp",
-      "width": 1000,
-      "height": 660,
-      "type": "upload",
-      "created_at": "2025-05-06T10:09:55Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "5f6cb4c5bb99472fa7f3e171da7f869e",
-      "public_id": "Projects-photos/oexmqsszxsb4wod6bqbt",
-      "version": 1746526195,
-      "format": "jpg",
-      "width": 800,
-      "height": 534,
-      "type": "upload",
-      "created_at": "2025-05-06T10:09:55Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "41493aeec5d2502c75d64c458a39ba4f",
-      "public_id": "Projects-photos/fpahalhmm3e4yytewpze",
-      "version": 1746526193,
-      "format": "jpg",
-      "width": 1920,
-      "height": 690,
-      "type": "upload",
-      "created_at": "2025-05-06T10:09:53Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "7dedf03f8bc40b8f683a416c1525f418",
-      "public_id": "Projects-photos/bdhotc1se5wrqolhfx9o",
-      "version": 1746526193,
-      "format": "jpg",
-      "width": 960,
-      "height": 576,
-      "type": "upload",
-      "created_at": "2025-05-06T10:09:53Z",
+      "context": {
+        "custom": {
+          "desc": "hotelGoma"
+        }
+      },
       "asset_folder": "Project-photos"
     },
     {
@@ -119,72 +42,11 @@
       "height": 535,
       "type": "upload",
       "created_at": "2025-05-06T10:09:53Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "e4d4c871e4e79bc1229451cb50621eee",
-      "public_id": "Projects-photos/xcymokcnrv4rxwnf9vfp",
-      "version": 1746526193,
-      "format": "webp",
-      "width": 1000,
-      "height": 667,
-      "type": "upload",
-      "created_at": "2025-05-06T10:09:53Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "02808c16e444c018a466f7167f8d3ae3",
-      "public_id": "Projects-photos/nd3qmskkk9zlwqbttlfo",
-      "version": 1746526193,
-      "format": "jpg",
-      "width": 1280,
-      "height": 854,
-      "type": "upload",
-      "created_at": "2025-05-06T10:09:53Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "90bb0de2220cfb43ed4cdbd601ba0625",
-      "public_id": "Projects-photos/tk98ry2gva8aoly4o6r6",
-      "version": 1746526192,
-      "format": "jpg",
-      "width": 1271,
-      "height": 900,
-      "type": "upload",
-      "created_at": "2025-05-06T10:09:52Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "554c175d00e30d695313ffc38b4412a3",
-      "public_id": "Projects-photos/j3mgtgurujyyylprlegi",
-      "version": 1746526191,
-      "format": "jpg",
-      "width": 1280,
-      "height": 853,
-      "type": "upload",
-      "created_at": "2025-05-06T10:09:51Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "d44fcc5c937322bab13df48bde929227",
-      "public_id": "Projects-photos/qlvasmgzlouormixciax",
-      "version": 1746526191,
-      "format": "jpg",
-      "width": 1280,
-      "height": 853,
-      "type": "upload",
-      "created_at": "2025-05-06T10:09:51Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "58e9bbf4f559e07de7ceea43cfd78d96",
-      "public_id": "Projects-photos/gvuyveva5l2mac5765wo",
-      "version": 1746526191,
-      "format": "webp",
-      "width": 1000,
-      "height": 666,
-      "type": "upload",
-      "created_at": "2025-05-06T10:09:51Z",
+      "context": {
+        "custom": {
+          "desc": "hotelGoma"
+        }
+      },
       "asset_folder": "Project-photos"
     },
     {
@@ -196,83 +58,12 @@
       "height": 1132,
       "type": "upload",
       "created_at": "2025-05-06T10:09:14Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "fb29e83d178182f5ecd2f0096847e1dc",
-      "public_id": "Projects-photos/e47f9kehakdp5ykttp2w",
-      "version": 1746526153,
-      "format": "jpg",
-      "width": 1810,
-      "height": 1000,
-      "type": "upload",
-      "created_at": "2025-05-06T10:09:13Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "74e0a3e40de8c15b2b9175300f11678b",
-      "public_id": "Projects-photos/cuytnk10qcdbtgqrx8tm",
-      "version": 1746526153,
-      "format": "jpg",
-      "width": 2030,
-      "height": 908,
-      "type": "upload",
-      "created_at": "2025-05-06T10:09:13Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "56e6f70ceff557c350e4150ebd3ee77a",
-      "public_id": "Projects-photos/mkj6tliwquuumdnrlu9p",
-      "version": 1746526153,
-      "format": "jpg",
-      "width": 2030,
-      "height": 1000,
-      "type": "upload",
-      "created_at": "2025-05-06T10:09:13Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "b7bd5c2394855163efbde1c2c9d94363",
-      "public_id": "Projects-photos/pha625cxzspvpp7hdtsj",
-      "version": 1746526153,
-      "format": "jpg",
-      "width": 2917,
-      "height": 1437,
-      "type": "upload",
-      "created_at": "2025-05-06T10:09:13Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "3e05b5b0efa02926638b26e6fe9b76e5",
-      "public_id": "Projects-photos/vu7sucz2icm5itnaddfp",
-      "version": 1746526152,
-      "format": "jpg",
-      "width": 2030,
-      "height": 916,
-      "type": "upload",
-      "created_at": "2025-05-06T10:09:12Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "a8230f1fa74511aa319447b12f8379a5",
-      "public_id": "Projects-photos/z4wqbqjofxe5qtghzmcc",
-      "version": 1746526152,
-      "format": "jpg",
-      "width": 2917,
-      "height": 1437,
-      "type": "upload",
-      "created_at": "2025-05-06T10:09:12Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "978fd97442e1df0de42051b1a4a10543",
-      "public_id": "Projects-photos/xcfcm4yy7mkf9sl3oyvo",
-      "version": 1746526152,
-      "format": "jpg",
-      "width": 1953,
-      "height": 1000,
-      "type": "upload",
-      "created_at": "2025-05-06T10:09:12Z",
+      "context": {
+        "custom": {
+          "residential": "true",
+          "desc": "privateHouse"
+        }
+      },
       "asset_folder": "Project-photos"
     },
     {
@@ -284,6 +75,12 @@
       "height": 1000,
       "type": "upload",
       "created_at": "2025-05-06T10:09:12Z",
+      "context": {
+        "custom": {
+          "residential": "true",
+          "desc": "privateHouse"
+        }
+      },
       "asset_folder": "Project-photos"
     },
     {
@@ -295,6 +92,12 @@
       "height": 720,
       "type": "upload",
       "created_at": "2025-05-06T10:09:05Z",
+      "context": {
+        "custom": {
+          "residential": "true",
+          "desc": "buildingTiberias"
+        }
+      },
       "asset_folder": "Project-photos"
     },
     {
@@ -306,6 +109,12 @@
       "height": 960,
       "type": "upload",
       "created_at": "2025-05-06T10:09:04Z",
+      "context": {
+        "custom": {
+          "residential": "true",
+          "desc": "buildingTiberias"
+        }
+      },
       "asset_folder": "Project-photos"
     },
     {
@@ -317,39 +126,12 @@
       "height": 1366,
       "type": "upload",
       "created_at": "2025-05-06T10:08:59Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "9231d1cb9f12ebd4046b5080b2b13989",
-      "public_id": "Projects-photos/ox7dtfn3myubamjt3maj",
-      "version": 1746526139,
-      "format": "jpg",
-      "width": 2048,
-      "height": 1366,
-      "type": "upload",
-      "created_at": "2025-05-06T10:08:59Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "fb2fc972e5399a19ffe333856219574b",
-      "public_id": "Projects-photos/aikhvzmpjf0vxuwemsd7",
-      "version": 1746526139,
-      "format": "jpg",
-      "width": 2048,
-      "height": 1360,
-      "type": "upload",
-      "created_at": "2025-05-06T10:08:59Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "0f2f0c5c16acb0333ae594a97f6317f9",
-      "public_id": "Projects-photos/ybuen4uqb71x4l2x6qsl",
-      "version": 1746526132,
-      "format": "jpg",
-      "width": 1629,
-      "height": 596,
-      "type": "upload",
-      "created_at": "2025-05-06T10:08:52Z",
+      "context": {
+        "custom": {
+          "residential": "true",
+          "desc": "privateHouse"
+        }
+      },
       "asset_folder": "Project-photos"
     },
     {
@@ -361,17 +143,12 @@
       "height": 900,
       "type": "upload",
       "created_at": "2025-05-06T10:08:52Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "b0448f33d35a22afffb442de2fe89f5b",
-      "public_id": "Projects-photos/wezkwrbtwgl8am2st4hp",
-      "version": 1746526124,
-      "format": "jpg",
-      "width": 3000,
-      "height": 1875,
-      "type": "upload",
-      "created_at": "2025-05-06T10:08:44Z",
+      "context": {
+        "custom": {
+          "residential": "true",
+          "desc": "semiDetached"
+        }
+      },
       "asset_folder": "Project-photos"
     },
     {
@@ -383,17 +160,12 @@
       "height": 1875,
       "type": "upload",
       "created_at": "2025-05-06T10:08:43Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "6511869882e00b7a013e078e665fc55b",
-      "public_id": "Projects-photos/urbjgmde0bn11nt4vsvs",
-      "version": 1746526122,
-      "format": "jpg",
-      "width": 3000,
-      "height": 1875,
-      "type": "upload",
-      "created_at": "2025-05-06T10:08:42Z",
+      "context": {
+        "custom": {
+          "residential": "true",
+          "desc": "building"
+        }
+      },
       "asset_folder": "Project-photos"
     },
     {
@@ -405,17 +177,12 @@
       "height": 1500,
       "type": "upload",
       "created_at": "2025-05-06T10:08:35Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "110dd6fd4c074e058357f8278276245e",
-      "public_id": "Projects-photos/bjib3eqnzqh3uth94bjh",
-      "version": 1746526107,
-      "format": "png",
-      "width": 3000,
-      "height": 1500,
-      "type": "upload",
-      "created_at": "2025-05-06T10:08:27Z",
+      "context": {
+        "custom": {
+          "residential": "true",
+          "desc": "privateMigdal"
+        }
+      },
       "asset_folder": "Project-photos"
     },
     {
@@ -427,17 +194,12 @@
       "height": 1500,
       "type": "upload",
       "created_at": "2025-05-06T10:08:26Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "bfbf97e9b1ee1adf9e71bb7838c7416b",
-      "public_id": "Projects-photos/acrcsy1zyganzf7e9bex",
-      "version": 1746526092,
-      "format": "jpg",
-      "width": 3000,
-      "height": 1800,
-      "type": "upload",
-      "created_at": "2025-05-06T10:08:12Z",
+      "context": {
+        "custom": {
+          "residential": "true",
+          "desc": "privateMigdal"
+        }
+      },
       "asset_folder": "Project-photos"
     },
     {
@@ -449,17 +211,12 @@
       "height": 1800,
       "type": "upload",
       "created_at": "2025-05-06T10:08:12Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "4660357c9ed23717364a8b7aa89ee4fc",
-      "public_id": "Projects-photos/r7ul81fju0kixqjpuqeg",
-      "version": 1746526074,
-      "format": "jpg",
-      "width": 960,
-      "height": 720,
-      "type": "upload",
-      "created_at": "2025-05-06T10:07:54Z",
+      "context": {
+        "custom": {
+          "residential": "true",
+          "desc": "privateHouse"
+        }
+      },
       "asset_folder": "Project-photos"
     },
     {
@@ -471,6 +228,12 @@
       "height": 960,
       "type": "upload",
       "created_at": "2025-05-06T10:07:53Z",
+      "context": {
+        "custom": {
+          "residential": "true",
+          "desc": "building"
+        }
+      },
       "asset_folder": "Project-photos"
     },
     {
@@ -482,6 +245,12 @@
       "height": 691,
       "type": "upload",
       "created_at": "2025-05-06T10:07:53Z",
+      "context": {
+        "custom": {
+          "residential": "true",
+          "desc": "privateHouse"
+        }
+      },
       "asset_folder": "Project-photos"
     },
     {
@@ -493,6 +262,12 @@
       "height": 720,
       "type": "upload",
       "created_at": "2025-05-06T10:07:53Z",
+      "context": {
+        "custom": {
+          "residential": "true",
+          "desc": "building"
+        }
+      },
       "asset_folder": "Project-photos"
     },
     {
@@ -504,17 +279,12 @@
       "height": 480,
       "type": "upload",
       "created_at": "2025-05-06T10:07:53Z",
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "da0857ac7948198bafee7be8b9d21fcd",
-      "public_id": "Projects-photos/yvz3pfogwhbbnu1k2zfy",
-      "version": 1746526073,
-      "format": "jpg",
-      "width": 1360,
-      "height": 2048,
-      "type": "upload",
-      "created_at": "2025-05-06T10:07:53Z",
+      "context": {
+        "custom": {
+          "residential": "true",
+          "desc": "privateHouse"
+        }
+      },
       "asset_folder": "Project-photos"
     },
     {
@@ -526,8 +296,82 @@
       "height": 960,
       "type": "upload",
       "created_at": "2025-05-06T10:07:53Z",
+      "context": {
+        "custom": {
+          "residential": "true",
+          "desc": "building"
+        }
+      },
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "f866fde55e5c2c0dec40d02852ffa219",
+      "public_id": "Projects-photos/iha8yipduhitgez2k1ck",
+      "version": 1746526072,
+      "format": "jpg",
+      "width": 2048,
+      "height": 1366,
+      "type": "upload",
+      "created_at": "2025-05-06T10:07:52Z",
+      "context": {
+        "custom": {
+          "residential": "true",
+          "desc": "privateEinDor"
+        }
+      },
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "12e6f16026e4834df3365ee4a378e7b8",
+      "public_id": "Projects-photos/px3x1ujwo506optz437k",
+      "version": 1746526072,
+      "format": "jpg",
+      "width": 2048,
+      "height": 1536,
+      "type": "upload",
+      "created_at": "2025-05-06T10:07:52Z",
+      "context": {
+        "custom": {
+          "residential": "true",
+          "desc": "privateHouse"
+        }
+      },
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "597efb2f7fa92deb2335bf619a2e0726",
+      "public_id": "Projects-photos/wpubeox2o4cgoqfmshce",
+      "version": 1746526072,
+      "format": "jpg",
+      "width": 960,
+      "height": 960,
+      "type": "upload",
+      "created_at": "2025-05-06T10:07:52Z",
+      "context": {
+        "custom": {
+          "residential": "true",
+          "desc": "building"
+        }
+      },
+      "asset_folder": "Project-photos"
+    },
+    {
+      "asset_id": "7d7c2ed7ebd36dfe15375a00162351b2",
+      "public_id": "Projects-photos/bzrfz1lsxktjtbm5yyer",
+      "version": 1746526072,
+      "format": "jpg",
+      "width": 960,
+      "height": 801,
+      "type": "upload",
+      "created_at": "2025-05-06T10:07:52Z",
+      "context": {
+        "custom": {
+          "residential": "true",
+          "desc": "building"
+        }
+      },
       "asset_folder": "Project-photos"
     }
   ],
-  "updated_at": "2025-05-06T10:33:23Z"
+  "updated_at": "2025-05-14T15:22:11Z"
 }
