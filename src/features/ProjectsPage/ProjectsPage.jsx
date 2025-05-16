@@ -26,7 +26,7 @@ function ProjectsPage() {
 
   return (
     <div
-      className="relative mt-36 min-h-screen w-screen gap-8 border-b-2 border-stone-800 pb-12 sm:mt-40 sm:px-32"
+      className="relative mt-36 min-h-screen w-screen gap-8 border-b-2 border-[#948979] pb-12 sm:mt-40 sm:px-32"
       dir="rtl"
     >
       {/* Project Display */}

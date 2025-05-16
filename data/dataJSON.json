@@ -2,7 +2,7 @@
   "resources": [
     {
       "asset_id": "d147a69410d9ffab869555ac095ec40c",
-      "public_id": "Projects-photos/fykdgzptprk2xycawcow",
+      "public_id": "r1b_gardenview",
       "version": 1746526216,
       "format": "jpg",
       "width": 2560,
@@ -19,7 +19,7 @@
     },
     {
       "asset_id": "120bb1f11f88135d69d85afbe9190f57",
-      "public_id": "Projects-photos/g7yal8bhzsmfw2vh7ghc",
+      "public_id": "h1p_poolview/g7yal8bhzsmfw2vh7ghc",
       "version": 1746526195,
       "format": "jpg",
       "width": 1024,
@@ -35,7 +35,7 @@
     },
     {
       "asset_id": "4014ad94472b3d2eaa7a8592164a5676",
-      "public_id": "Projects-photos/hilzxt3tkogkbamujxfk",
+      "public_id": "h1p_insideview/hilzxt3tkogkbamujxfk",
       "version": 1746526193,
       "format": "jpg",
       "width": 948,
@@ -51,7 +51,7 @@
     },
     {
       "asset_id": "a062e4ced86c469c12bb7f1c6b4a0783",
-      "public_id": "Projects-photos/z7hnact6z6gcrpiwjnkt",
+      "public_id": "r1p_insideview/z7hnact6z6gcrpiwjnkt",
       "version": 1746526154,
       "format": "jpg",
       "width": 2048,
@@ -68,7 +68,7 @@
     },
     {
       "asset_id": "e501927ff3edc2f08f38c303c919e49e",
-      "public_id": "Projects-photos/sdn47dv7ua5colzyw0yy",
+      "public_id": "r1p_frontview/sdn47dv7ua5colzyw0yy",
       "version": 1746526152,
       "format": "jpg",
       "width": 2030,
@@ -85,7 +85,7 @@
     },
     {
       "asset_id": "bf34bdf6795d77bd515a64a39116dda1",
-      "public_id": "Projects-photos/qc1hcs0ngpnivdqmhbwb",
+      "public_id": "r2b_backview/qc1hcs0ngpnivdqmhbwb",
       "version": 1746526145,
       "format": "jpg",
       "width": 960,
@@ -102,7 +102,7 @@
     },
     {
       "asset_id": "7991999261baf4f03560264838bf3f6b",
-      "public_id": "Projects-photos/ndxuhl4hkqycsubkfi5u",
+      "public_id": "r2b_frontview/ndxuhl4hkqycsubkfi5u",
       "version": 1746526144,
       "format": "jpg",
       "width": 720,
@@ -119,7 +119,7 @@
     },
     {
       "asset_id": "231026437f0ef97267e9190dc4da099e",
-      "public_id": "Projects-photos/qilz0cpzr5syxsdsfuwd",
+      "public_id": "r2p_frontview/qilz0cpzr5syxsdsfuwd",
       "version": 1746526139,
       "format": "jpg",
       "width": 2048,
@@ -136,7 +136,7 @@
     },
     {
       "asset_id": "a1bbe25e9e775ba6d5cfb7b8c836b8e8",
-      "public_id": "Projects-photos/ma6xsz2hxm0yvegi1inz",
+      "public_id": "r1d_backyardview/ma6xsz2hxm0yvegi1inz",
       "version": 1746526132,
       "format": "jpg",
       "width": 1629,
@@ -153,7 +153,7 @@
     },
     {
       "asset_id": "bd50398b166d3a47aa843c3768c05458",
-      "public_id": "Projects-photos/z7a9xhowjsotwmactxf5",
+      "public_id": "r3b_backview/z7a9xhowjsotwmactxf5",
       "version": 1746526123,
       "format": "jpg",
       "width": 3000,
@@ -170,7 +170,7 @@
     },
     {
       "asset_id": "32c3ce17f27e5083da2093c5b20dab95",
-      "public_id": "Projects-photos/aragv4dhjgaxvyjmlplc",
+      "public_id": "r4p_backview/aragv4dhjgaxvyjmlplc",
       "version": 1746526115,
       "format": "png",
       "width": 3000,
@@ -187,7 +187,7 @@
     },
     {
       "asset_id": "08f554145a59b4037df8c237f493907d",
-      "public_id": "Projects-photos/trixnzv1gpkj1rj6ibcc",
+      "public_id": "r4p_frontview/trixnzv1gpkj1rj6ibcc",
       "version": 1746526106,
       "format": "png",
       "width": 3000,
@@ -204,7 +204,7 @@
     },
     {
       "asset_id": "7a294333a16a01c10a4c21e9b31dc327",
-      "public_id": "Projects-photos/tvi09v4csdyquuilquqs",
+      "public_id": "r5p_yardview/tvi09v4csdyquuilquqs",
       "version": 1746526092,
       "format": "jpg",
       "width": 3000,
@@ -221,7 +221,7 @@
     },
     {
       "asset_id": "ad9cd8222d85c7feb7c54348b244a9e5",
-      "public_id": "Projects-photos/qy0ko0oxwgbkfzppd2ek",
+      "public_id": "r4b_frontview/qy0ko0oxwgbkfzppd2ek",
       "version": 1746526073,
       "format": "jpg",
       "width": 960,
@@ -238,7 +238,7 @@
     },
     {
       "asset_id": "b4ea5bfa44abd1d29606a13b66cbaa10",
-      "public_id": "Projects-photos/sbvx1lnujq0jfcpdjxvl",
+      "public_id": "r6p_singlephoto/sbvx1lnujq0jfcpdjxvl",
       "version": 1746526073,
       "format": "jpg",
       "width": 922,
@@ -255,7 +255,7 @@
     },
     {
       "asset_id": "0a96610d670260800f6ef824f7fea201",
-      "public_id": "Projects-photos/l6t53dkhg5trg9ovzwjj",
+      "public_id": "r5b_singlephoto/l6t53dkhg5trg9ovzwjj",
       "version": 1746526073,
       "format": "jpg",
       "width": 960,
@@ -272,7 +272,7 @@
     },
     {
       "asset_id": "9240f63fb7288f6531e3bac4608352c3",
-      "public_id": "Projects-photos/mkdvodlaqyth8fonavxb",
+      "public_id": "r7p_singlephoto/mkdvodlaqyth8fonavxb",
       "version": 1746526073,
       "format": "jpg",
       "width": 800,
@@ -305,6 +305,23 @@
       "asset_folder": "Project-photos"
     },
     {
+      "asset_id": "e5d662ae2887ff4f805b9497789b714b",
+      "public_id": "r9p_singlephoto/jqddsl2srghocgjsx11z",
+      "version": 1746526072,
+      "format": "jpg",
+      "width": 2048,
+      "height": 1620,
+      "type": "upload",
+      "created_at": "2025-05-06T10:07:52Z",
+      "context": {
+        "custom": {
+          "residential": "true",
+          "desc": "בית פרטי"
+        }
+      },
+      "asset_folder": "Project-photos"
+    },
+    {
       "asset_id": "f866fde55e5c2c0dec40d02852ffa219",
       "public_id": "Projects-photos/iha8yipduhitgez2k1ck",
       "version": 1746526072,
@@ -323,7 +340,7 @@
     },
     {
       "asset_id": "12e6f16026e4834df3365ee4a378e7b8",
-      "public_id": "Projects-photos/px3x1ujwo506optz437k",
+      "public_id": "r8p_singlephoto/px3x1ujwo506optz437k",
       "version": 1746526072,
       "format": "jpg",
       "width": 2048,
@@ -340,7 +357,7 @@
     },
     {
       "asset_id": "597efb2f7fa92deb2335bf619a2e0726",
-      "public_id": "Projects-photos/wpubeox2o4cgoqfmshce",
+      "public_id": "r6b_singlephoto/wpubeox2o4cgoqfmshce",
       "version": 1746526072,
       "format": "jpg",
       "width": 960,
@@ -357,7 +374,7 @@
     },
     {
       "asset_id": "7d7c2ed7ebd36dfe15375a00162351b2",
-      "public_id": "Projects-photos/bzrfz1lsxktjtbm5yyer",
+      "public_id": "r7b_singlephoto/bzrfz1lsxktjtbm5yyer",
       "version": 1746526072,
       "format": "jpg",
       "width": 960,
@@ -373,5 +390,5 @@
       "asset_folder": "Project-photos"
     }
   ],
-  "updated_at": "2025-05-14T15:22:11Z"
+  "updated_at": "2025-05-16T10:02:41Z"
 }

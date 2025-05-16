@@ -18,7 +18,7 @@ function GridView({ projects }) {
           <div
             key={project.id}
             className="group relative aspect-[4/3] cursor-pointer overflow-hidden"
-            onClick={() => navigate(`/projects/${project.id}`)}
+            onClick={() => navigate(`/projects/${project.id.split('_')[0]}`)}
           >
             <div className="duration-300 hover:brightness-50">
               <LazyLoadImage

@@ -10,6 +10,9 @@ import ProjectsPage, {
 } from './features/ProjectsPage/ProjectsPage';
 import AccessibilityPage from './features/AccessibilityPage/AccessibilityPage';
 import HomePage from './features/HomePage/HomePage';
+import ProjectDetails, {
+  loader as projectDetailsLoader,
+} from './features/ProjectsPage/ProjectDetails/ProjectDetails';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +28,13 @@ const router = createBrowserRouter([
         path: '/projects',
         element: <ProjectsPage />,
         loader: projectLoader,
+        errorElement: <Error />,
+      },
+      {
+        path: '/projects/:projectName',
+        element: <ProjectDetails />,
+        loader: projectDetailsLoader,
+
         errorElement: <Error />,
       },
       {
