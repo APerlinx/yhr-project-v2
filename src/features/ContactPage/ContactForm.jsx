@@ -13,7 +13,6 @@ export default function ContactForm({ lang }) {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
-    // setStatus('idle');
   };
 
   const handleSubmit = (e) => {
@@ -70,15 +69,19 @@ export default function ContactForm({ lang }) {
             className="mb-2 w-full resize-none  border-b-2 bg-transparent  px-4 py-2 text-white outline-none focus:ring-2 focus:ring-[#f3f3f3]"
           />
         </div>
-        <button
-          type="submit"
-          className="flex w-full items-center justify-center gap-2 px-6 py-2 font-semibold transition hover:scale-125"
-          disabled={status === 'loading'}
-        >
-          {status === 'loading' && <LoaderIcon />}
-          {status === 'success' && <CheckIcon />}
-          {status === 'idle' && <EnvelopeIcon />}
-        </button>
+
+        {/* Send button*/}
+        <div className="flex  justify-center  gap-2 font-semibold ">
+          <button
+            type="submit"
+            disabled={status === 'loading'}
+            className="transition hover:scale-125"
+          >
+            {status === 'loading' && <LoaderIcon />}
+            {status === 'success' && <CheckIcon />}
+            {status === 'idle' && <EnvelopeIcon />}
+          </button>
+        </div>
       </form>
     </div>
   );

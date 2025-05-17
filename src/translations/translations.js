@@ -123,6 +123,10 @@ const translations = {
     he: 'מלון גומא, כנרת',
     en: 'Goma hotel, Kinneret',
   },
+  privateHouseTavor: {
+    he: 'בית פרטי, כפר תבור ',
+    en: 'Private house, Kfar Tavor',
+  },
   accessibility: {
     he: 'הצהרת נגישות',
     en: 'Accessibility',

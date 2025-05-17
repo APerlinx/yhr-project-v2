@@ -38,7 +38,7 @@ export async function fetchSingleProject(projectTag) {
   try {
     let data;
 
-    if (process.env.NODE_ENV === 'development') {
+    if (process.env.NODE_ENV === 'developmen') {
       data = {
         resources: Projects.resources.filter(
           (resource) => resource.public_id.split('_')[0] === projectTag

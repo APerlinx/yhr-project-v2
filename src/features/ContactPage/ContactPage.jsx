@@ -8,29 +8,33 @@ function ContactPage() {
 
   return (
     <div
-      className="mt-36 grid w-screen grid-cols-1 gap-4 border-b-2 border-[#948979] px-8 pb-12 sm:mt-32 sm:px-16 md:px-32"
+      className="mt-36 grid w-screen grid-cols-1 gap-4 border-b-2 border-[#948979] px-8 pb-24 sm:mt-32 sm:px-16 md:px-32"
       dir={lang === 'he' ? 'rtl' : 'ltr'}
     >
-      <div className="">
-        <svg
-          viewBox="0 0 500 150"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="#f3f3f3"
-          className="h-auto w-full"
-        >
-          <text
-            x="50%"
-            y="50%"
-            dominantBaseline="middle"
-            textAnchor="middle"
-            fontSize="42"
-            fontFamily="'Georgia', serif"
+      {/* title */}
+      <div className="w-full">
+        <div className="mx-auto w-full sm:w-[90%] md:w-[80%] lg:w-[70%]">
+          <svg
+            viewBox="0 0 600 150"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="#f3f3f3"
+            className="h-auto w-full"
           >
-            Contact Us
-          </text>
-        </svg>
+            <text
+              x="50%"
+              y="50%"
+              dominantBaseline="middle"
+              textAnchor="middle"
+              fontSize="52"
+              fontFamily="'Georgia', serif"
+            >
+              Contact Us
+            </text>
+          </svg>
+        </div>
       </div>
 
+      {/* address bar */}
       <div className="flex flex-col items-center justify-evenly justify-items-center gap-10 pb-12 text-center sm:flex-row">
         <div>
           <p className="text-sm font-bold md:text-xl lg:text-2xl">
@@ -110,6 +114,7 @@ function ContactPage() {
         </div>
       </div>
 
+      {/* form */}
       <div className="flex flex-col px-10 sm:pt-10 md:px-24 md:pt-10 lg:px-40 lg:pt-20">
         <ContactForm lang={lang} />
       </div>
