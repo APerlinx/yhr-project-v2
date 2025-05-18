@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import translations from '../../translations/translations';
 import { EnvelopeIcon, LoaderIcon, CheckIcon } from '../../ui/FormIcons';
 
@@ -10,6 +11,8 @@ export default function ContactForm({ lang }) {
   });
   const [status, setStatus] = useState('idle');
 
+  const formRef = useRef();
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
@@ -19,17 +22,29 @@ export default function ContactForm({ lang }) {
     e.preventDefault();
     setStatus('loading');
 
-    setTimeout(() => {
-      setStatus('success');
-      setFormData({ name: '', email: '', message: '' });
-
-      setTimeout(() => setStatus('idle'), 3000);
-    }, 1500);
+    emailjs
+      .sendForm(
+        'service_bffbll7',
+        'template_ri5ukgt',
+        formRef.current,
+        'PgtKV644x-0kaulMf'
+      )
+      .then(
+        () => {
+          setStatus('success');
+          setFormData({ name: '', email: '', message: '' });
+          setTimeout(() => setStatus('idle'), 3000);
+        },
+        (error) => {
+          console.error('Failed to send email:', error);
+          setStatus('idle');
+        }
+      );
   };
 
   return (
     <div className="min-w-[200px]">
-      <form onSubmit={handleSubmit} className="space-y-6">
+      <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
         <div>
           <label className="block text-[#f3f3f3]">
             {translations.formLabels.name[lang]}

@@ -61,7 +61,7 @@
       "context": {
         "custom": {
           "residential": "true",
-          "desc": "privateHouse"
+          "desc": "privateHouseTavor"
         }
       },
       "asset_folder": "Project-photos"
@@ -92,23 +92,6 @@
       "height": 720,
       "type": "upload",
       "created_at": "2025-05-06T10:09:05Z",
-      "context": {
-        "custom": {
-          "residential": "true",
-          "desc": "buildingTiberias"
-        }
-      },
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "7991999261baf4f03560264838bf3f6b",
-      "public_id": "r2b_frontview/ndxuhl4hkqycsubkfi5u",
-      "version": 1746526144,
-      "format": "jpg",
-      "width": 720,
-      "height": 960,
-      "type": "upload",
-      "created_at": "2025-05-06T10:09:04Z",
       "context": {
         "custom": {
           "residential": "true",
@@ -288,40 +271,6 @@
       "asset_folder": "Project-photos"
     },
     {
-      "asset_id": "3038f4a605d458cb223787806422593a",
-      "public_id": "Projects-photos/xkaosnixpub7us4lhvsg",
-      "version": 1746526073,
-      "format": "jpg",
-      "width": 960,
-      "height": 960,
-      "type": "upload",
-      "created_at": "2025-05-06T10:07:53Z",
-      "context": {
-        "custom": {
-          "residential": "true",
-          "desc": "building"
-        }
-      },
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "e5d662ae2887ff4f805b9497789b714b",
-      "public_id": "r9p_singlephoto/jqddsl2srghocgjsx11z",
-      "version": 1746526072,
-      "format": "jpg",
-      "width": 2048,
-      "height": 1620,
-      "type": "upload",
-      "created_at": "2025-05-06T10:07:52Z",
-      "context": {
-        "custom": {
-          "residential": "true",
-          "desc": "בית פרטי"
-        }
-      },
-      "asset_folder": "Project-photos"
-    },
-    {
       "asset_id": "f866fde55e5c2c0dec40d02852ffa219",
       "public_id": "Projects-photos/iha8yipduhitgez2k1ck",
       "version": 1746526072,
@@ -334,23 +283,6 @@
         "custom": {
           "residential": "true",
           "desc": "privateEinDor"
-        }
-      },
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "12e6f16026e4834df3365ee4a378e7b8",
-      "public_id": "r8p_singlephoto/px3x1ujwo506optz437k",
-      "version": 1746526072,
-      "format": "jpg",
-      "width": 2048,
-      "height": 1536,
-      "type": "upload",
-      "created_at": "2025-05-06T10:07:52Z",
-      "context": {
-        "custom": {
-          "residential": "true",
-          "desc": "privateHouse"
         }
       },
       "asset_folder": "Project-photos"
@@ -390,5 +322,5 @@
       "asset_folder": "Project-photos"
     }
   ],
-  "updated_at": "2025-05-16T10:02:41Z"
+  "updated_at": "2025-05-17T20:00:11Z"
 }

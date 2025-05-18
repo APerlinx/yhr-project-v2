@@ -115,22 +115,6 @@
       "asset_folder": "Project-photos"
     },
     {
-      "asset_id": "5f6cb4c5bb99472fa7f3e171da7f869e",
-      "public_id": "h1p_hotelmainview2",
-      "version": 1746526195,
-      "format": "jpg",
-      "width": 800,
-      "height": 534,
-      "type": "upload",
-      "created_at": "2025-05-06T10:09:55Z",
-      "context": {
-        "custom": {
-          "desc": "desc"
-        }
-      },
-      "asset_folder": "Project-photos"
-    },
-    {
       "asset_id": "41493aeec5d2502c75d64c458a39ba4f",
       "public_id": "h1p_hotelmainviewsunset",
       "version": 1746526193,
@@ -254,7 +238,7 @@
       "context": {
         "custom": {
           "residential": "true",
-          "desc": "privateHouse"
+          "desc": "privateHouseTavor"
         }
       },
       "asset_folder": "Project-photos"
@@ -440,8 +424,8 @@
       "created_at": "2025-05-06T10:08:59Z",
       "context": {
         "custom": {
-          "desc": "privateHouse",
-          "residential": "true"
+          "residential": "true",
+          "desc": "privateHouse"
         }
       },
       "asset_folder": "Project-photos"
@@ -453,23 +437,6 @@
       "format": "jpg",
       "width": 2048,
       "height": 1366,
-      "type": "upload",
-      "created_at": "2025-05-06T10:08:59Z",
-      "context": {
-        "custom": {
-          "residential": "true",
-          "desc": "desc"
-        }
-      },
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "fb2fc972e5399a19ffe333856219574b",
-      "public_id": "r3p_singlephoto/aikhvzmpjf0vxuwemsd7",
-      "version": 1746526139,
-      "format": "jpg",
-      "width": 2048,
-      "height": 1360,
       "type": "upload",
       "created_at": "2025-05-06T10:08:59Z",
       "context": {
@@ -736,23 +703,6 @@
       "asset_folder": "Project-photos"
     },
     {
-      "asset_id": "e5d662ae2887ff4f805b9497789b714b",
-      "public_id": "r9p_singlephoto/jqddsl2srghocgjsx11z",
-      "version": 1746526072,
-      "format": "jpg",
-      "width": 2048,
-      "height": 1620,
-      "type": "upload",
-      "created_at": "2025-05-06T10:07:52Z",
-      "context": {
-        "custom": {
-          "residential": "true",
-          "desc": "בית פרטי"
-        }
-      },
-      "asset_folder": "Project-photos"
-    },
-    {
       "asset_id": "f866fde55e5c2c0dec40d02852ffa219",
       "public_id": "Projects-photos/iha8yipduhitgez2k1ck",
       "version": 1746526072,
@@ -765,23 +715,6 @@
         "custom": {
           "residential": "true",
           "desc": "privateEinDor"
-        }
-      },
-      "asset_folder": "Project-photos"
-    },
-    {
-      "asset_id": "12e6f16026e4834df3365ee4a378e7b8",
-      "public_id": "r8p_singlephoto/px3x1ujwo506optz437k",
-      "version": 1746526072,
-      "format": "jpg",
-      "width": 2048,
-      "height": 1536,
-      "type": "upload",
-      "created_at": "2025-05-06T10:07:52Z",
-      "context": {
-        "custom": {
-          "residential": "true",
-          "desc": "privateHouse"
         }
       },
       "asset_folder": "Project-photos"
@@ -821,5 +754,5 @@
       "asset_folder": "Project-photos"
     }
   ],
-  "updated_at": "2025-05-16T20:09:36Z"
+  "updated_at": "2025-05-17T20:00:27Z"
 }

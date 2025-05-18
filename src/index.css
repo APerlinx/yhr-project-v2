@@ -3,13 +3,10 @@
 @tailwind utilities;
 
 @layer components {
-  se {
-    body {
-      @apply font-sans;
-    }
+  body {
+    @apply font-sans;
   }
 
-  /* https://dev.to/afif/i-made-100-css-loaders-for-your-next-project-4eje */
   .loader {
     width: 45px;
     aspect-ratio: 0.75;

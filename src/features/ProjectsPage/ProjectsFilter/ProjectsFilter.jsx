@@ -1,9 +1,9 @@
-import LinkButton from '../../../ui/LinkButton';
-import { useLanguage } from '../../../context/LanguageContext';
-import translations from '../../../translations/translations';
+import LinkButton from '../../../ui/LinkButton'
+import { useLanguage } from '../../../context/LanguageContext'
+import translations from '../../../translations/translations'
 
 function ProjectsFilter({ onFilterChange, currentFilter }) {
-  const { lang } = useLanguage();
+  const { lang } = useLanguage()
 
   return (
     <div dir={`${lang === 'he' ? 'rtl' : 'ltr'}`}>
@@ -25,19 +25,19 @@ function ProjectsFilter({ onFilterChange, currentFilter }) {
 
         <LinkButton
           onClick={() => onFilterChange(false)}
-          style={currentFilter === false ? 'text-[#DFD0B8]' : ''}
+          btnStyle={currentFilter === false ? 'text-[#DFD0B8]' : ''}
         >
           {translations.AllProjects[lang]}
         </LinkButton>
         <LinkButton
           onClick={() => onFilterChange(true)}
-          style={currentFilter === true ? 'text-[#DFD0B8]' : ''}
+          btnStyle={currentFilter === true ? 'text-[#DFD0B8]' : ''}
         >
           {translations.residential[lang]}
         </LinkButton>
       </div>
     </div>
-  );
+  )
 }
 
-export default ProjectsFilter;
+export default ProjectsFilter

@@ -1,21 +1,18 @@
-import Lightbox from 'yet-another-react-lightbox';
-import 'yet-another-react-lightbox/styles.css';
+import Lightbox from 'yet-another-react-lightbox'
+import 'yet-another-react-lightbox/styles.css'
+import Zoom from 'yet-another-react-lightbox/plugins/zoom'
+import Captions from 'yet-another-react-lightbox/plugins/captions'
+import Fullscreen from 'yet-another-react-lightbox/plugins/fullscreen'
 
 function ImageLightbox({ imageUrl, open, onOpen }) {
   return (
-    <div className="">
-      <img
-        src={imageUrl}
-        alt="enlargeable"
-        onClick={() => onOpen(true)}
-        className="cursor-pointer"
-      />
-
+    <div>
       <Lightbox
         open={open}
         close={() => onOpen(false)}
         slides={[{ src: imageUrl }]}
         carousel={{ finite: true }}
+        plugins={[Zoom, Captions, Fullscreen]}
         render={{
           buttonPrev: true ? () => null : undefined,
           buttonNext: true ? () => null : undefined,
@@ -27,7 +24,7 @@ function ImageLightbox({ imageUrl, open, onOpen }) {
         }}
       />
     </div>
-  );
+  )
 }
 
-export default ImageLightbox;
+export default ImageLightbox

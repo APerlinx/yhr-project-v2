@@ -1,22 +1,22 @@
-import React from 'react';
-import TeamMember from './TeamMember';
-import { useLanguage } from '../../context/LanguageContext';
-import translations from '../../translations/translations';
+import React from 'react'
+import TeamMember from './TeamMember'
+import { useLanguage } from '../../context/LanguageContext'
+import translations from '../../translations/translations'
 
 function AboutPage() {
-  const { lang } = useLanguage();
-  const paragraphs = translations.aboutParagraphs[lang];
-  const teamMembers = translations.teamMembers;
+  const { lang } = useLanguage()
+  const paragraphs = translations.aboutParagraphs[lang]
+  const teamMembers = translations.teamMembers
 
   return (
     <div
-      className="mt-40 grid w-screen grid-cols-1 justify-items-center border-b-2 border-[#948979] px-8 pb-12 sm:mt-52 sm:px-32"
+      className="mt-40 grid w-screen grid-cols-1 justify-items-center border-b-2 border-[#948979] px-8 pb-24 sm:mt-52 sm:px-32 sm:pb-12"
       dir={lang === 'he' ? 'rtl' : 'ltr'}
     >
       {/* About Section */}
       <div className="relative row-span-2 w-full max-w-md justify-items-end sm:max-w-lg md:max-w-xl lg:max-w-4xl">
         <div className="text-center">
-          <span className="text-xl font-bold sm:text-2xl md:text-3xl lg:text-4xl">
+          <span className="text-2xl font-bold sm:text-3xl md:text-4xl lg:text-5xl">
             {translations.companyName[lang]}
           </span>
 
@@ -64,7 +64,7 @@ function AboutPage() {
         ))}
       </div>
     </div>
-  );
+  )
 }
 
-export default AboutPage;
+export default AboutPage

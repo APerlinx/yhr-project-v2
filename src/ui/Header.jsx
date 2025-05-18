@@ -36,7 +36,6 @@ function Header() {
       }`}
     >
       {/* Logo */}
-
       <div className="z-50">
         <Link to="/">
           {}
