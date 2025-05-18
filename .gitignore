@@ -7,7 +7,7 @@ dist/
 .env
 
 # Local dev data (not needed in production)
-src/data/
+data/
 
 
 # OS & Editor junk

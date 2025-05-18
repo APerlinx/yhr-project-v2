@@ -1,5 +1,5 @@
-import dataJSON from '../../data/dataJSON.json'
-import Projects from '../../data/Projects.json'
+// import dataJSON from '../../data/dataJSON.json'
+// import Projects from '../../data/Projects.json'
 import { logError } from '../utils/logError'
 
 const CLOUD_NAME = 'dayojijed'
@@ -10,8 +10,8 @@ export async function fetchPreviewProjects() {
     let data
 
     if (process.env.NODE_ENV === 'development') {
-      data = dataJSON
-      // JSON file should contain the latest from : https://res.cloudinary.com/dayojijed/image/list/thumbnail.json
+      data = (await import('../../data/dataJSON.json')).default
+      // fallback local file only in dev
     } else {
       const response = await fetch(`${API_BASE_URL}/thumbnail.json`)
       if (!response.ok) {
@@ -37,10 +37,13 @@ export async function fetchSingleProject(projectTag) {
     logError('fetchSingleProject', new Error('Missing projectTag'))
     return []
   }
+
   try {
     let data
 
     if (process.env.NODE_ENV === 'development') {
+      const Projects = (await import('../../data/dataJSON.json')).default
+
       data = {
         resources: Projects.resources.filter(
           (resource) => resource.public_id.split('_')[0] === projectTag
