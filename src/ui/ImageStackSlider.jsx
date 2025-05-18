@@ -4,6 +4,7 @@ import { Autoplay, EffectFade } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/effect-fade'
 
+/* Keep [images] hardcoded : Simple, fast, zero fetch needed */
 const images = [
   {
     url: 'https://res.cloudinary.com/dayojijed/image/upload/v1733482274/Projects-photos/qilz0cpzr5syxsdsfuwd.jpg',
@@ -25,7 +26,6 @@ const images = [
 function ImageStackSlider() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const swiperRef = useRef(null)
-
   const objectPositionClass = {
     image1: 'object-[60%_center]',
     image2: 'object-[30%_center]',
@@ -62,6 +62,7 @@ function ImageStackSlider() {
             <img
               src={image.url}
               alt={`Slide ${index}`}
+              loading="lazy"
               className={`z-10 h-[541px] w-full object-cover shadow-lg shadow-black sm:object-center 2xl:h-[667px] ${
                 objectPositionClass[image.position]
               }`}

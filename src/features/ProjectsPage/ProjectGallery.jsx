@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import { useLanguage } from '../../context/LanguageContext'
 import translations from '../../translations/translations'
 
-function GridView({ projects }) {
+function ProjectGallery({ projects }) {
   const navigate = useNavigate()
   const { lang } = useLanguage()
 
@@ -45,4 +45,4 @@ function GridView({ projects }) {
   )
 }
 
-export default GridView
+export default ProjectGallery

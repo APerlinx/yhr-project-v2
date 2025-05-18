@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react'
-import GridView from './GridView'
+import React, { useEffect, useMemo } from 'react'
+import ProjectGallery from './ProjectGallery'
 import { fetchPreviewProjects } from '../../services/apiCloudinary'
 import { useLoaderData, useLocation } from 'react-router-dom'
 import ScrollToTopButton from '../../utils/ScrollToTopButton'
@@ -19,10 +19,12 @@ function ProjectsPage() {
     }
   }, [location.state])
 
-  const filteredProjects =
-    filter === false
+  // Memoize filtered project list to avoid recalculating on each render
+  const filteredProjects = useMemo(() => {
+    return filter === false
       ? projects
       : projects.filter((project) => project.residential === filter)
+  }, [projects, filter])
 
   return (
     <div
@@ -31,7 +33,7 @@ function ProjectsPage() {
     >
       {/* Projects Display */}
       <ProjectsFilter onFilterChange={setFilter} currentFilter={filter} />
-      <GridView projects={filteredProjects} />
+      <ProjectGallery projects={filteredProjects} />
       <div>
         <ScrollToTopButton />
       </div>

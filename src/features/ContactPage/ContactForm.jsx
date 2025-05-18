@@ -81,7 +81,7 @@ export default function ContactForm({ lang }) {
         </div>
 
         {/* Send button*/}
-        <div className="flex  justify-center  gap-2 font-semibold ">
+        <div className="flex justify-center gap-2 font-semibold ">
           <button
             type="submit"
             disabled={status === 'loading'}
