@@ -1,10 +1,19 @@
-node_modules
-dist
+# Node & builds
+node_modules/
+dist/
+
+# Environment variables
 .env*
-# data
-# git add .
-# git commit -m "Add new feature X"
-# git push
+.env
+
+# Local dev data (not needed in production)
+src/data/
+
+
+# OS & Editor junk
+.DS_Store
+
+
 
 # Refactor (חלק מאופטימזציה)
 # תרגום בדף הבית !

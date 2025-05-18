@@ -23,16 +23,14 @@ function Footer() {
       </div>
 
       {/*Footer Tool bar*/}
-      <div className="flex flex-col flex-wrap items-center justify-start text-xs sm:flex-row sm:items-center sm:gap-10 sm:text-base">
+      <div className="flex flex-col flex-wrap items-center justify-start gap-1 text-xs sm:flex-row sm:gap-10 sm:text-base">
         <div className="block sm:hidden">
           <FacebookLink type="primary" size={17} />
         </div>
         <div className="hidden sm:block">
           <FacebookLink type="primary" size={24} />
         </div>
-        <LinkButton to="/contact" btnStyle={'pt-1'}>
-          {translations.contact[lang]}
-        </LinkButton>
+        <LinkButton to="/contact">{translations.contact[lang]}</LinkButton>
         {/* English button */}
         <LinkButton
           onClick={() => {

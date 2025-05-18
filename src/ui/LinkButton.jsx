@@ -1,11 +1,11 @@
 import { Link, useNavigate, useLocation } from 'react-router-dom'
 
-function LinkButton({ children, to, onClick, state, style, btnStyle }) {
+function LinkButton({ children, to, onClick, state, btnStyle }) {
   const navigate = useNavigate()
   const location = useLocation()
   const isActive = location.pathname === to
 
-  const className = `hover:text-[#DFD0B8] cursor-pointer transition-all duration-200 ${style} ${btnStyle}     ${
+  const className = `hover:text-[#DFD0B8] cursor-pointer transition-all duration-200 ${btnStyle}     ${
     isActive ? 'text-[#DFD0B8]' : ''
   }
 `
