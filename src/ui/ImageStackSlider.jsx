@@ -16,7 +16,7 @@ const images = [
     position: 'image1',
   },
   {
-    url: 'https://res.cloudinary.com/dayojijed/image/upload/v1746526195/h1p_poolview/g7yal8bhzsmfw2vh7ghc.jpg',
+    url: 'https://res.cloudinary.com/dayojijed/image/upload/v1746526193/h1p_hotelmainviewsunset.jpg',
     desc: {
       he: 'מלון גומא, כנרת',
       en: 'Goma Hotel, Kinneret',

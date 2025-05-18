@@ -34,32 +34,32 @@ function ContactPage() {
         </div>
       </div>
 
-      {/* address bar */}
+      {/* address section */}
       <div className="flex flex-col items-center justify-evenly justify-items-center gap-10 pb-12 text-center sm:flex-row">
         <div>
-          <p className="text-sm font-bold md:text-xl lg:text-2xl">
+          <p className="text-lg font-bold md:text-xl lg:text-2xl">
             {translations.contactAddress[lang]}
           </p>
-          <p className="text-sm md:text-base lg:text-lg">
+          <p className="text-base lg:text-lg">
             {translations.addressValue[lang]}
           </p>
         </div>
         <div>
-          <p className="text-sm font-bold md:text-xl lg:text-2xl">
+          <p className="text-lg font-bold md:text-xl lg:text-2xl">
             {translations.contactEmail[lang]}
           </p>
           <a
             href="mailto:herman.arc@gmail.com"
-            className="md:base text-sm lg:text-lg"
+            className="text-base lg:text-lg"
           >
             herman.arc@gmail.com
           </a>
         </div>
         <div>
-          <p className="text-sm font-bold md:text-xl lg:text-2xl">
+          <p className="text-lg font-bold md:text-xl lg:text-2xl">
             {translations.contactPhone[lang]}
           </p>
-          <a href="tel:04-6620222" className="text-sm md:text-base lg:text-lg">
+          <a href="tel:04-6620222" className="text-base lg:text-lg">
             04-6620222
           </a>
         </div>

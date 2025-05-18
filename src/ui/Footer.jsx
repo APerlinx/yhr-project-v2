@@ -18,12 +18,12 @@ function Footer() {
 
         <span className="text-xs">
           Website & Design by
-          <a href="https://github.com/APerlinx">Alon Perlin</a>
+          <a href="https://github.com/APerlinx"> Alon Perlin</a>
         </span>
       </div>
 
       {/*Footer Tool bar*/}
-      <div className="flex flex-col flex-wrap items-center justify-start gap-1 text-xs sm:flex-row sm:gap-10 sm:text-base">
+      <div className="flex flex-col flex-wrap items-center justify-start gap-1 text-base sm:flex-row sm:gap-10 sm:text-lg">
         <div className="block sm:hidden">
           <FacebookLink type="primary" size={17} />
         </div>
