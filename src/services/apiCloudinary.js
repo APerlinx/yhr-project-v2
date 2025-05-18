@@ -1,5 +1,3 @@
-// import dataJSON from '../../data/dataJSON.json'
-// import Projects from '../../data/Projects.json'
 import { logError } from '../utils/logError'
 
 const CLOUD_NAME = 'dayojijed'
@@ -10,8 +8,8 @@ export async function fetchPreviewProjects() {
     let data
 
     if (process.env.NODE_ENV === 'development') {
-      data = (await import('../../data/dataJSON.json')).default
-      // fallback local file only in dev
+      const localData = await import('../../data/dataJSON.json')
+      data = localData.default
     } else {
       const response = await fetch(`${API_BASE_URL}/thumbnail.json`)
       if (!response.ok) {
@@ -42,7 +40,8 @@ export async function fetchSingleProject(projectTag) {
     let data
 
     if (process.env.NODE_ENV === 'development') {
-      const Projects = (await import('../../data/dataJSON.json')).default
+      const localData = await import('../../data/Projects.json')
+      const Projects = localData.default
 
       data = {
         resources: Projects.resources.filter(
