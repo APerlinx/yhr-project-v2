@@ -9,7 +9,7 @@ function ProjectGallery({ projects }) {
   const { lang } = useLanguage()
 
   return (
-    <div className="grid grid-cols-1 gap-3 md:grid-cols-3 lg:grid-cols-2">
+    <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-2">
       {projects.map((project) => {
         const fullImage = project.imageUrl
         const lowResImage = fullImage.replace('/upload/', '/upload/w_20,q_10/')

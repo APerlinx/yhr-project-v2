@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, EffectFade } from 'swiper/modules'
+import { useLanguage } from '../context/LanguageContext'
 import 'swiper/css'
 import 'swiper/css/effect-fade'
 
@@ -8,17 +9,26 @@ import 'swiper/css/effect-fade'
 const images = [
   {
     url: 'https://res.cloudinary.com/dayojijed/image/upload/v1733482274/Projects-photos/qilz0cpzr5syxsdsfuwd.jpg',
-    desc: 'וילה פרטית, כפר תבור',
+    desc: {
+      he: 'וילה פרטית, כפר תבור',
+      en: 'Private villa, Kfar Tavor',
+    },
     position: 'image1',
   },
   {
     url: 'https://res.cloudinary.com/dayojijed/image/upload/v1733482274/Projects-photos/fpahalhmm3e4yytewpze.jpg',
-    desc: 'מלון גומא, כנרת',
+    desc: {
+      he: 'מלון גומא, כנרת',
+      en: 'Goma Hotel, Kinneret',
+    },
     position: 'image2',
   },
   {
     url: 'https://res.cloudinary.com/dayojijed/image/upload/v1733482274/Projects-photos/z4wqbqjofxe5qtghzmcc.jpg',
-    desc: 'בית מגורים פרטי, ארבל',
+    desc: {
+      he: 'בית מגורים פרטי, ארבל',
+      en: 'Private residence, Arbel',
+    },
     position: 'image3',
   },
 ]
@@ -26,6 +36,7 @@ const images = [
 function ImageStackSlider() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const swiperRef = useRef(null)
+  const { lang } = useLanguage()
   const objectPositionClass = {
     image1: 'object-[60%_center]',
     image2: 'object-[30%_center]',
@@ -71,10 +82,11 @@ function ImageStackSlider() {
         ))}
       </Swiper>
 
-      {/* Image Description */}
+      {/* Image toolbar */}
       <div className="grid grid-cols-1 gap-4 pt-4 sm:grid-cols-3">
+        {/* Image Description */}
         <div className="text-center font-bold sm:text-right">
-          {images[currentIndex].desc}
+          {images[currentIndex].desc[lang]}
         </div>
 
         {/* Pagination - Arrows(prev,next) */}
