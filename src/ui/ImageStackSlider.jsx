@@ -8,7 +8,7 @@ import 'swiper/css/effect-fade'
 /* Keep [images] hardcoded : Simple, fast, zero fetch needed */
 const images = [
   {
-    url: 'https://res.cloudinary.com/dayojijed/image/upload/v1733482274/Projects-photos/qilz0cpzr5syxsdsfuwd.jpg',
+    url: 'https://res.cloudinary.com/dayojijed/image/upload/v1746526139/r2p_frontview/qilz0cpzr5syxsdsfuwd.jpg',
     desc: {
       he: 'וילה פרטית, כפר תבור',
       en: 'Private villa, Kfar Tavor',
@@ -16,7 +16,7 @@ const images = [
     position: 'image1',
   },
   {
-    url: 'https://res.cloudinary.com/dayojijed/image/upload/v1733482274/Projects-photos/fpahalhmm3e4yytewpze.jpg',
+    url: 'https://res.cloudinary.com/dayojijed/image/upload/v1746526195/h1p_poolview/g7yal8bhzsmfw2vh7ghc.jpg',
     desc: {
       he: 'מלון גומא, כנרת',
       en: 'Goma Hotel, Kinneret',
@@ -24,7 +24,7 @@ const images = [
     position: 'image2',
   },
   {
-    url: 'https://res.cloudinary.com/dayojijed/image/upload/v1733482274/Projects-photos/z4wqbqjofxe5qtghzmcc.jpg',
+    url: 'https://res.cloudinary.com/dayojijed/image/upload/v1746526152/r1p_frontview/z4wqbqjofxe5qtghzmcc.jpg',
     desc: {
       he: 'בית מגורים פרטי, ארבל',
       en: 'Private residence, Arbel',
