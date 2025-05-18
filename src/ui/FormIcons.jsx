@@ -1,3 +1,5 @@
+/* Icons for the contact form component (Sending message) */
+
 export const EnvelopeIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -7,7 +9,7 @@ export const EnvelopeIcon = () => (
   >
     <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 2v.01L12 13 4 6.01V6h16zM4 18V8.99l8 6 8-6V18H4z" />
   </svg>
-);
+)
 
 export const LoaderIcon = () => (
   <svg
@@ -30,7 +32,7 @@ export const LoaderIcon = () => (
       d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
     />
   </svg>
-);
+)
 
 export const CheckIcon = () => (
   <svg
@@ -43,4 +45,4 @@ export const CheckIcon = () => (
   >
     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
   </svg>
-);
+)

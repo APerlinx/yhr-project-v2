@@ -1,8 +1,8 @@
-import { useState, useEffect, useRef } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, EffectFade } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/effect-fade';
+import { useState, useEffect, useRef } from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Autoplay, EffectFade } from 'swiper/modules'
+import 'swiper/css'
+import 'swiper/css/effect-fade'
 
 const images = [
   {
@@ -20,30 +20,31 @@ const images = [
     desc: 'בית מגורים פרטי, ארבל',
     position: 'image3',
   },
-];
+]
 
 function ImageStackSlider() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const swiperRef = useRef(null);
+  const [currentIndex, setCurrentIndex] = useState(0)
+  const swiperRef = useRef(null)
 
   const objectPositionClass = {
     image1: 'object-[60%_center]',
     image2: 'object-[30%_center]',
     image3: 'object-[76%_center]',
-  };
+  }
 
   useEffect(() => {
-    const isMobile = window.innerWidth < 640;
+    const isMobile = window.innerWidth < 640
     if (isMobile && swiperRef.current?.autoplay) {
-      swiperRef.current.autoplay.start();
+      swiperRef.current.autoplay.start()
     }
-  }, []);
+  }, [])
 
-  const goToPrev = () => swiperRef.current?.slidePrev();
-  const goToNext = () => swiperRef.current?.slideNext();
+  const goToPrev = () => swiperRef.current?.slidePrev()
+  const goToNext = () => swiperRef.current?.slideNext()
 
   return (
     <div className="w-full self-center" dir="rtl">
+      {/* Image */}
       <Swiper
         modules={[Autoplay, EffectFade]}
         effect="fade"
@@ -69,11 +70,13 @@ function ImageStackSlider() {
         ))}
       </Swiper>
 
+      {/* Image Description */}
       <div className="grid grid-cols-1 gap-4 pt-4 sm:grid-cols-3">
         <div className="text-center font-bold sm:text-right">
           {images[currentIndex].desc}
         </div>
 
+        {/* Pagination - Arrows(prev,next) */}
         <div className="hidden justify-center gap-2 sm:flex">
           <button onClick={goToPrev}>
             <svg
@@ -107,6 +110,7 @@ function ImageStackSlider() {
           </button>
         </div>
 
+        {/* Pagination - Image number indicator */}
         <div className="flex justify-center sm:justify-end sm:text-left">
           {images.map((_, index) => (
             <span key={index}>
@@ -138,7 +142,7 @@ function ImageStackSlider() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default ImageStackSlider;
+export default ImageStackSlider

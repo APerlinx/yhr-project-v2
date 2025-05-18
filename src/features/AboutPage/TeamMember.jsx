@@ -1,6 +1,5 @@
-import React from 'react';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css'
 
 function TeamMember({ image, name, description }) {
   return (
@@ -16,7 +15,7 @@ function TeamMember({ image, name, description }) {
         <span dir="rtl">{description}</span>
       </p>
     </div>
-  );
+  )
 }
 
-export default TeamMember;
+export default TeamMember

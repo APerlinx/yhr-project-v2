@@ -8,6 +8,7 @@ function ProjectsFilter({ onFilterChange, currentFilter }) {
   return (
     <div dir={`${lang === 'he' ? 'rtl' : 'ltr'}`}>
       <div className="flex h-fit w-full items-center justify-center gap-6 p-10 text-base sm:text-lg md:text-xl">
+        {/* Filter Svg */}
         <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -23,6 +24,7 @@ function ProjectsFilter({ onFilterChange, currentFilter }) {
           </svg>
         </div>
 
+        {/* Filter buttons */}
         <LinkButton
           onClick={() => onFilterChange(false)}
           btnStyle={currentFilter === false ? 'text-[#DFD0B8]' : ''}

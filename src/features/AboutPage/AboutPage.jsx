@@ -1,4 +1,3 @@
-import React from 'react'
 import TeamMember from './TeamMember'
 import { useLanguage } from '../../context/LanguageContext'
 import translations from '../../translations/translations'

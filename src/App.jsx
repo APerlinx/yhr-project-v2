@@ -1,18 +1,15 @@
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-
-import Error from './ui/Error';
-
-import AppLayout from './ui/AppLayout';
-import AboutPage from './features/AboutPage/AboutPage';
-import ContactPage from './features/ContactPage/ContactPage';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import Error from './ui/Error'
+import AppLayout from './ui/AppLayout'
+import AboutPage from './features/AboutPage/AboutPage'
+import ContactPage from './features/ContactPage/ContactPage'
 import ProjectsPage, {
   loader as projectLoader,
-} from './features/ProjectsPage/ProjectsPage';
-import AccessibilityPage from './features/AccessibilityPage/AccessibilityPage';
-import HomePage from './features/HomePage/HomePage';
+} from './features/ProjectsPage/ProjectsPage'
+import HomePage from './features/HomePage/HomePage'
 import ProjectDetails, {
   loader as projectDetailsLoader,
-} from './features/ProjectsPage/ProjectDetails/ProjectDetails';
+} from './features/ProjectsPage/ProjectDetails/ProjectDetails'
 
 const router = createBrowserRouter([
   {
@@ -45,17 +42,12 @@ const router = createBrowserRouter([
         path: '/contact',
         element: <ContactPage />,
       },
-
-      {
-        path: '/accessibility',
-        element: <AccessibilityPage />,
-      },
     ],
   },
-]);
+])
 
 function App() {
-  return <RouterProvider router={router} />;
+  return <RouterProvider router={router} />
 }
 
-export default App;
+export default App

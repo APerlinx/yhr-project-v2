@@ -29,6 +29,7 @@ function GridView({ projects }) {
                 className="aspect-[4/3] h-full w-full object-cover brightness-90  "
               />
             </div>
+            {/* Image Description */}
             <span className="absolute bottom-4 right-4 origin-bottom bg-black px-8 py-2 text-lg opacity-80 transition-transform duration-300 group-hover:scale-y-100 sm:scale-y-0 sm:bg-transparent sm:px-0 sm:py-0 sm:text-lg sm:font-light sm:opacity-100 lg:text-xl">
               {translations[project.desc]?.[lang] || project.desc}
             </span>

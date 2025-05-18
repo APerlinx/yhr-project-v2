@@ -1,31 +1,31 @@
-import { Link } from 'react-router-dom';
-import LinkButton from './LinkButton';
-import FacebookLink from './FacebookLink';
-import { useState, useEffect } from 'react';
-import { useLanguage } from '../context/LanguageContext';
-import translations from '../translations/translations';
+import { Link } from 'react-router-dom'
+import LinkButton from './LinkButton'
+import FacebookLink from './FacebookLink'
+import { useState, useEffect } from 'react'
+import { useLanguage } from '../context/LanguageContext'
+import translations from '../translations/translations'
 
 function Header() {
-  const { lang, toggleLanguage } = useLanguage();
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
+  const { lang, toggleLanguage } = useLanguage()
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false)
 
   const toggleMenu = () => {
-    setIsMenuOpen((prev) => !prev);
-  };
+    setIsMenuOpen((prev) => !prev)
+  }
 
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 10) {
-        setIsScrolled(true);
+        setIsScrolled(true)
       } else {
-        setIsScrolled(false);
+        setIsScrolled(false)
       }
-    };
+    }
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   return (
     <header
@@ -38,7 +38,6 @@ function Header() {
       {/* Logo */}
       <div className="z-50">
         <Link to="/">
-          {}
           <img
             src={
               isMenuOpen
@@ -52,7 +51,7 @@ function Header() {
         </Link>
       </div>
 
-      {/* Mobile Burger Menu */}
+      {/* Mobile Burger Menu Icon */}
       <button
         className="z-50 flex flex-col items-center justify-center pb-2 pr-4 pt-2 focus:outline-none sm:pr-0"
         onClick={toggleMenu}
@@ -101,8 +100,8 @@ function Header() {
           </LinkButton>
           <button
             onClick={() => {
-              toggleLanguage();
-              setIsMenuOpen(false);
+              toggleLanguage()
+              setIsMenuOpen(false)
             }}
           >
             {translations.languageToggle[lang]}
@@ -111,7 +110,7 @@ function Header() {
         </nav>
       </div>
     </header>
-  );
+  )
 }
 
-export default Header;
+export default Header

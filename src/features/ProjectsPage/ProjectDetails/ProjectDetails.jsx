@@ -1,19 +1,19 @@
-import { fetchSingleProject } from '../../../services/apiCloudinary';
-import { useLoaderData } from 'react-router-dom';
-import translations from '../../../translations/translations';
-import { useLanguage } from '../../../context/LanguageContext';
-import ImageLightbox from './ImageLightbox/ImageLightbox';
-import { useState } from 'react';
+import { fetchSingleProject } from '../../../services/apiCloudinary'
+import { useLoaderData } from 'react-router-dom'
+import translations from '../../../translations/translations'
+import { useLanguage } from '../../../context/LanguageContext'
+import ImageLightbox from './ImageLightbox/ImageLightbox'
+import { useState } from 'react'
 
 function ProjectDetails() {
-  const project = useLoaderData();
-  const { lang } = useLanguage();
-  const [open, setOpen] = useState(false);
-  const [img, setImg] = useState('');
+  const project = useLoaderData()
+  const { lang } = useLanguage()
+  const [open, setOpen] = useState(false)
+  const [img, setImg] = useState('')
 
   function handleImgZoom(ev) {
-    setOpen(true);
-    setImg(ev.target.src);
+    setOpen(true)
+    setImg(ev.target.src)
   }
 
   return (
@@ -21,7 +21,7 @@ function ProjectDetails() {
       className="mt-32 grid min-h-screen grid-rows-[auto_1fr] gap-12 border-b-2 border-[#948979] px-8 pb-12 sm:mt-48 sm:px-32"
       dir="rtl"
     >
-      {/* Project Title */}
+      {/* Project Title And main image (Background Image) */}
       <div
         className="relative -mx-32 flex h-[441px] items-center justify-center bg-cover bg-center sm:h-[500px] md:h-[541px] lg:h-[600px]"
         style={{ backgroundImage: `url(${project[0].imageUrl})` }}
@@ -41,7 +41,7 @@ function ProjectDetails() {
         <span className="absolute right-5 top-0 h-[2px] w-40 origin-right bg-[#DFD0B8] bg-gradient-to-l from-[#171717]/100 to-[#171717]/20  "></span>
       </div>
 
-      {/* Images */}
+      {/* Project Images */}
       <div className="mb-8 grid h-full w-full grid-cols-2 items-center justify-items-center gap-8">
         {project.map((img, index) =>
           index ? (
@@ -59,15 +59,16 @@ function ProjectDetails() {
           )
         )}
       </div>
+      {/* Project Images Enlargement component */}
       {open && <ImageLightbox imageUrl={img} open={open} onOpen={setOpen} />}
     </div>
-  );
+  )
 }
 
-export default ProjectDetails;
+export default ProjectDetails
 
 export async function loader({ params }) {
-  const { projectName } = params;
-  const data = await fetchSingleProject(projectName);
-  return data;
+  const { projectName } = params
+  const data = await fetchSingleProject(projectName)
+  return data
 }

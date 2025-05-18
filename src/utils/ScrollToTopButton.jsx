@@ -1,7 +1,7 @@
 export default function ScrollToTopButton() {
   const handleClick = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
 
   return (
     <button
@@ -20,5 +20,7 @@ export default function ScrollToTopButton() {
         <path strokeLinecap="round" strokeLinejoin="round" d="M5 15l7-7 7 7" />
       </svg>
     </button>
-  );
+  )
 }
+
+// Scroll to the top when button clicked

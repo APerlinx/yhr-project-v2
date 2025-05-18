@@ -1,46 +1,41 @@
-import { useState, useRef } from 'react';
-import emailjs from '@emailjs/browser';
-import translations from '../../translations/translations';
-import { EnvelopeIcon, LoaderIcon, CheckIcon } from '../../ui/FormIcons';
+import { useState, useRef } from 'react'
+import emailjs from '@emailjs/browser'
+import translations from '../../translations/translations'
+import { EnvelopeIcon, LoaderIcon, CheckIcon } from '../../ui/FormIcons'
 
 export default function ContactForm({ lang }) {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     message: '',
-  });
-  const [status, setStatus] = useState('idle');
-
-  const formRef = useRef();
+  })
+  const [status, setStatus] = useState('idle')
+  const formRef = useRef()
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
-  };
+    const { name, value } = e.target
+    setFormData((prev) => ({ ...prev, [name]: value }))
+  }
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setStatus('loading');
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    setStatus('loading')
 
-    emailjs
-      .sendForm(
-        'service_bffbll7',
-        'template_ri5ukgt',
+    try {
+      await emailjs.sendForm(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         formRef.current,
-        'PgtKV644x-0kaulMf'
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
-      .then(
-        () => {
-          setStatus('success');
-          setFormData({ name: '', email: '', message: '' });
-          setTimeout(() => setStatus('idle'), 3000);
-        },
-        (error) => {
-          console.error('Failed to send email:', error);
-          setStatus('idle');
-        }
-      );
-  };
+
+      setStatus('success')
+      setFormData({ name: '', email: '', message: '' })
+      setTimeout(() => setStatus('idle'), 3000)
+    } catch (error) {
+      setStatus('error')
+    }
+  }
 
   return (
     <div className="min-w-[200px]">
@@ -96,8 +91,13 @@ export default function ContactForm({ lang }) {
             {status === 'success' && <CheckIcon />}
             {status === 'idle' && <EnvelopeIcon />}
           </button>
+          {status === 'error' && (
+            <p className="mt-2 text-center font-light text-red-500">
+              Something went wrong. Please try again later
+            </p>
+          )}
         </div>
       </form>
     </div>
-  );
+  )
 }

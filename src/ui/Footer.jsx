@@ -4,7 +4,7 @@ import { useLanguage } from '../context/LanguageContext'
 import translations from '../translations/translations'
 
 function Footer() {
-  const { lang } = useLanguage()
+  const { lang, toggleLanguage } = useLanguage()
 
   return (
     <div className="flex items-center justify-between p-5">
@@ -17,10 +17,12 @@ function Footer() {
         </h1>
 
         <span className="text-xs">
-          Website & Design by{' '}
+          Website & Design by
           <a href="https://github.com/APerlinx">Alon Perlin</a>
         </span>
       </div>
+
+      {/*Footer Tool bar*/}
       <div className="flex flex-col flex-wrap items-center justify-start text-xs sm:flex-row sm:items-center sm:gap-10 sm:text-base">
         <div className="block sm:hidden">
           <FacebookLink type="primary" size={17} />
@@ -31,8 +33,13 @@ function Footer() {
         <LinkButton to="/contact" btnStyle={'pt-1'}>
           {translations.contact[lang]}
         </LinkButton>
-        <LinkButton to="/accessibility">
-          {translations.accessibility[lang]}
+        {/* English button */}
+        <LinkButton
+          onClick={() => {
+            toggleLanguage()
+          }}
+        >
+          {translations.languageToggle[lang]}
         </LinkButton>
       </div>
     </div>

@@ -1,10 +1,10 @@
-import ContactForm from './ContactForm';
-import { useLanguage } from '../../context/LanguageContext';
-import translations from '../../translations/translations';
-import FacebookLink from '../../ui/FacebookLink';
+import { useLanguage } from '../../context/LanguageContext'
+import translations from '../../translations/translations'
+import FacebookLink from '../../ui/FacebookLink'
+import ContactForm from './ContactForm'
 
 function ContactPage() {
-  const { lang } = useLanguage();
+  const { lang } = useLanguage()
 
   return (
     <div
@@ -119,7 +119,7 @@ function ContactPage() {
         <ContactForm lang={lang} />
       </div>
     </div>
-  );
+  )
 }
 
-export default ContactPage;
+export default ContactPage

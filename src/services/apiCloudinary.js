@@ -1,22 +1,23 @@
-import dataJSON from '../../data/dataJSON.json';
-import Projects from '../../data/Projects.json';
+import dataJSON from '../../data/dataJSON.json'
+import Projects from '../../data/Projects.json'
+import { logError } from '../utils/logError'
 
-const CLOUD_NAME = 'dayojijed';
-const API_BASE_URL = `https://res.cloudinary.com/${CLOUD_NAME}/image/list`;
+const CLOUD_NAME = 'dayojijed'
+const API_BASE_URL = `https://res.cloudinary.com/${CLOUD_NAME}/image/list`
 
 export async function fetchPreviewProjects() {
   try {
-    let data;
+    let data
 
     if (process.env.NODE_ENV === 'development') {
-      data = dataJSON;
+      data = dataJSON
       // JSON file should contain the latest from : https://res.cloudinary.com/dayojijed/image/list/thumbnail.json
     } else {
-      const response = await fetch(`${API_BASE_URL}/thumbnail.json`);
+      const response = await fetch(`${API_BASE_URL}/thumbnail.json`)
       if (!response.ok) {
-        throw new Error('Failed to fetch project images from Cloudinary.');
+        throw new Error('Cloudinary returned non-200 response')
       }
-      data = await response.json();
+      data = await response.json()
     }
 
     return data.resources.map((resource) => ({
@@ -24,35 +25,34 @@ export async function fetchPreviewProjects() {
       imageUrl: `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/${resource.public_id}.${resource.format}`,
       residential: resource.context?.custom?.residential === 'true',
       desc: resource.context?.custom?.desc,
-    }));
+    }))
   } catch (error) {
-    console.error('Error fetching preview projects:', error);
-    return [];
+    logError('fetchPreviewProjects', error)
+    return []
   }
 }
 
 export async function fetchSingleProject(projectTag) {
   if (!projectTag) {
-    throw new Error('No projectTag provided for fetchSingleProject');
+    logError('fetchSingleProject', new Error('Missing projectTag'))
+    return []
   }
   try {
-    let data;
+    let data
 
-    if (process.env.NODE_ENV === 'developmen') {
+    if (process.env.NODE_ENV === 'development') {
       data = {
         resources: Projects.resources.filter(
           (resource) => resource.public_id.split('_')[0] === projectTag
         ),
-      };
+      }
     } else {
-      const response = await fetch(`${API_BASE_URL}/${projectTag}.json`);
+      const response = await fetch(`${API_BASE_URL}/${projectTag}.json`)
       if (!response.ok) {
-        throw new Error(
-          `Failed to fetch project images for ${projectTag} from Cloudinary.`
-        );
+        throw new Error(`Cloudinary failed for tag: ${projectTag}`)
       }
 
-      data = await response.json();
+      data = await response.json()
     }
 
     return data.resources.map((resource) => ({
@@ -60,9 +60,9 @@ export async function fetchSingleProject(projectTag) {
       imageUrl: `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/${resource.public_id}.${resource.format}`,
       residential: resource.context?.custom?.residential === 'true',
       desc: resource.context?.custom?.desc,
-    }));
+    }))
   } catch (error) {
-    console.error(`Error fetching data for ${projectTag}:`, error);
-    return [];
+    logError(`fetchSingleProject: ${projectTag}`, error)
+    return []
   }
 }

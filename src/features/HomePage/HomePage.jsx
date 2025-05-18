@@ -1,4 +1,4 @@
-import ImageStackSlider from '../../ui/ImageStackSlider';
+import ImageStackSlider from '../../ui/ImageStackSlider'
 
 function HomePage() {
   return (
@@ -8,7 +8,7 @@ function HomePage() {
     >
       <ImageStackSlider />
     </div>
-  );
+  )
 }
 
-export default HomePage;
+export default HomePage

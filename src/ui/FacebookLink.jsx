@@ -1,5 +1,3 @@
-import React from 'react';
-
 const FacebookLink = ({ className, type, color = '#f3f3f3', size = 24 }) => {
   return (
     <a
@@ -36,7 +34,7 @@ const FacebookLink = ({ className, type, color = '#f3f3f3', size = 24 }) => {
         </svg>
       )}
     </a>
-  );
-};
+  )
+}
 
-export default FacebookLink;
+export default FacebookLink

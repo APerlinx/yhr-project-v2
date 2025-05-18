@@ -12,6 +12,7 @@ function LinkButton({ children, to, onClick, state, style, btnStyle }) {
 
   if (to === '-1')
     return (
+      /* Btn to -Go Back- */
       <button className={className} onClick={() => navigate(-1)}>
         {children}
       </button>
