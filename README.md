@@ -1,4 +1,4 @@
-# Yair Herman Architecture
+# Yair Herman Architecture ( Work in progress )
 
 A modern, bilingual (Hebrew/English) portfolio website for Yair Herman, an Israeli architect specializing in private residential design and select public projects.
 
