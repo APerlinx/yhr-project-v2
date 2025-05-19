@@ -42,7 +42,7 @@ function ProjectDetails() {
       </div>
 
       {/* Project Images */}
-      <div className="mb-8 grid h-full w-full grid-cols-2 items-center justify-items-center gap-8">
+      <div className="mb-8 grid h-full w-full grid-cols-1 items-center justify-items-center gap-8 sm:grid-cols-2">
         {project.map((img, index) =>
           index ? (
             <img
@@ -57,6 +57,14 @@ function ProjectDetails() {
           ) : (
             ''
           )
+        )}
+        {project.length < 2 ? (
+          <p className="col-span-2 text-lg ">
+            {' '}
+            {translations.noPhotos?.[lang]}
+          </p>
+        ) : (
+          ''
         )}
       </div>
       {/* Project Images Enlargement component */}

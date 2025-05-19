@@ -47,6 +47,7 @@ function Header() {
             alt="Website logo, link to home page."
             className="h-auto w-full"
             style={{ maxWidth: '180px' }}
+            onClick={() => setIsMenuOpen(false)}
           />
         </Link>
       </div>

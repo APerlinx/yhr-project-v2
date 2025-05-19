@@ -40,12 +40,12 @@ function AboutPage() {
         >
           Press coverage – our Mount Tabor house
         </a>
-        <a href="www.google.com" className="underline hover:text-blue-600">
+        {/* <a href="www.google.com" className="underline hover:text-blue-600">
           Yair's work mention number 2
         </a>
         <a href="www.google.com" className="underline hover:text-blue-600">
           Yair's work mention number 3
-        </a>
+        </a> */}
       </div>
       {/* Team Members */}
       <div className="row-span-2 flex flex-col justify-end gap-8 pt-10 ">

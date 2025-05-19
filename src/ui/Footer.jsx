@@ -25,20 +25,20 @@ function Footer() {
       {/*Footer Tool bar*/}
       <div className="flex flex-col flex-wrap items-center justify-start gap-1 text-base sm:flex-row sm:gap-10 sm:text-lg">
         <div className="block sm:hidden">
-          <FacebookLink type="primary" size={17} />
+          <FacebookLink type="primary" size={24} />
         </div>
         <div className="hidden sm:block">
           <FacebookLink type="primary" size={24} />
         </div>
         <LinkButton to="/contact">{translations.contact[lang]}</LinkButton>
         {/* English button */}
-        <LinkButton
+        <button
           onClick={() => {
             toggleLanguage()
           }}
         >
           {translations.languageToggle[lang]}
-        </LinkButton>
+        </button>
       </div>
     </div>
   )

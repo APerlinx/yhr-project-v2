@@ -135,6 +135,10 @@ const translations = {
     he: 'כול הפרוייקטים',
     en: 'All Projects',
   },
-};
+  noPhotos: {
+    he: 'לפרוייקט הזה אין עדין תמונות',
+    en: 'No photos for this project yet',
+  },
+}
 
-export default translations;
+export default translations
