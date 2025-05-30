@@ -1,4 +1,4 @@
-# Yair Herman Architecture ( Work in progress )
+# Yair Herman Architecture 
 
 A modern, bilingual (Hebrew/English) portfolio website for Yair Herman, an Israeli architect specializing in private residential design and select public projects.
 
@@ -6,13 +6,46 @@ A modern, bilingual (Hebrew/English) portfolio website for Yair Herman, an Israe
 
 ## ✨ Features
 
-- React + Vite + Tailwind CSS
-- Responsive layout (mobile & desktop)
-- Project gallery with filtering
-- Image enlargement via lightbox modal
-- EmailJS integration for contact form
-- Accessibility widget (Nagishli)
-- Right-to-left (RTL) Hebrew support
+Modern Tech Stack
+Built with React, Vite, and Tailwind CSS for fast performance and clean UI.
+
+Responsive & Accessible Design
+Fully responsive layout supporting mobile and desktop, right-to-left (RTL) Hebrew support, and Nagishli accessibility widget integration.
+
+Image Management
+Images are served and optimized via Cloudinary CDN, including lazy loading and LCP optimization techniques.
+
+Interactive Project Gallery
+
+ - Filterable project categories
+
+ - Smooth image transitions with Swiper.js
+
+ - Lightbox modal for enlarged image previews
+
+SEO & Performance Optimized
+
+ - Helmet for meta tags
+
+ - Lighthouse-optimized build
+
+ - Fast initial load and proper lazy loading for lower bandwidth usage
+
+Contact System
+
+ - EmailJS integration for client-side email handling
+
+ - Animated feedback icons (loader, success)
+
+ - Form validation and accessibility support
+
+Code Quality & Tooling
+
+ - Modular component structure
+
+ - ESLint + Prettier setup
+
+ - GitHub CI-ready
 
 ---
 
