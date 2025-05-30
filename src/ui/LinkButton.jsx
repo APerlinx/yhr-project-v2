@@ -1,4 +1,4 @@
-import { Link, useNavigate, useLocation } from 'react-router-dom'
+import { useNavigate, useLocation, NavLink } from 'react-router-dom'
 
 function LinkButton({ children, to, onClick, state, btnStyle }) {
   const navigate = useNavigate()
@@ -19,9 +19,9 @@ function LinkButton({ children, to, onClick, state, btnStyle }) {
     )
 
   return (
-    <Link to={to} className={className} onClick={onClick} state={state}>
+    <NavLink to={to} className={className} onClick={onClick} state={state}>
       {children}
-    </Link>
+    </NavLink>
   )
 }
 
