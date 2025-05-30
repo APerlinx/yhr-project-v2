@@ -15,7 +15,7 @@ Fully responsive layout supporting mobile and desktop, right-to-left (RTL) Hebre
 Image Management
 Images are served and optimized via Cloudinary CDN, including lazy loading and LCP optimization techniques.
 
-Interactive Project Gallery
+-Interactive Project Gallery
 
  - Filterable project categories
 
@@ -23,7 +23,7 @@ Interactive Project Gallery
 
  - Lightbox modal for enlarged image previews
 
-SEO & Performance Optimized
+-SEO & Performance Optimized
 
  - Helmet for meta tags
 
@@ -31,7 +31,7 @@ SEO & Performance Optimized
 
  - Fast initial load and proper lazy loading for lower bandwidth usage
 
-Contact System
+-Contact System
 
  - EmailJS integration for client-side email handling
 
@@ -39,7 +39,7 @@ Contact System
 
  - Form validation and accessibility support
 
-Code Quality & Tooling
+-Code Quality & Tooling
 
  - Modular component structure
 
