@@ -54,6 +54,15 @@ function Header() {
 
       {/* Mobile Burger Menu Icon */}
       <button
+        aria-label={
+          isMenuOpen
+            ? lang === 'he'
+              ? 'סגור תפריט ניווט'
+              : 'Close navigation menu'
+            : lang === 'he'
+            ? 'פתח תפריט ניווט'
+            : 'Open navigation menu'
+        }
         className="z-50 flex flex-col items-center justify-center pb-2 pr-4 pt-2 focus:outline-none sm:pr-0"
         onClick={toggleMenu}
       >

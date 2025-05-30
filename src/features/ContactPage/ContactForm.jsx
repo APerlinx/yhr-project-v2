@@ -86,6 +86,7 @@ export default function ContactForm({ lang }) {
             type="submit"
             disabled={status === 'loading'}
             className="transition hover:scale-125"
+            aria-label={lang === 'he' ? 'שלח הודעה' : 'Send message'}
           >
             {status === 'loading' && <LoaderIcon />}
             {status === 'success' && <CheckIcon />}

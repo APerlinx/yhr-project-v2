@@ -9,6 +9,7 @@ function FilterIcon({ className }) {
       strokeLinecap="round"
       strokeLinejoin="round"
       className={className}
+      aria-hidden="true"
     >
       <polygon points="3 4 21 4 14 13 14 20 10 20 10 13 3 4" />
     </svg>

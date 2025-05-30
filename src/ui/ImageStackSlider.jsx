@@ -73,7 +73,9 @@ function ImageStackSlider() {
             <img
               src={image.url}
               alt={`Slide ${index}`}
-              loading="lazy"
+              {...(index !== 0
+                ? { loading: 'lazy' }
+                : { fetchpriority: 'high' })}
               className={`z-10 h-[541px] w-full object-cover shadow-lg shadow-black sm:object-center 2xl:h-[667px] ${
                 objectPositionClass[image.position]
               }`}
@@ -91,7 +93,10 @@ function ImageStackSlider() {
 
         {/* Pagination - Arrows(prev,next) */}
         <div className="hidden justify-center gap-2 sm:flex">
-          <button onClick={goToPrev}>
+          <button
+            onClick={goToPrev}
+            aria-label={lang === 'he' ? 'הקודם' : 'Previous'}
+          >
             <svg
               width="24"
               height="24"
@@ -106,7 +111,10 @@ function ImageStackSlider() {
               <polyline points="6 9 12 15 18 9" />
             </svg>
           </button>
-          <button onClick={goToNext}>
+          <button
+            onClick={goToNext}
+            aria-label={lang === 'he' ? 'הבא' : 'Next'}
+          >
             <svg
               width="24"
               height="24"
@@ -129,6 +137,7 @@ function ImageStackSlider() {
             <span key={index}>
               {index === currentIndex ? (
                 <svg
+                  aria-hidden="true"
                   width="18"
                   height="18"
                   viewBox="0 0 24 24"
