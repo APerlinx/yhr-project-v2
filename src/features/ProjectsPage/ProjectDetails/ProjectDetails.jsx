@@ -18,7 +18,7 @@ function ProjectDetails() {
 
   return (
     <div
-      className="mt-32 grid min-h-screen grid-rows-[auto_1fr] gap-12 border-b-2 border-[#948979] px-8 pb-12 sm:mt-48 sm:px-32"
+      className="mt-32 grid min-h-screen grid-rows-[auto_1fr] gap-12 border-b-2 border-[#948979] pb-12 sm:mt-48 sm:px-32"
       dir="rtl"
     >
       {/* Project Title And main image (Background Image) */}
@@ -42,7 +42,7 @@ function ProjectDetails() {
       </div>
 
       {/* Project Images */}
-      <div className="mb-8 grid h-full w-full grid-cols-1 items-center justify-items-center gap-8 sm:grid-cols-2">
+      <div className="mb-8 grid h-full w-full grid-cols-1 items-center justify-items-center gap-3 sm:grid-cols-2">
         {project.map((img, index) =>
           index ? (
             <img
