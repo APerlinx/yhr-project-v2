@@ -19,7 +19,8 @@
     "react-lazy-load-image-component": "^1.6.3",
     "react-router-dom": "^6.14.0",
     "swiper": "^11.2.6",
-    "yet-another-react-lightbox": "^3.23.1"
+    "yet-another-react-lightbox": "^3.23.1",
+    "zod": "^4.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

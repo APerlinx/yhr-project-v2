@@ -36,12 +36,14 @@ function Header() {
       }`}
     >
       {/* Logo */}
-      {/* 'https://res.cloudinary.com/dayojijed/image/upload/v1746444960/logo_kmyo1d.svg' */}
+
       <div className="z-50">
         <Link to="/">
           <img
             src={
-              'https://res.cloudinary.com/dayojijed/image/upload/v1746444960/logo_kmyo1d_white_lka5tp.svg'
+              isMenuOpen
+                ? 'https://res.cloudinary.com/dayojijed/image/upload/v1746444960/logo_kmyo1d.svg'
+                : 'https://res.cloudinary.com/dayojijed/image/upload/v1746444960/logo_kmyo1d_white_lka5tp.svg'
             }
             alt="Website logo, link to home page."
             className="h-auto w-full"

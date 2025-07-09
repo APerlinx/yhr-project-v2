@@ -1,8 +1,30 @@
-import { useState, useRef } from 'react'
 import emailjs from '@emailjs/browser'
-import translations from '../../translations/translations'
-import { EnvelopeIcon, LoaderIcon, CheckIcon } from '../../ui/FormIcons'
+import { useRef, useState } from 'react'
 import ReCAPTCHA from 'react-google-recaptcha'
+import { z } from 'zod'
+import translations from '../../translations/translations'
+import { CheckIcon, EnvelopeIcon, LoaderIcon } from '../../ui/FormIcons'
+
+const contactFormSchema = z.object({
+  name: z
+    .string()
+    .min(1, 'Name is required')
+    .max(50, 'Name too long')
+    .refine((val) => !/<[^>]*>/.test(val), {
+      message: 'HTML tags are not allowed in name',
+    }),
+  email: z
+    .string()
+    .email({ message: 'Invalid email address' })
+    .max(50, 'Email too long'),
+  message: z
+    .string()
+    .min(1, 'Message is required')
+    .max(500, 'Message too long')
+    .refine((val) => !/<[^>]*>/.test(val), {
+      message: 'HTML tags are not allowed in message',
+    }),
+})
 
 export default function ContactForm({ lang }) {
   const formRef = useRef(null)
@@ -12,10 +34,18 @@ export default function ContactForm({ lang }) {
     email: '',
     message: '',
   })
+  const [errorMessage, setErrorMessage] = useState('')
   const [status, setStatus] = useState('idle')
 
   const handleChange = (e) => {
     const { name, value } = e.target
+    if (status === 'error') setStatus('idle')
+    const maxLengths = {
+      name: 50,
+      email: 50,
+      message: 500,
+    }
+    if (value.length > maxLengths[name]) return
     setFormData((prev) => ({ ...prev, [name]: value }))
   }
 
@@ -26,6 +56,16 @@ export default function ContactForm({ lang }) {
       alert("please verify you're not a robot")
       return
     }
+
+    const result = contactFormSchema.safeParse(formData)
+
+    if (!result.success) {
+      setErrorMessage(result.error.issues[0]?.message)
+      setStatus('error')
+
+      return
+    }
+
     setStatus('loading')
     try {
       await emailjs.sendForm(
@@ -43,6 +83,7 @@ export default function ContactForm({ lang }) {
       return () => clearTimeout(timeout)
     } catch (error) {
       setStatus('error')
+      setErrorMessage('Something went wrong. Please try again later.')
     }
   }
 
@@ -126,7 +167,7 @@ export default function ContactForm({ lang }) {
           </button>
           {status === 'error' && (
             <p className="mt-2 text-center font-light text-red-500">
-              Something went wrong. Please try again later
+              {errorMessage}
             </p>
           )}
         </div>
