@@ -42,9 +42,11 @@ exports.handler = async function (event, context) {
       headers: { 'Access-Control-Allow-Origin': '*' },
     }
   } catch (err) {
+    console.error('Function error:', err)
+
     return {
       statusCode: 500,
-      body: JSON.stringify({ error: err.message }),
+      body: JSON.stringify({ error: err.message, stack: err.stack }),
     }
   }
 }
