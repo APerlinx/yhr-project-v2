@@ -1,7 +1,7 @@
 # Yair Herman Architecture 
 
 A modern, bilingual (Hebrew/English) portfolio website for Yair Herman, an Israeli architect specializing in private residential design and select public projects.
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e999e58f-0b8d-40bc-8a70-08f087be9005/deploy-status)](https://app.netlify.com/projects/hermanarchitects/deploys)
 ---
 
 ## ✨ Features
