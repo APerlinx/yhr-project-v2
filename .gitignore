@@ -29,3 +29,5 @@ data/
 # 4.
 
 # ----Bugs report----
+# Local Netlify folder
+.netlify

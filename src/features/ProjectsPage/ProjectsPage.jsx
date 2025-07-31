@@ -75,5 +75,6 @@ export default ProjectsPage
 
 export async function loader() {
   const projects = await fetchPreviewProjects()
+  console.log(projects)
   return projects
 }
