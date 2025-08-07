@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom'
 export default function ProjectGallery({ previewProjects }) {
   const navigate = useNavigate()
 
-  console.log(previewProjects)
   return (
     <div className="grid grid-cols-1 gap-3 md:grid-cols-2 ">
       {previewProjects.map((project) => (

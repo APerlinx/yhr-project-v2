@@ -93,16 +93,13 @@ function ImageStackSlider() {
 
         {/* Pagination - Arrows(prev,next) */}
         <div className="hidden justify-center gap-2 sm:flex">
-          <button
-            onClick={goToPrev}
-            aria-label={lang === 'he' ? 'הקודם' : 'Previous'}
-          >
+          <button onClick={goToPrev} aria-label="הקודם">
             <svg
               width="24"
               height="24"
               viewBox="0 0 24 24"
               fill="none"
-              stroke="#393E46"
+              stroke="#f3f3f3cf"
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -111,16 +108,13 @@ function ImageStackSlider() {
               <polyline points="6 9 12 15 18 9" />
             </svg>
           </button>
-          <button
-            onClick={goToNext}
-            aria-label={lang === 'he' ? 'הבא' : 'Next'}
-          >
+          <button onClick={goToNext} aria-label="הבא">
             <svg
               width="24"
               height="24"
               viewBox="0 0 24 24"
               fill="none"
-              stroke="#393E46"
+              stroke="#f3f3f3cf"
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"

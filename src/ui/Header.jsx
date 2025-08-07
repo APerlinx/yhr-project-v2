@@ -29,7 +29,7 @@ function Header() {
 
   return (
     <header
-      className={`fixed top-0 z-50 flex h-40 w-full items-center justify-between px-2 uppercase sm:px-28 ${
+      className={`fixed top-0 z-50 flex h-40 w-full items-center justify-between px-2 uppercase sm:px-12 ${
         isScrolled
           ? 'bg-[#171717] bg-opacity-10 shadow-md backdrop-blur-md'
           : 'bg-transparent'
