@@ -8,9 +8,9 @@ import 'swiper/css/effect-fade'
 /* Keep [images] hardcoded : Simple, fast, zero fetch needed */
 const images = [
   {
-    url: 'https://res.cloudinary.com/dayojijed/image/upload/v1746526139/r2p_frontview/qilz0cpzr5syxsdsfuwd.jpg',
+    url: 'https://res.cloudinary.com/dcj5nzsix/image/upload/v1754601652/Slide-images/%D7%A2%D7%99%D7%A6%D7%95%D7%91-%D7%A4%D7%A0%D7%99%D7%9D-%D7%95%D7%AA%D7%9B%D7%A0%D7%95%D7%9F-%D7%9C%D7%99%D7%A2%D7%93-%D7%99%D7%95%D7%A1%D7%A3-%D7%A6%D7%9C%D7%9D-%D7%90%D7%9C%D7%A2%D7%93-%D7%92%D7%95%D7%A0%D7%9F-58_ad9nej.jpg',
     desc: {
-      he: 'מגורים, עין דור',
+      he: 'הרמוניה גלילית',
     },
     position: 'image1',
   },
