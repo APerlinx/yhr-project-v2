@@ -4,9 +4,6 @@ function LinkButton({ children, to, onClick, state, btnStyle }) {
   const navigate = useNavigate()
   const location = useLocation()
   const isActive = location.pathname === to
-  console.log(to, 'to')
-  console.log(location.pathname, 'pathname')
-  console.log(isActive)
 
   const className = `hover:text-[#c09656] hover:underline underline-offset-2 cursor-pointer transition-all duration-200 ${btnStyle}     ${
     isActive ? ' text-[#c09656] underline underline-offset-2 ' : ''

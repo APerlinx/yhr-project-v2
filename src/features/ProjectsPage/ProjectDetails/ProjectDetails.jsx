@@ -30,7 +30,6 @@ function ProjectDetails() {
     1024: 2,
     640: 1,
   }
-
   return (
     <div
       className="mt-32 border-b-2 border-[#948979] px-4 sm:mt-48 sm:px-32"
@@ -46,12 +45,24 @@ function ProjectDetails() {
           {projectType}
         </p>
       </div>
-      <button
-        onClick={handleBack}
-        className="mb-6 text-sm text-gray-600 underline underline-offset-2 hover:text-white/80 sm:text-base"
-      >
-        → חזרה לגלריה
-      </button>
+      <div className="flex items-center justify-between  justify-items-center">
+        <button
+          onClick={handleBack}
+          className="mb-6 text-sm text-gray-600 underline underline-offset-2 hover:text-white/80 sm:text-base"
+        >
+          → חזרה לגלריה
+        </button>
+        {project[0].mediaUrl && (
+          <a
+            href={project[0].mediaUrl}
+            className="mb-6 flex gap-1 underline underline-offset-2 hover:text-blue-600"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p>כתבה על {project[0].title}</p>
+          </a>
+        )}
+      </div>
 
       {/* Masonry Grid */}
       <Masonry

@@ -78,6 +78,8 @@ export async function loader() {
   const previewProjects = await fetchPreviewProjects()
   const projectOne = previewProjects.filter((project) => project.code === 'r1p')
   const projectTwo = previewProjects.filter((project) => project.code === 'h1p')
-
-  return [projectOne, projectTwo]
+  const projectThree = previewProjects.filter(
+    (project) => project.code === 'r2p'
+  )
+  return [projectOne, projectTwo, projectThree]
 }

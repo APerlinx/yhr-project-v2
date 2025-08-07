@@ -32,6 +32,7 @@ exports.handler = async function (event, context) {
       desc: resource.context?.custom?.desc,
       code: resource.context?.custom?.code,
       title: resource.context?.custom?.title,
+      mediaUrl: resource.context?.custom?.mediaUrl,
     }))
 
     return {
