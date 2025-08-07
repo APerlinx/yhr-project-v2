@@ -23,7 +23,9 @@ function ProjectsPage() {
   const filteredProjects = useMemo(() => {
     return filter === false
       ? previewProjects
-      : previewProjects.filter((project) => project.residential === filter)
+      : previewProjects.filter(
+          (projectImages) => projectImages[0]?.residential === true
+        )
   }, [previewProjects, filter])
 
   return (
@@ -74,5 +76,8 @@ export default ProjectsPage
 
 export async function loader() {
   const previewProjects = await fetchPreviewProjects()
-  return previewProjects
+  const projectOne = previewProjects.filter((project) => project.code === 'r1p')
+  const projectTwo = previewProjects.filter((project) => project.code === 'h1p')
+
+  return [projectOne, projectTwo]
 }

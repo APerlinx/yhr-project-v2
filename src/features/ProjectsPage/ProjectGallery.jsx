@@ -1,17 +1,12 @@
-// import { LazyLoadImage } from 'react-lazy-load-image-component'
-import 'react-lazy-load-image-component/src/effects/blur.css'
 import { useNavigate } from 'react-router-dom'
-//
+
 export default function ProjectGallery({ previewProjects }) {
   const navigate = useNavigate()
 
-  const projectOne = previewProjects.filter((project) => project.code === 'r1p')
-  const projectTwo = previewProjects.filter((project) => project.code === 'h1p')
-
-  const projects = [projectOne, projectTwo]
+  console.log(previewProjects)
   return (
     <div className="grid grid-cols-1 gap-3 md:grid-cols-2 ">
-      {projects.map((project) => (
+      {previewProjects.map((project) => (
         <button
           className="group relative aspect-[4/3] cursor-pointer"
           key={project[0].id}
