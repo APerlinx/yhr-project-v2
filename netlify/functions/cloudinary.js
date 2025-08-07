@@ -8,19 +8,16 @@ cloudinary.config({
 
 exports.handler = async function (event, context) {
   try {
-    // Read query params: e.g. /cloudinary?tag=myTag
     const { tag } = event.queryStringParameters
 
-    // Fetch images based on tag, or show all thumbnails
     let resources
     if (tag) {
-      // Fetch all images with the given tag
       const result = await cloudinary.api.resources_by_tag(tag, {
         max_results: 30,
+        context: true,
       })
       resources = result.resources
     } else {
-      // Fetch all images with the 'thumbnail' tag (default)
       const result = await cloudinary.api.resources_by_tag('thumbnail', {
         max_results: 30,
         context: true,
@@ -28,12 +25,13 @@ exports.handler = async function (event, context) {
       resources = result.resources
     }
 
-    // Format resources like in your frontend
     const formatted = resources.map((resource) => ({
       id: resource.public_id,
       imageUrl: `https://res.cloudinary.com/${process.env.CLOUDINARY_CLOUD_NAME}/image/upload/${resource.public_id}.${resource.format}`,
       residential: resource.context?.custom?.residential === 'true',
       desc: resource.context?.custom?.desc,
+      code: resource.context?.custom?.code,
+      title: resource.context?.custom?.title,
     }))
 
     return {
@@ -42,11 +40,9 @@ exports.handler = async function (event, context) {
       headers: { 'Access-Control-Allow-Origin': '*' },
     }
   } catch (err) {
-    console.error('Function error:', err)
-
     return {
       statusCode: 500,
-      body: JSON.stringify({ error: err.message, stack: err.stack }),
+      body: JSON.stringify({ error: err.message }),
     }
   }
 }

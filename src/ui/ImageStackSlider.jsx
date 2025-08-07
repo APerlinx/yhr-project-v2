@@ -10,7 +10,7 @@ const images = [
   {
     url: 'https://res.cloudinary.com/dayojijed/image/upload/v1746526139/r2p_frontview/qilz0cpzr5syxsdsfuwd.jpg',
     desc: {
-      he: 'וילה פרטית, כפר תבור',
+      he: 'מגורים, עין דור',
       en: 'Private villa, Kfar Tavor',
     },
     position: 'image1',
@@ -26,7 +26,7 @@ const images = [
   {
     url: 'https://res.cloudinary.com/dayojijed/image/upload/v1746526152/r1p_frontview/z4wqbqjofxe5qtghzmcc.jpg',
     desc: {
-      he: 'בית מגורים פרטי, ארבל',
+      he: 'וילה, קריית אונו',
       en: 'Private residence, Arbel',
     },
     position: 'image3',

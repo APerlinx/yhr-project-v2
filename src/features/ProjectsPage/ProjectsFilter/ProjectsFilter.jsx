@@ -1,6 +1,5 @@
 import { useCallback } from 'react'
 import { useLanguage } from '../../../context/LanguageContext'
-import translations from '../../../translations/translations'
 import FilterIcon from '../../../ui/FilterIcon'
 import FilterButton from './FilterButton'
 
@@ -22,14 +21,14 @@ function ProjectsFilter({ onFilterChange, currentFilter }) {
         <FilterIcon className="h-6 w-6" />
 
         <FilterButton active={currentFilter === false} onClick={handleAllClick}>
-          {translations.AllProjects[lang]}
+          כול הפרוייקטים
         </FilterButton>
 
         <FilterButton
           active={currentFilter === true}
           onClick={handleResidentialClick}
         >
-          {translations.residential[lang]}
+          מגורים
         </FilterButton>
       </div>
     </div>

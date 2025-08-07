@@ -1,73 +1,83 @@
-import { fetchSingleProject } from '../../../services/apiCloudinary'
-import { useLoaderData } from 'react-router-dom'
-import translations from '../../../translations/translations'
-import { useLanguage } from '../../../context/LanguageContext'
-import ImageLightbox from './ImageLightbox/ImageLightbox'
 import { useState } from 'react'
+import Masonry from 'react-masonry-css'
+import { useLoaderData, useNavigate } from 'react-router-dom'
+import { fetchSingleProject } from '../../../services/apiCloudinary'
+import ImageLightbox from './ImageLightbox/ImageLightbox'
 
 function ProjectDetails() {
   const project = useLoaderData()
-  const { lang } = useLanguage()
+  const navigate = useNavigate()
   const [open, setOpen] = useState(false)
   const [img, setImg] = useState('')
 
-  function handleImgZoom(ev) {
+  if (!project || !project.length) return null
+
+  const { title, year, residential } = project[0]
+
+  const projectType = residential ? 'מגורים' : 'ציבורי'
+
+  const handleImgZoom = (ev) => {
     setOpen(true)
     setImg(ev.target.src)
   }
 
+  function handleBack() {
+    navigate('/projects')
+  }
+
+  const breakpointColumnsObj = {
+    default: 3,
+    1024: 2,
+    640: 1,
+  }
+
   return (
     <div
-      className="mt-32 grid min-h-screen grid-rows-[auto_1fr] gap-12 border-b-2 border-[#948979] pb-12 sm:mt-48 sm:px-32"
+      className="mt-32 border-b-2 border-[#948979] px-4 sm:mt-48 sm:px-32"
       dir="rtl"
     >
-      {/* Project Title And main image (Background Image) */}
-      <div
-        className="relative -mx-32 flex h-[441px] items-center justify-center bg-cover bg-center sm:h-[500px] md:h-[541px] lg:h-[600px]"
-        style={{ backgroundImage: `url(${project[0].imageUrl})` }}
-      >
-        {/* Left gradient overlay */}
-        <div className="absolute inset-y-0 left-0 w-3/6 bg-gradient-to-r from-[#171717]/100 to-[#171717]/20" />
-
-        {/* Right gradient overlay */}
-        <div className="absolute inset-y-0 right-0 w-3/6 bg-gradient-to-l from-[#171717]/100 to-[#171717]/20" />
-
-        {/* Title */}
-        <h1 className="relative z-10 px-4 text-center text-2xl font-semibold text-[#f3f3f3] sm:text-5xl">
-          {translations[project[0].desc]?.[lang]}
+      {/* Project Title Section */}
+      <div className="mb-10 text-center">
+        <h1 className="text-3xl font-bold tracking-wide sm:text-5xl">
+          {title}
         </h1>
-
-        <span className="absolute bottom-0 left-5 h-[2px] w-40 origin-left bg-[#DFD0B8] bg-gradient-to-r from-[#171717]/100 to-[#171717]/20"></span>
-        <span className="absolute right-5 top-0 h-[2px] w-40 origin-right bg-[#DFD0B8] bg-gradient-to-l from-[#171717]/100 to-[#171717]/20  "></span>
+        <p className="mt-2 text-xl text-gray-600">
+          {year && <span>{year} | </span>}
+          {projectType}
+        </p>
       </div>
+      <button
+        onClick={handleBack}
+        className="mb-6 text-sm text-gray-600 underline underline-offset-2 hover:text-white/80 sm:text-base"
+      >
+        → חזרה לגלריה
+      </button>
 
-      {/* Project Images */}
-      <div className="mb-8 grid h-full w-full grid-cols-1 items-center justify-items-center gap-3 sm:grid-cols-2">
-        {project.map((img, index) =>
-          index ? (
-            <img
-              src={img.imageUrl}
-              alt={`Enlargeable ${index}`}
-              key={img.id}
-              className={`${
-                project.length === 1 ? 'col-span-2' : ''
-              } cursor-pointer`}
-              onClick={(event) => handleImgZoom(event)}
-            />
-          ) : (
-            ''
-          )
-        )}
-        {project.length < 2 ? (
-          <p className="col-span-2 text-lg ">
-            {' '}
-            {translations.noPhotos?.[lang]}
-          </p>
-        ) : (
-          ''
-        )}
-      </div>
-      {/* Project Images Enlargement component */}
+      {/* Masonry Grid */}
+      <Masonry
+        breakpointCols={breakpointColumnsObj}
+        className="my-masonry-grid"
+        columnClassName="my-masonry-grid_column"
+      >
+        {project.map((img, index) => (
+          <img
+            key={img.id}
+            src={img.imageUrl}
+            alt={`${index + 1}`}
+            className="w-full cursor-pointer shadow-lg transition hover:opacity-80"
+            onClick={handleImgZoom}
+          />
+        ))}
+      </Masonry>
+
+      {/* No photos */}
+      {project.length < 1 && (
+        <p className="mt-8 text-center text-lg text-gray-500">
+          אין תמונות זמינות לפרויקט זה.
+        </p>
+      )}
+
+      {/* Lightbox */}
       {open && <ImageLightbox imageUrl={img} open={open} onOpen={setOpen} />}
     </div>
   )

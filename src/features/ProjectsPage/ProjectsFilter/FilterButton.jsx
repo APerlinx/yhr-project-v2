@@ -7,7 +7,10 @@ const FilterButton = React.memo(function FilterButton({
   children,
 }) {
   return (
-    <LinkButton onClick={onClick} btnStyle={active ? 'text-[#DFD0B8]' : ''}>
+    <LinkButton
+      onClick={onClick}
+      btnStyle={active ? 'text-[#DFD0B8] underline underline-offset-2' : ''}
+    >
       {children}
     </LinkButton>
   )

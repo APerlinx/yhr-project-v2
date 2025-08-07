@@ -48,3 +48,18 @@
     animation: fadeIn 0.6s ease-in-out;
   }
 }
+
+.my-masonry-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -1rem;
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 1rem;
+  background-clip: padding-box;
+}
+.my-masonry-grid_column > img {
+  margin-bottom: 1rem;
+}

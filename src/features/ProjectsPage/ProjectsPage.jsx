@@ -1,14 +1,14 @@
 import { Helmet } from 'react-helmet-async'
-import React, { useEffect, useMemo } from 'react'
-import ProjectGallery from './ProjectGallery'
+import { useEffect, useMemo } from 'react'
 import { fetchPreviewProjects } from '../../services/apiCloudinary'
 import { useLoaderData, useLocation } from 'react-router-dom'
 import ScrollToTopButton from '../../utils/ScrollToTopButton'
 import ProjectsFilter from './ProjectsFilter/ProjectsFilter'
 import { useState } from 'react'
+import ProjectGallery from './ProjectGallery'
 
 function ProjectsPage() {
-  const projects = useLoaderData()
+  const previewProjects = useLoaderData()
   const location = useLocation()
 
   const [filter, setFilter] = useState(false)
@@ -20,12 +20,11 @@ function ProjectsPage() {
     }
   }, [location.state])
 
-  // Memoize filtered project list to avoid recalculating on each render
   const filteredProjects = useMemo(() => {
     return filter === false
-      ? projects
-      : projects.filter((project) => project.residential === filter)
-  }, [projects, filter])
+      ? previewProjects
+      : previewProjects.filter((project) => project.residential === filter)
+  }, [previewProjects, filter])
 
   return (
     <>
@@ -62,7 +61,7 @@ function ProjectsPage() {
       >
         {/* Projects Display */}
         <ProjectsFilter onFilterChange={setFilter} currentFilter={filter} />
-        <ProjectGallery projects={filteredProjects} />
+        <ProjectGallery previewProjects={filteredProjects} />
         <div>
           <ScrollToTopButton />
         </div>
@@ -74,7 +73,6 @@ function ProjectsPage() {
 export default ProjectsPage
 
 export async function loader() {
-  const projects = await fetchPreviewProjects()
-  console.log(projects)
-  return projects
+  const previewProjects = await fetchPreviewProjects()
+  return previewProjects
 }

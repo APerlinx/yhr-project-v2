@@ -86,6 +86,8 @@ function Header() {
         } overflow-hidden`}
       >
         <nav className="mt-64 flex flex-col items-center gap-4 space-y-8 py-4 text-2xl font-bold text-[#171717]">
+          <LinkButton to="/">בית</LinkButton>
+
           <LinkButton to="/about" onClick={toggleMenu}>
             {translations.about[lang]}
           </LinkButton>
@@ -96,25 +98,10 @@ function Header() {
           >
             {translations.projects[lang]}
           </LinkButton>
-          <LinkButton
-            to="/projects"
-            onClick={toggleMenu}
-            state={{ filter: true }}
-          >
-            {translations.residential[lang]}
-          </LinkButton>
+
           <LinkButton to="/contact" onClick={toggleMenu}>
             {translations.contact[lang]}
           </LinkButton>
-          <button
-            onClick={() => {
-              toggleLanguage()
-              setIsMenuOpen(false)
-            }}
-          >
-            {translations.languageToggle[lang]}
-          </button>
-          <FacebookLink />
         </nav>
       </div>
     </header>
