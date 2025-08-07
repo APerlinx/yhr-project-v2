@@ -57,22 +57,7 @@ function AboutPage() {
             ))}
           </div>
         </div>
-        <div className="flex flex-col gap-4 pt-4 text-center ">
-          <a
-            href="https://www.ynetnews.com/articles/0,7340,L-4702484,00.html#:~:text=Architect%20Yair%20Herman"
-            className="underline hover:text-blue-600"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Press coverage – our Mount Tabor house
-          </a>
-          {/* <a href="www.google.com" className="underline hover:text-blue-600">
-          Yair's work mention number 2
-        </a>
-        <a href="www.google.com" className="underline hover:text-blue-600">
-          Yair's work mention number 3
-        </a> */}
-        </div>
+
         {/* Team Members */}
         <div className="row-span-2 flex flex-col justify-end gap-8 pt-10 ">
           {teamMembers.map((member, index) => (

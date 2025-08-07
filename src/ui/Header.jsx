@@ -1,12 +1,8 @@
 import { Link } from 'react-router-dom'
 import LinkButton from './LinkButton'
-import FacebookLink from './FacebookLink'
 import { useState, useEffect } from 'react'
-import { useLanguage } from '../context/LanguageContext'
-import translations from '../translations/translations'
 
 function Header() {
-  const { lang, toggleLanguage } = useLanguage()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
 
@@ -52,15 +48,7 @@ function Header() {
 
       {/* Mobile Burger Menu Icon */}
       <button
-        aria-label={
-          isMenuOpen
-            ? lang === 'he'
-              ? 'סגור תפריט ניווט'
-              : 'Close navigation menu'
-            : lang === 'he'
-            ? 'פתח תפריט ניווט'
-            : 'Open navigation menu'
-        }
+        aria-label={isMenuOpen ? 'סגור תפריט ניווט' : 'פתח תפריט ניווט'}
         className="z-50 flex flex-col items-center justify-center pb-2 pr-4 pt-2 focus:outline-none sm:pr-0"
         onClick={toggleMenu}
       >
@@ -86,21 +74,19 @@ function Header() {
         } overflow-hidden`}
       >
         <nav className="mt-64 flex flex-col items-center gap-4 space-y-8 py-4 text-2xl font-bold text-[#171717]">
-          <LinkButton to="/">בית</LinkButton>
+          <LinkButton to="/" onClick={toggleMenu}>
+            בית
+          </LinkButton>
 
           <LinkButton to="/about" onClick={toggleMenu}>
-            {translations.about[lang]}
+            אודות
           </LinkButton>
-          <LinkButton
-            to="/projects"
-            onClick={toggleMenu}
-            state={{ filter: false }}
-          >
-            {translations.projects[lang]}
+          <LinkButton to="/projects" onClick={toggleMenu}>
+            פרוייקטים
           </LinkButton>
 
           <LinkButton to="/contact" onClick={toggleMenu}>
-            {translations.contact[lang]}
+            צור קשר
           </LinkButton>
         </nav>
       </div>

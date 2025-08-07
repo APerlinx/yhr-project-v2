@@ -28,7 +28,7 @@ function Footer() {
         <div className="hidden sm:block">
           <FacebookLink type="primary" size={18} />
         </div>
-        <LinkButton to="/contact">פרוייקטים</LinkButton>
+        <LinkButton to="/projects">פרוייקטים</LinkButton>
         <LinkButton to="/about">אודות</LinkButton>
       </div>
     </div>
