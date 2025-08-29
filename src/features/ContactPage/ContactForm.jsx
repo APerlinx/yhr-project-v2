@@ -17,6 +17,11 @@ const contactFormSchema = z.object({
     .string()
     .email({ message: 'Invalid email address' })
     .max(50, 'Email too long'),
+  phone: z
+    .string()
+    .min(10, 'Phone number must be 10 digits')
+    .max(10, 'Phone number must be 10 digits')
+    .regex(/^\d+$/, { message: 'Phone number must contain only numbers' }),
   message: z
     .string()
     .min(1, 'Message is required')
@@ -32,6 +37,7 @@ export default function ContactForm({ lang }) {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    phone: '',
     message: '',
   })
   const [errorMessage, setErrorMessage] = useState('')
@@ -43,6 +49,7 @@ export default function ContactForm({ lang }) {
     const maxLengths = {
       name: 50,
       email: 50,
+      phone: 20,
       message: 500,
     }
     if (value.length > maxLengths[name]) return
@@ -62,7 +69,6 @@ export default function ContactForm({ lang }) {
     if (!result.success) {
       setErrorMessage(result.error.issues[0]?.message)
       setStatus('error')
-
       return
     }
 
@@ -75,7 +81,7 @@ export default function ContactForm({ lang }) {
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       setStatus('success')
-      setFormData({ name: '', email: '', message: '' })
+      setFormData({ name: '', email: '', phone: '', message: '' })
       const timeout = setTimeout(() => {
         setStatus('idle')
         captchaRef.current?.reset()
@@ -119,6 +125,28 @@ export default function ContactForm({ lang }) {
               value={formData.email}
               onChange={handleChange}
               required
+              disabled={status === 'success'}
+              className={`mt-1 w-full border-b-2 bg-transparent px-4 py-2 text-white outline-none focus:ring-2 focus:ring-[#f3f3f3] ${
+                status === 'success'
+                  ? 'cursor-not-allowed border-gray-400 text-gray-400'
+                  : ''
+              }`}
+            />
+          </div>
+          {/* ✅ New Phone Field */}
+          <div>
+            <label className="block text-[#f3f3f3]">
+              {translations.formLabels.phone
+                ? translations.formLabels.phone[lang]
+                : lang === 'he'
+                ? 'טלפון'
+                : 'Phone'}
+            </label>
+            <input
+              name="phone"
+              type="tel"
+              value={formData.phone}
+              onChange={handleChange}
               disabled={status === 'success'}
               className={`mt-1 w-full border-b-2 bg-transparent px-4 py-2 text-white outline-none focus:ring-2 focus:ring-[#f3f3f3] ${
                 status === 'success'
